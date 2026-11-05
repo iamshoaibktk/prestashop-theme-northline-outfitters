@@ -1,0 +1,4200 @@
+{
+ "meta": {
+  "slug": "northline-outfitters",
+  "theme": "northline-outfitters",
+  "name": "Northline Outfitters",
+  "version": "1.0.0",
+  "description": {
+   "en": "Men's casual and outerwear shop with a bold retail layout: jackets, knitwear, shirts and trousers built for the outdoors.",
+   "fr": "Boutique de prêt-à-porter masculin et d'outdoor au style retail affirmé : vestes, mailles, chemises et pantalons faits pour le plein air.",
+   "es": "Tienda de moda masculina y outdoor con un diseño retail potente: chaquetas, punto, camisas y pantalones hechos para el exterior.",
+   "it": "Negozio di abbigliamento uomo e outdoor dal layout retail deciso: giacche, maglieria, camicie e pantaloni pensati per stare all'aria aperta.",
+   "pl": "Sklep z męską odzieżą casual i outdoor z wyrazistym układem: kurtki, dzianina, koszule i spodnie na zewnątrz.",
+   "de": "Herrenmode- und Outdoor-Shop mit kräftigem Retail-Layout: Jacken, Strick, Hemden und Hosen für draußen.",
+   "cs": "Obchod s pánským oblečením a outdoorem s výrazným retail rozvržením: bundy, pleteniny, košile a kalhoty do přírody.",
+   "nl": "Winkel voor herenkleding en outdoor met een krachtige retail-lay-out: jassen, breiwerk, overhemden en broeken voor buiten.",
+   "pt": "Loja de roupa masculina e outdoor com um layout retail marcante: casacos, malhas, camisas e calças feitos para o exterior.",
+   "ru": "Магазин мужской повседневной и аутдор-одежды с ярким ретейл-макетом: куртки, трикотаж, рубашки и брюки для улицы."
+  }
+ },
+ "vars": {
+  "shop": "Northline Outfitters",
+  "free_over": {
+   "en": "€100",
+   "fr": "100 €",
+   "es": "100 €",
+   "it": "100 €",
+   "pl": "100 €",
+   "de": "100 €",
+   "cs": "100 €",
+   "nl": "€ 100",
+   "pt": "100 €",
+   "ru": "100 €"
+  }
+ },
+ "shop": {
+  "name": "Northline Outfitters",
+  "email": "hello@northline.example",
+  "phone": "+46 8 123 456 78",
+  "address1": "Hamngatan 12",
+  "postcode": "111 47",
+  "city": "Stockholm",
+  "country": "SE",
+  "logo": "brand/logo.png",
+  "favicon": "brand/favicon.ico",
+  "social": {
+   "facebook": "https://www.facebook.com/",
+   "instagram": "https://www.instagram.com/",
+   "youtube": "https://www.youtube.com/"
+  }
+ },
+ "tokens": {
+  "primary": "#1f2d36",
+  "primary_contrast": "#ffffff",
+  "accent": "#f3c623",
+  "bg": "#f6f7f5",
+  "surface": "#e3e8eb",
+  "text": "#1f2d36",
+  "muted": "#66737c",
+  "border": "#d3dade",
+  "sale": "#b4441c",
+  "dark": "#1f2d36",
+  "dark_text": "#ffffff",
+  "field_border": "#66737c",
+  "field_height": "44",
+  "font_heading": "Barlow Semi Condensed",
+  "font_body": "Barlow",
+  "heading_weight": "600",
+  "heading_transform": "none",
+  "heading_spacing": "0",
+  "radius": "4",
+  "button_radius": "4",
+  "button_transform": "none",
+  "header_style": "dark",
+  "footer_style": "dark",
+  "card_style": "label",
+  "cart_style": "toast",
+  "cart_layout": "classic",
+  "listing_layout": "left",
+  "category_header": "banner",
+  "grid_columns": "4",
+  "product_layout": "classic",
+  "product_thumbs": "bottom",
+  "product_tabs": "accordion",
+  "free_bar": "1",
+  "header_sticky": "up",
+  "search_style": "field",
+  "search_trigger": "icon",
+  "cart_word": "cart"
+ },
+ "topbar": {
+  "active": 1,
+  "text": {
+   "en": "Free repairs for life on every jacket",
+   "fr": "Réparations gratuites à vie sur chaque veste",
+   "es": "Reparaciones gratis de por vida en cada chaqueta",
+   "it": "Riparazioni gratuite a vita su ogni giacca",
+   "pl": "Darmowe naprawy dożywotnio na każdą kurtkę",
+   "de": "Kostenlose Reparaturen ein Leben lang für jede Jacke",
+   "cs": "Doživotní opravy zdarma na každou bundu",
+   "nl": "Gratis reparaties voor het leven op elke jas",
+   "pt": "Reparações gratuitas para toda a vida em cada casaco",
+   "ru": "Бесплатный пожизненный ремонт каждой куртки"
+  }
+ },
+ "attribute_groups": [
+  {
+   "key": "size",
+   "type": "radio",
+   "name": {
+    "en": "Size",
+    "fr": "Taille",
+    "es": "Talla",
+    "it": "Taglia",
+    "pl": "Rozmiar",
+    "de": "Größe",
+    "cs": "Velikost",
+    "nl": "Maat",
+    "pt": "Tamanho",
+    "ru": "Размер"
+   },
+   "values": [
+    {
+     "key": "s",
+     "name": "S"
+    },
+    {
+     "key": "m",
+     "name": "M"
+    },
+    {
+     "key": "l",
+     "name": "L"
+    },
+    {
+     "key": "xl",
+     "name": "XL"
+    },
+    {
+     "key": "xxl",
+     "name": "XXL"
+    },
+    {
+     "key": "30",
+     "name": "30"
+    },
+    {
+     "key": "32",
+     "name": "32"
+    },
+    {
+     "key": "34",
+     "name": "34"
+    },
+    {
+     "key": "36",
+     "name": "36"
+    }
+   ]
+  },
+  {
+   "key": "color",
+   "type": "color",
+   "name": {
+    "en": "Colour",
+    "fr": "Couleur",
+    "es": "Color",
+    "it": "Colore",
+    "pl": "Kolor",
+    "de": "Farbe",
+    "cs": "Barva",
+    "nl": "Kleur",
+    "pt": "Cor",
+    "ru": "Цвет"
+   },
+   "values": [
+    {
+     "key": "olive",
+     "name": {
+      "en": "Olive",
+      "fr": "Olive",
+      "es": "Oliva",
+      "it": "Oliva",
+      "pl": "Oliwkowy",
+      "de": "Oliv",
+      "cs": "Olivová",
+      "nl": "Olijf",
+      "pt": "Azeitona",
+      "ru": "Оливковый"
+     },
+     "color": "#6B6B3A"
+    },
+    {
+     "key": "navy",
+     "name": {
+      "en": "Navy",
+      "fr": "Marine",
+      "es": "Azul marino",
+      "it": "Blu navy",
+      "pl": "Granatowy",
+      "de": "Marine",
+      "cs": "Námořnická modrá",
+      "nl": "Marineblauw",
+      "pt": "Azul-marinho",
+      "ru": "Тёмно-синий"
+     },
+     "color": "#1F2A44"
+    },
+    {
+     "key": "black",
+     "name": {
+      "en": "Black",
+      "fr": "Noir",
+      "es": "Negro",
+      "it": "Nero",
+      "pl": "Czarny",
+      "de": "Schwarz",
+      "cs": "Černá",
+      "nl": "Zwart",
+      "pt": "Preto",
+      "ru": "Чёрный"
+     },
+     "color": "#1C1C1C"
+    },
+    {
+     "key": "brown",
+     "name": {
+      "en": "Brown",
+      "fr": "Marron",
+      "es": "Marrón",
+      "it": "Marrone",
+      "pl": "Brązowy",
+      "de": "Braun",
+      "cs": "Hnědá",
+      "nl": "Bruin",
+      "pt": "Castanho",
+      "ru": "Коричневый"
+     },
+     "color": "#6B4A2F"
+    },
+    {
+     "key": "stone",
+     "name": {
+      "en": "Stone",
+      "fr": "Pierre",
+      "es": "Piedra",
+      "it": "Pietra",
+      "pl": "Kamienny",
+      "de": "Stein",
+      "cs": "Kamenná",
+      "nl": "Steen",
+      "pt": "Pedra",
+      "ru": "Каменный"
+     },
+     "color": "#C9BFAE"
+    },
+    {
+     "key": "cream",
+     "name": {
+      "en": "Cream",
+      "fr": "Crème",
+      "es": "Crudo",
+      "it": "Panna",
+      "pl": "Kremowy",
+      "de": "Creme",
+      "cs": "Krémová",
+      "nl": "Crème",
+      "pt": "Creme",
+      "ru": "Кремовый"
+     },
+     "color": "#F1E9DA"
+    },
+    {
+     "key": "grey",
+     "name": {
+      "en": "Grey",
+      "fr": "Gris",
+      "es": "Gris",
+      "it": "Grigio",
+      "pl": "Szary",
+      "de": "Grau",
+      "cs": "Šedá",
+      "nl": "Grijs",
+      "pt": "Cinzento",
+      "ru": "Серый"
+     },
+     "color": "#8D8D8D"
+    },
+    {
+     "key": "charcoal",
+     "name": {
+      "en": "Charcoal",
+      "fr": "Anthracite",
+      "es": "Antracita",
+      "it": "Antracite",
+      "pl": "Grafitowy",
+      "de": "Anthrazit",
+      "cs": "Antracitová",
+      "nl": "Antraciet",
+      "pt": "Antracite",
+      "ru": "Антрацитовый"
+     },
+     "color": "#3D3D3D"
+    },
+    {
+     "key": "forest",
+     "name": {
+      "en": "Forest green",
+      "fr": "Vert forêt",
+      "es": "Verde bosque",
+      "it": "Verde bosco",
+      "pl": "Butelkowa zieleń",
+      "de": "Waldgrün",
+      "cs": "Lesní zelená",
+      "nl": "Bosgroen",
+      "pt": "Verde floresta",
+      "ru": "Лесной зелёный"
+     },
+     "color": "#2F4A35"
+    },
+    {
+     "key": "red",
+     "name": {
+      "en": "Red",
+      "fr": "Rouge",
+      "es": "Rojo",
+      "it": "Rosso",
+      "pl": "Czerwony",
+      "de": "Rot",
+      "cs": "Červená",
+      "nl": "Rood",
+      "pt": "Vermelho",
+      "ru": "Красный"
+     },
+     "color": "#9E2B25"
+    },
+    {
+     "key": "green",
+     "name": {
+      "en": "Green",
+      "fr": "Vert",
+      "es": "Verde",
+      "it": "Verde",
+      "pl": "Zielony",
+      "de": "Grün",
+      "cs": "Zelená",
+      "nl": "Groen",
+      "pt": "Verde",
+      "ru": "Зелёный"
+     },
+     "color": "#3F5E3A"
+    },
+    {
+     "key": "white",
+     "name": {
+      "en": "White",
+      "fr": "Blanc",
+      "es": "Blanco",
+      "it": "Bianco",
+      "pl": "Biały",
+      "de": "Weiß",
+      "cs": "Bílá",
+      "nl": "Wit",
+      "pt": "Branco",
+      "ru": "Белый"
+     },
+     "color": "#FFFFFF"
+    },
+    {
+     "key": "light-blue",
+     "name": {
+      "en": "Light blue",
+      "fr": "Bleu clair",
+      "es": "Azul claro",
+      "it": "Azzurro",
+      "pl": "Jasnoniebieski",
+      "de": "Hellblau",
+      "cs": "Světle modrá",
+      "nl": "Lichtblauw",
+      "pt": "Azul-claro",
+      "ru": "Голубой"
+     },
+     "color": "#A9C4E0"
+    },
+    {
+     "key": "indigo",
+     "name": {
+      "en": "Indigo",
+      "fr": "Indigo",
+      "es": "Índigo",
+      "it": "Indaco",
+      "pl": "Indygo",
+      "de": "Indigo",
+      "cs": "Indigo",
+      "nl": "Indigo",
+      "pt": "Índigo",
+      "ru": "Индиго"
+     },
+     "color": "#2E3A5C"
+    },
+    {
+     "key": "rust",
+     "name": {
+      "en": "Rust",
+      "fr": "Rouille",
+      "es": "Óxido",
+      "it": "Ruggine",
+      "pl": "Rdzawy",
+      "de": "Rost",
+      "cs": "Rezavá",
+      "nl": "Roest",
+      "pt": "Ferrugem",
+      "ru": "Ржавый"
+     },
+     "color": "#A0522D"
+    },
+    {
+     "key": "khaki",
+     "name": {
+      "en": "Khaki",
+      "fr": "Kaki",
+      "es": "Caqui",
+      "it": "Cachi",
+      "pl": "Khaki",
+      "de": "Khaki",
+      "cs": "Khaki",
+      "nl": "Kaki",
+      "pt": "Caqui",
+      "ru": "Хаки"
+     },
+     "color": "#B3A27A"
+    },
+    {
+     "key": "oat",
+     "name": {
+      "en": "Oat",
+      "fr": "Avoine",
+      "es": "Avena",
+      "it": "Avena",
+      "pl": "Owsiany",
+      "de": "Hafer",
+      "cs": "Ovesná",
+      "nl": "Haver",
+      "pt": "Aveia",
+      "ru": "Овсяный"
+     },
+     "color": "#E6DCC8"
+    }
+   ]
+  }
+ ],
+ "features": [
+  {
+   "key": "material",
+   "name": {
+    "en": "Material",
+    "fr": "Matière",
+    "es": "Material",
+    "it": "Materiale",
+    "pl": "Materiał",
+    "de": "Material",
+    "cs": "Materiál",
+    "nl": "Materiaal",
+    "pt": "Material",
+    "ru": "Материал"
+   },
+   "values": [
+    {
+     "key": "waxed",
+     "name": {
+      "en": "Waxed cotton",
+      "fr": "Coton ciré",
+      "es": "Algodón encerado",
+      "it": "Cotone cerato",
+      "pl": "Woskowana bawełna",
+      "de": "Gewachste Baumwolle",
+      "cs": "Voskovaná bavlna",
+      "nl": "Gewaxt katoen",
+      "pt": "Algodão encerado",
+      "ru": "Вощёный хлопок"
+     }
+    },
+    {
+     "key": "down",
+     "name": {
+      "en": "Recycled down filling",
+      "fr": "Garnissage en duvet recyclé",
+      "es": "Relleno de plumón reciclado",
+      "it": "Imbottitura in piuma riciclata",
+      "pl": "Wypełnienie z puchu z recyklingu",
+      "de": "Füllung aus recycelten Daunen",
+      "cs": "Výplň z recyklovaného peří",
+      "nl": "Vulling van gerecycled dons",
+      "pt": "Enchimento de penas recicladas",
+      "ru": "Наполнитель из переработанного пуха"
+     }
+    },
+    {
+     "key": "wool-blend",
+     "name": {
+      "en": "Wool blend",
+      "fr": "Laine mélangée",
+      "es": "Mezcla de lana",
+      "it": "Misto lana",
+      "pl": "Mieszanka wełny",
+      "de": "Wollmischung",
+      "cs": "Směs vlny",
+      "nl": "Wolmix",
+      "pt": "Mistura de lã",
+      "ru": "Шерстяная смесь"
+     }
+    },
+    {
+     "key": "cotton-twill",
+     "name": {
+      "en": "Cotton twill",
+      "fr": "Sergé de coton",
+      "es": "Sarga de algodón",
+      "it": "Twill di cotone",
+      "pl": "Bawełniany diagonal",
+      "de": "Baumwoll-Twill",
+      "cs": "Bavlněný kepr",
+      "nl": "Katoenen twill",
+      "pt": "Sarja de algodão",
+      "ru": "Хлопковый твил"
+     }
+    },
+    {
+     "key": "merino-wool",
+     "name": {
+      "en": "Merino wool",
+      "fr": "Laine mérinos",
+      "es": "Lana merino",
+      "it": "Lana merino",
+      "pl": "Wełna merino",
+      "de": "Merinowolle",
+      "cs": "Merino vlna",
+      "nl": "Merinowol",
+      "pt": "Lã merino",
+      "ru": "Шерсть мериноса"
+     }
+    },
+    {
+     "key": "lambswool",
+     "name": {
+      "en": "Lambswool",
+      "fr": "Laine d'agneau",
+      "es": "Lana de cordero",
+      "it": "Lana d'agnello",
+      "pl": "Wełna jagnięca",
+      "de": "Lammwolle",
+      "cs": "Jehněčí vlna",
+      "nl": "Lamswol",
+      "pt": "Lã de cordeiro",
+      "ru": "Шерсть ягнёнка"
+     }
+    },
+    {
+     "key": "flannel",
+     "name": {
+      "en": "Cotton flannel",
+      "fr": "Flanelle de coton",
+      "es": "Franela de algodón",
+      "it": "Flanella di cotone",
+      "pl": "Flanela bawełniana",
+      "de": "Baumwollflanell",
+      "cs": "Bavlněný flanel",
+      "nl": "Katoenen flanel",
+      "pt": "Flanela de algodão",
+      "ru": "Хлопковая фланель"
+     }
+    },
+    {
+     "key": "oxford",
+     "name": {
+      "en": "Oxford cotton",
+      "fr": "Coton Oxford",
+      "es": "Algodón Oxford",
+      "it": "Cotone Oxford",
+      "pl": "Bawełna oxford",
+      "de": "Oxford-Baumwolle",
+      "cs": "Bavlna oxford",
+      "nl": "Oxford-katoen",
+      "pt": "Algodão Oxford",
+      "ru": "Хлопок оксфорд"
+     }
+    },
+    {
+     "key": "denim-selvedge",
+     "name": {
+      "en": "Selvedge denim",
+      "fr": "Denim selvedge",
+      "es": "Denim selvedge",
+      "it": "Denim cimosato",
+      "pl": "Denim selvedge",
+      "de": "Selvedge-Denim",
+      "cs": "Selvedge denim",
+      "nl": "Selvedge denim",
+      "pt": "Ganga selvedge",
+      "ru": "Селвидж-деним"
+     }
+    },
+    {
+     "key": "corduroy",
+     "name": {
+      "en": "Cotton corduroy",
+      "fr": "Velours côtelé",
+      "es": "Pana",
+      "it": "Velluto a coste",
+      "pl": "Sztruks",
+      "de": "Cord",
+      "cs": "Manšestr",
+      "nl": "Corduroy",
+      "pt": "Bombazina",
+      "ru": "Вельвет"
+     }
+    },
+    {
+     "key": "ripstop",
+     "name": {
+      "en": "Cotton ripstop",
+      "fr": "Ripstop de coton",
+      "es": "Ripstop de algodón",
+      "it": "Ripstop di cotone",
+      "pl": "Ripstop bawełniany",
+      "de": "Baumwoll-Ripstop",
+      "cs": "Bavlněný ripstop",
+      "nl": "Katoenen ripstop",
+      "pt": "Ripstop de algodão",
+      "ru": "Хлопковый рипстоп"
+     }
+    },
+    {
+     "key": "organic-cotton",
+     "name": {
+      "en": "Organic cotton",
+      "fr": "Coton biologique",
+      "es": "Algodón orgánico",
+      "it": "Cotone biologico",
+      "pl": "Bawełna organiczna",
+      "de": "Bio-Baumwolle",
+      "cs": "Biobavlna",
+      "nl": "Biologisch katoen",
+      "pt": "Algodão biológico",
+      "ru": "Органический хлопок"
+     }
+    },
+    {
+     "key": "pique",
+     "name": {
+      "en": "Cotton piqué",
+      "fr": "Piqué de coton",
+      "es": "Piqué de algodón",
+      "it": "Piquet di cotone",
+      "pl": "Bawełniana pika",
+      "de": "Baumwoll-Piqué",
+      "cs": "Bavlněný piké",
+      "nl": "Katoenen piqué",
+      "pt": "Piqué de algodão",
+      "ru": "Хлопковое пике"
+     }
+    },
+    {
+     "key": "leather-full",
+     "name": {
+      "en": "Full-grain leather",
+      "fr": "Cuir pleine fleur",
+      "es": "Piel plena flor",
+      "it": "Pelle pieno fiore",
+      "pl": "Skóra licowa",
+      "de": "Vollnarbenleder",
+      "cs": "Lícová kůže",
+      "nl": "Volnerf leer",
+      "pt": "Pele flor integral",
+      "ru": "Натуральная кожа"
+     }
+    }
+   ]
+  },
+  {
+   "key": "fit",
+   "name": {
+    "en": "Fit",
+    "fr": "Coupe",
+    "es": "Corte",
+    "it": "Vestibilità",
+    "pl": "Krój",
+    "de": "Passform",
+    "cs": "Střih",
+    "nl": "Pasvorm",
+    "pt": "Corte",
+    "ru": "Крой"
+   },
+   "values": [
+    {
+     "key": "regular",
+     "name": {
+      "en": "Regular",
+      "fr": "Classique",
+      "es": "Clásico",
+      "it": "Regolare",
+      "pl": "Klasyczny",
+      "de": "Regular",
+      "cs": "Klasický",
+      "nl": "Regular",
+      "pt": "Clássico",
+      "ru": "Классический"
+     }
+    },
+    {
+     "key": "relaxed",
+     "name": {
+      "en": "Relaxed",
+      "fr": "Décontractée",
+      "es": "Holgado",
+      "it": "Morbida",
+      "pl": "Luźny",
+      "de": "Locker",
+      "cs": "Volný",
+      "nl": "Ruim",
+      "pt": "Descontraído",
+      "ru": "Свободный"
+     }
+    },
+    {
+     "key": "slim",
+     "name": {
+      "en": "Slim",
+      "fr": "Ajustée",
+      "es": "Ajustado",
+      "it": "Aderente",
+      "pl": "Dopasowany",
+      "de": "Schmal",
+      "cs": "Přiléhavý",
+      "nl": "Slank",
+      "pt": "Justo",
+      "ru": "Приталенный"
+     }
+    }
+   ]
+  },
+  {
+   "key": "care",
+   "name": {
+    "en": "Care",
+    "fr": "Entretien",
+    "es": "Cuidado",
+    "it": "Manutenzione",
+    "pl": "Pielęgnacja",
+    "de": "Pflege",
+    "cs": "Péče",
+    "nl": "Onderhoud",
+    "pt": "Cuidados",
+    "ru": "Уход"
+   },
+   "values": [
+    {
+     "key": "machine",
+     "name": {
+      "en": "Machine wash 30°C",
+      "fr": "Lavage en machine à 30 °C",
+      "es": "Lavar a máquina a 30 °C",
+      "it": "Lavare in lavatrice a 30 °C",
+      "pl": "Prać w pralce w 30 °C",
+      "de": "Maschinenwäsche 30 °C",
+      "cs": "Praní v pračce na 30 °C",
+      "nl": "Machinewas 30 °C",
+      "pt": "Lavar na máquina a 30 °C",
+      "ru": "Машинная стирка при 30 °C"
+     }
+    },
+    {
+     "key": "cool",
+     "name": {
+      "en": "Machine wash 40°C",
+      "fr": "Lavage en machine à 40 °C",
+      "es": "Lavar a máquina a 40 °C",
+      "it": "Lavare in lavatrice a 40 °C",
+      "pl": "Prać w pralce w 40 °C",
+      "de": "Maschinenwäsche 40 °C",
+      "cs": "Praní v pračce na 40 °C",
+      "nl": "Machinewas 40 °C",
+      "pt": "Lavar na máquina a 40 °C",
+      "ru": "Машинная стирка при 40 °C"
+     }
+    },
+    {
+     "key": "hand",
+     "name": {
+      "en": "Hand wash cold",
+      "fr": "Lavage à la main à froid",
+      "es": "Lavar a mano en frío",
+      "it": "Lavare a mano a freddo",
+      "pl": "Prać ręcznie w zimnej wodzie",
+      "de": "Kalte Handwäsche",
+      "cs": "Ruční praní ve studené vodě",
+      "nl": "Koude handwas",
+      "pt": "Lavar à mão a frio",
+      "ru": "Ручная стирка в холодной воде"
+     }
+    },
+    {
+     "key": "dry",
+     "name": {
+      "en": "Dry clean only",
+      "fr": "Nettoyage à sec uniquement",
+      "es": "Solo limpieza en seco",
+      "it": "Solo lavaggio a secco",
+      "pl": "Tylko czyszczenie chemiczne",
+      "de": "Nur chemische Reinigung",
+      "cs": "Pouze chemické čištění",
+      "nl": "Alleen chemisch reinigen",
+      "pt": "Apenas limpeza a seco",
+      "ru": "Только химчистка"
+     }
+    },
+    {
+     "key": "wipe",
+     "name": {
+      "en": "Wipe with a soft cloth",
+      "fr": "Essuyer avec un chiffon doux",
+      "es": "Limpiar con un paño suave",
+      "it": "Pulire con un panno morbido",
+      "pl": "Przetrzeć miękką ściereczką",
+      "de": "Mit weichem Tuch abwischen",
+      "cs": "Otřít jemným hadříkem",
+      "nl": "Afnemen met een zachte doek",
+      "pt": "Limpar com um pano macio",
+      "ru": "Протирать мягкой тканью"
+     }
+    },
+    {
+     "key": "wax",
+     "name": {
+      "en": "Re-wax once a year",
+      "fr": "Recirer une fois par an",
+      "es": "Volver a encerar una vez al año",
+      "it": "Ricerare una volta l'anno",
+      "pl": "Woskować raz w roku",
+      "de": "Einmal jährlich nachwachsen",
+      "cs": "Jednou ročně navoskovat",
+      "nl": "Eén keer per jaar opnieuw waxen",
+      "pt": "Voltar a encerar uma vez por ano",
+      "ru": "Пропитывать воском раз в год"
+     }
+    }
+   ]
+  },
+  {
+   "key": "origin",
+   "name": {
+    "en": "Made in",
+    "fr": "Fabriqué en",
+    "es": "Fabricado en",
+    "it": "Prodotto in",
+    "pl": "Wyprodukowano w",
+    "de": "Hergestellt in",
+    "cs": "Vyrobeno v",
+    "nl": "Gemaakt in",
+    "pt": "Fabricado em",
+    "ru": "Сделано в"
+   },
+   "values": [
+    {
+     "key": "portugal",
+     "name": {
+      "en": "Portugal",
+      "fr": "Portugal",
+      "es": "Portugal",
+      "it": "Portogallo",
+      "pl": "Portugalii",
+      "de": "Portugal",
+      "cs": "Portugalsku",
+      "nl": "Portugal",
+      "pt": "Portugal",
+      "ru": "Португалии"
+     }
+    },
+    {
+     "key": "lithuania",
+     "name": {
+      "en": "Lithuania",
+      "fr": "Lituanie",
+      "es": "Lituania",
+      "it": "Lituania",
+      "pl": "Litwie",
+      "de": "Litauen",
+      "cs": "Litvě",
+      "nl": "Litouwen",
+      "pt": "Lituânia",
+      "ru": "Литве"
+     }
+    },
+    {
+     "key": "scotland",
+     "name": {
+      "en": "Scotland",
+      "fr": "Écosse",
+      "es": "Escocia",
+      "it": "Scozia",
+      "pl": "Szkocji",
+      "de": "Schottland",
+      "cs": "Skotsku",
+      "nl": "Schotland",
+      "pt": "Escócia",
+      "ru": "Шотландии"
+     }
+    },
+    {
+     "key": "italy",
+     "name": {
+      "en": "Italy",
+      "fr": "Italie",
+      "es": "Italia",
+      "it": "Italia",
+      "pl": "Włoszech",
+      "de": "Italien",
+      "cs": "Itálii",
+      "nl": "Italië",
+      "pt": "Itália",
+      "ru": "Италии"
+     }
+    },
+    {
+     "key": "japan",
+     "name": {
+      "en": "Japan",
+      "fr": "Japon",
+      "es": "Japón",
+      "it": "Giappone",
+      "pl": "Japonii",
+      "de": "Japan",
+      "cs": "Japonsku",
+      "nl": "Japan",
+      "pt": "Japão",
+      "ru": "Японии"
+     }
+    },
+    {
+     "key": "turkey",
+     "name": {
+      "en": "Türkiye",
+      "fr": "Turquie",
+      "es": "Turquía",
+      "it": "Turchia",
+      "pl": "Turcji",
+      "de": "der Türkei",
+      "cs": "Turecku",
+      "nl": "Turkije",
+      "pt": "Turquia",
+      "ru": "Турции"
+     }
+    },
+    {
+     "key": "spain",
+     "name": {
+      "en": "Spain",
+      "fr": "Espagne",
+      "es": "España",
+      "it": "Spagna",
+      "pl": "Hiszpanii",
+      "de": "Spanien",
+      "cs": "Španělsku",
+      "nl": "Spanje",
+      "pt": "Espanha",
+      "ru": "Испании"
+     }
+    }
+   ]
+  },
+  {
+   "key": "temp",
+   "name": {
+    "en": "Temperature",
+    "fr": "Température",
+    "es": "Temperatura",
+    "it": "Temperatura",
+    "pl": "Temperatura",
+    "de": "Temperatur",
+    "cs": "Teplota",
+    "nl": "Temperatuur",
+    "pt": "Temperatura",
+    "ru": "Температура"
+   },
+   "values": [
+    {
+     "key": "m25_m5",
+     "name": {
+      "en": "−25 to −5 °C",
+      "fr": "−25 à −5 °C",
+      "es": "−25 a −5 °C",
+      "it": "−25 a −5 °C",
+      "pl": "−25 do −5 °C",
+      "de": "−25 bis −5 °C",
+      "cs": "−25 až −5 °C",
+      "nl": "−25 tot −5 °C",
+      "pt": "−25 a −5 °C",
+      "ru": "−25 до −5 °C"
+     }
+    },
+    {
+     "key": "m10_5",
+     "name": {
+      "en": "−10 to 5 °C",
+      "fr": "−10 à 5 °C",
+      "es": "−10 a 5 °C",
+      "it": "−10 a 5 °C",
+      "pl": "−10 do 5 °C",
+      "de": "−10 bis 5 °C",
+      "cs": "−10 až 5 °C",
+      "nl": "−10 tot 5 °C",
+      "pt": "−10 a 5 °C",
+      "ru": "−10 до 5 °C"
+     }
+    },
+    {
+     "key": "m5_10",
+     "name": {
+      "en": "−5 to 10 °C",
+      "fr": "−5 à 10 °C",
+      "es": "−5 a 10 °C",
+      "it": "−5 a 10 °C",
+      "pl": "−5 do 10 °C",
+      "de": "−5 bis 10 °C",
+      "cs": "−5 až 10 °C",
+      "nl": "−5 tot 10 °C",
+      "pt": "−5 a 10 °C",
+      "ru": "−5 до 10 °C"
+     }
+    },
+    {
+     "key": "0_10",
+     "name": {
+      "en": "0 to 10 °C",
+      "fr": "0 à 10 °C",
+      "es": "0 a 10 °C",
+      "it": "0 a 10 °C",
+      "pl": "0 do 10 °C",
+      "de": "0 bis 10 °C",
+      "cs": "0 až 10 °C",
+      "nl": "0 tot 10 °C",
+      "pt": "0 a 10 °C",
+      "ru": "0 до 10 °C"
+     }
+    },
+    {
+     "key": "0_20",
+     "name": {
+      "en": "0 to 20 °C",
+      "fr": "0 à 20 °C",
+      "es": "0 a 20 °C",
+      "it": "0 a 20 °C",
+      "pl": "0 do 20 °C",
+      "de": "0 bis 20 °C",
+      "cs": "0 až 20 °C",
+      "nl": "0 tot 20 °C",
+      "pt": "0 a 20 °C",
+      "ru": "0 до 20 °C"
+     }
+    },
+    {
+     "key": "5_15",
+     "name": {
+      "en": "5 to 15 °C",
+      "fr": "5 à 15 °C",
+      "es": "5 a 15 °C",
+      "it": "5 a 15 °C",
+      "pl": "5 do 15 °C",
+      "de": "5 bis 15 °C",
+      "cs": "5 až 15 °C",
+      "nl": "5 tot 15 °C",
+      "pt": "5 a 15 °C",
+      "ru": "5 до 15 °C"
+     }
+    },
+    {
+     "key": "5_20",
+     "name": {
+      "en": "5 to 20 °C",
+      "fr": "5 à 20 °C",
+      "es": "5 a 20 °C",
+      "it": "5 a 20 °C",
+      "pl": "5 do 20 °C",
+      "de": "5 bis 20 °C",
+      "cs": "5 až 20 °C",
+      "nl": "5 tot 20 °C",
+      "pt": "5 a 20 °C",
+      "ru": "5 до 20 °C"
+     }
+    },
+    {
+     "key": "5_25",
+     "name": {
+      "en": "5 to 25 °C",
+      "fr": "5 à 25 °C",
+      "es": "5 a 25 °C",
+      "it": "5 a 25 °C",
+      "pl": "5 do 25 °C",
+      "de": "5 bis 25 °C",
+      "cs": "5 až 25 °C",
+      "nl": "5 tot 25 °C",
+      "pt": "5 a 25 °C",
+      "ru": "5 до 25 °C"
+     }
+    },
+    {
+     "key": "10_20",
+     "name": {
+      "en": "10 to 20 °C",
+      "fr": "10 à 20 °C",
+      "es": "10 a 20 °C",
+      "it": "10 a 20 °C",
+      "pl": "10 do 20 °C",
+      "de": "10 bis 20 °C",
+      "cs": "10 až 20 °C",
+      "nl": "10 tot 20 °C",
+      "pt": "10 a 20 °C",
+      "ru": "10 до 20 °C"
+     }
+    },
+    {
+     "key": "10_25",
+     "name": {
+      "en": "10 to 25 °C",
+      "fr": "10 à 25 °C",
+      "es": "10 a 25 °C",
+      "it": "10 a 25 °C",
+      "pl": "10 do 25 °C",
+      "de": "10 bis 25 °C",
+      "cs": "10 až 25 °C",
+      "nl": "10 tot 25 °C",
+      "pt": "10 a 25 °C",
+      "ru": "10 до 25 °C"
+     }
+    },
+    {
+     "key": "15_25",
+     "name": {
+      "en": "15 to 25 °C",
+      "fr": "15 à 25 °C",
+      "es": "15 a 25 °C",
+      "it": "15 a 25 °C",
+      "pl": "15 do 25 °C",
+      "de": "15 bis 25 °C",
+      "cs": "15 až 25 °C",
+      "nl": "15 tot 25 °C",
+      "pt": "15 a 25 °C",
+      "ru": "15 до 25 °C"
+     }
+    },
+    {
+     "key": "15_30",
+     "name": {
+      "en": "15 to 30 °C",
+      "fr": "15 à 30 °C",
+      "es": "15 a 30 °C",
+      "it": "15 a 30 °C",
+      "pl": "15 do 30 °C",
+      "de": "15 bis 30 °C",
+      "cs": "15 až 30 °C",
+      "nl": "15 tot 30 °C",
+      "pt": "15 a 30 °C",
+      "ru": "15 до 30 °C"
+     }
+    }
+   ]
+  },
+  {
+   "key": "warmth",
+   "name": {
+    "en": "Warmth",
+    "fr": "Chaleur",
+    "es": "Abrigo",
+    "it": "Calore",
+    "pl": "Ciepłota",
+    "de": "Wärme",
+    "cs": "Hřejivost",
+    "nl": "Warmte",
+    "pt": "Calor",
+    "ru": "Теплота"
+   },
+   "values": [
+    {
+     "key": "below0",
+     "name": {
+      "en": "Below 0 °C",
+      "fr": "Sous 0 °C",
+      "es": "Bajo 0 °C",
+      "it": "Sotto 0 °C",
+      "pl": "Poniżej 0 °C",
+      "de": "Unter 0 °C",
+      "cs": "Pod 0 °C",
+      "nl": "Onder 0 °C",
+      "pt": "Abaixo de 0 °C",
+      "ru": "Ниже 0 °C"
+     }
+    },
+    {
+     "key": "0to10",
+     "name": {
+      "en": "0 to 10 °C",
+      "fr": "0 à 10 °C",
+      "es": "0 a 10 °C",
+      "it": "Da 0 a 10 °C",
+      "pl": "Od 0 do 10 °C",
+      "de": "0 bis 10 °C",
+      "cs": "0 až 10 °C",
+      "nl": "0 tot 10 °C",
+      "pt": "0 a 10 °C",
+      "ru": "От 0 до 10 °C"
+     }
+    },
+    {
+     "key": "above10",
+     "name": {
+      "en": "Above 10 °C",
+      "fr": "Au-dessus de 10 °C",
+      "es": "Más de 10 °C",
+      "it": "Oltre 10 °C",
+      "pl": "Powyżej 10 °C",
+      "de": "Über 10 °C",
+      "cs": "Nad 10 °C",
+      "nl": "Boven 10 °C",
+      "pt": "Acima de 10 °C",
+      "ru": "Выше 10 °C"
+     }
+    }
+   ]
+  }
+ ],
+ "brands": [
+  {
+   "key": "northline",
+   "name": "Northline",
+   "logo": "brands/northline.png"
+  },
+  {
+   "key": "fjellmark",
+   "name": "Fjellmark",
+   "logo": "brands/fjellmark.png"
+  },
+  {
+   "key": "harbor-pine",
+   "name": "Harbor & Pine",
+   "logo": "brands/harbor-pine.png"
+  },
+  {
+   "key": "coldwater",
+   "name": "Coldwater Supply",
+   "logo": "brands/coldwater.png"
+  }
+ ],
+ "categories": [
+  {
+   "key": "jackets",
+   "name": {
+    "en": "Jackets & Coats",
+    "fr": "Vestes & manteaux",
+    "es": "Chaquetas y abrigos",
+    "it": "Giacche e cappotti",
+    "pl": "Kurtki i płaszcze",
+    "de": "Jacken & Mäntel",
+    "cs": "Bundy a kabáty",
+    "nl": "Jassen",
+    "pt": "Casacos e blusões",
+    "ru": "Куртки и пальто"
+   },
+   "description": {
+    "en": "Field jackets, parkas and overshirts made to handle wind, rain and years of wear.",
+    "fr": "Vestes de terrain, parkas et surchemises faites pour affronter le vent, la pluie et les années.",
+    "es": "Chaquetas de campo, parkas y sobrecamisas hechas para el viento, la lluvia y años de uso.",
+    "it": "Field jacket, parka e sovracamicie fatte per vento, pioggia e anni di utilizzo.",
+    "pl": "Kurtki polowe, parki i koszule wierzchnie odporne na wiatr, deszcz i lata noszenia.",
+    "de": "Fieldjackets, Parkas und Overshirts für Wind, Regen und viele Jahre.",
+    "cs": "Polní bundy, parky a svrchní košile do větru, deště a na mnoho let.",
+    "nl": "Fieldjackets, parka's en overshirts voor wind, regen en jaren draagplezier.",
+    "pt": "Casacos de campo, parkas e sobrecamisas feitos para o vento, a chuva e anos de uso.",
+    "ru": "Полевые куртки, парки и рубашки-куртки для ветра, дождя и многих лет носки."
+   },
+   "image": "categories/jackets.jpg"
+  },
+  {
+   "key": "knitwear",
+   "name": {
+    "en": "Knitwear",
+    "fr": "Maille",
+    "es": "Punto",
+    "it": "Maglieria",
+    "pl": "Dzianina",
+    "de": "Strick",
+    "cs": "Pletenina",
+    "nl": "Breiwerk",
+    "pt": "Malhas",
+    "ru": "Трикотаж"
+   },
+   "description": {
+    "en": "Fisherman sweaters, merino zips and lambswool crews for cold mornings.",
+    "fr": "Pulls marins, zips en mérinos et cols ronds en laine d'agneau pour les matins froids.",
+    "es": "Jerséis marineros, merino con cremallera y cuellos redondos de lana de cordero para las mañanas frías.",
+    "it": "Maglioni da pescatore, zip in merino e girocollo in lana d'agnello per le mattine fredde.",
+    "pl": "Swetry rybackie, bluzy merino z zamkiem i swetry z wełny jagnięcej na chłodne poranki.",
+    "de": "Fischerpullover, Merino-Troyer und Lammwoll-Pullover für kalte Morgen.",
+    "cs": "Rybářské svetry, merino se zipem a svetry z jehněčí vlny na chladná rána.",
+    "nl": "Vissertruien, merino schipperstruien en lamswollen truien voor koude ochtenden.",
+    "pt": "Camisolas de pescador, merino com fecho e golas redondas em lã de cordeiro para as manhãs frias.",
+    "ru": "Рыбацкие свитеры, мериносовые джемперы на молнии и свитеры из шерсти ягнёнка для холодного утра."
+   },
+   "image": "categories/knitwear.jpg"
+  },
+  {
+   "key": "shirts",
+   "name": {
+    "en": "Shirts",
+    "fr": "Chemises",
+    "es": "Camisas",
+    "it": "Camicie",
+    "pl": "Koszule",
+    "de": "Hemden",
+    "cs": "Košile",
+    "nl": "Overhemden",
+    "pt": "Camisas",
+    "ru": "Рубашки"
+   },
+   "description": {
+    "en": "Flannel, oxford, denim and corduroy shirts to wear on their own or as a layer.",
+    "fr": "Chemises en flanelle, oxford, denim et velours côtelé, seules ou en surcouche.",
+    "es": "Camisas de franela, oxford, denim y pana para llevar solas o como capa.",
+    "it": "Camicie in flanella, oxford, denim e velluto a coste da portare da sole o a strati.",
+    "pl": "Koszule z flaneli, oxfordu, denimu i sztruksu – solo lub jako warstwa.",
+    "de": "Hemden aus Flanell, Oxford, Denim und Cord – solo oder als Schicht.",
+    "cs": "Košile z flanelu, oxfordu, denimu a manšestru – samostatně i jako vrstva.",
+    "nl": "Overhemden van flanel, oxford, denim en corduroy – los of als laag.",
+    "pt": "Camisas de flanela, oxford, ganga e bombazina para usar sozinhas ou por camadas.",
+    "ru": "Рубашки из фланели, оксфорда, денима и вельвета — отдельно или слоем."
+   },
+   "image": "categories/shirts.jpg"
+  },
+  {
+   "key": "trousers",
+   "name": {
+    "en": "Trousers & Jeans",
+    "fr": "Pantalons & jeans",
+    "es": "Pantalones y vaqueros",
+    "it": "Pantaloni e jeans",
+    "pl": "Spodnie i dżinsy",
+    "de": "Hosen & Jeans",
+    "cs": "Kalhoty a džíny",
+    "nl": "Broeken & jeans",
+    "pt": "Calças e jeans",
+    "ru": "Брюки и джинсы"
+   },
+   "description": {
+    "en": "Chinos, selvedge jeans and hard-wearing cargo trousers.",
+    "fr": "Chinos, jeans selvedge et pantalons cargo résistants.",
+    "es": "Chinos, vaqueros selvedge y pantalones cargo resistentes.",
+    "it": "Chino, jeans selvedge e cargo resistenti.",
+    "pl": "Chinosy, dżinsy selvedge i wytrzymałe bojówki.",
+    "de": "Chinos, Selvedge-Jeans und robuste Cargohosen.",
+    "cs": "Chino kalhoty, džíny selvedge a odolné cargo kalhoty.",
+    "nl": "Chino's, selvedge jeans en stevige cargobroeken.",
+    "pt": "Chinos, jeans selvedge e calças cargo resistentes.",
+    "ru": "Чиносы, джинсы из селвидж-денима и прочные карго."
+   },
+   "image": "categories/trousers.jpg"
+  },
+  {
+   "key": "tees",
+   "name": {
+    "en": "T-shirts & Polos",
+    "fr": "T-shirts & polos",
+    "es": "Camisetas y polos",
+    "it": "T-shirt e polo",
+    "pl": "T-shirty i polo",
+    "de": "T-Shirts & Polos",
+    "cs": "Trička a pola",
+    "nl": "T-shirts & polo's",
+    "pt": "T-shirts e polos",
+    "ru": "Футболки и поло"
+   },
+   "description": {
+    "en": "Heavyweight tees, polos and henleys in organic cotton.",
+    "fr": "T-shirts épais, polos et henleys en coton biologique.",
+    "es": "Camisetas gruesas, polos y henleys de algodón orgánico.",
+    "it": "T-shirt pesanti, polo e henley in cotone biologico.",
+    "pl": "Grube T-shirty, polo i henleye z bawełny organicznej.",
+    "de": "Schwere T-Shirts, Polos und Henleys aus Bio-Baumwolle.",
+    "cs": "Silná trička, pola a henley z biobavlny.",
+    "nl": "Zware T-shirts, polo's en henleys van biologisch katoen.",
+    "pt": "T-shirts grossas, polos e henleys em algodão biológico.",
+    "ru": "Плотные футболки, поло и хенли из органического хлопка."
+   },
+   "image": "categories/tees.jpg"
+  },
+  {
+   "key": "accessories",
+   "name": {
+    "en": "Accessories",
+    "fr": "Accessoires",
+    "es": "Accesorios",
+    "it": "Accessori",
+    "pl": "Akcesoria",
+    "de": "Accessoires",
+    "cs": "Doplňky",
+    "nl": "Accessoires",
+    "pt": "Acessórios",
+    "ru": "Аксессуары"
+   },
+   "description": {
+    "en": "Beanies, scarves, belts and bags to finish the kit.",
+    "fr": "Bonnets, écharpes, ceintures et sacs pour compléter l'équipement.",
+    "es": "Gorros, bufandas, cinturones y bolsas para completar el equipo.",
+    "it": "Berretti, sciarpe, cinture e borse per completare l'equipaggiamento.",
+    "pl": "Czapki, szaliki, paski i torby, które dopełniają ekwipunek.",
+    "de": "Mützen, Schals, Gürtel und Taschen für die komplette Ausrüstung.",
+    "cs": "Čepice, šály, pásky a tašky pro kompletní výbavu.",
+    "nl": "Mutsen, sjaals, riemen en tassen om je uitrusting af te maken.",
+    "pt": "Gorros, cachecóis, cintos e sacos para completar o equipamento.",
+    "ru": "Шапки, шарфы, ремни и сумки, чтобы завершить экипировку."
+   },
+   "image": "categories/accessories.jpg"
+  }
+ ],
+ "catalog": {
+  "id_tax_rules_group": 0,
+  "also_in_home": true,
+  "details_feature_list": false,
+  "home_name": {
+   "en": "Home",
+   "fr": "Accueil",
+   "es": "Inicio",
+   "it": "Home",
+   "pl": "Strona główna",
+   "de": "Startseite",
+   "cs": "Domů",
+   "nl": "Home",
+   "pt": "Início",
+   "ru": "Главная"
+  },
+  "facets": [
+   "feature:warmth",
+   "group:size",
+   "group:color",
+   "feature:material",
+   "price"
+  ]
+ },
+ "products": [
+  {
+   "key": "waxed-field-jacket",
+   "reference": "NL-101",
+   "category": "jackets",
+   "brand": "northline",
+   "price": 229,
+   "name": {
+    "en": "Waxed Field Jacket",
+    "fr": "Veste de terrain en coton ciré",
+    "es": "Chaqueta de campo encerada",
+    "it": "Field jacket in cotone cerato",
+    "pl": "Woskowana kurtka polowa",
+    "de": "Gewachste Fieldjacket",
+    "cs": "Voskovaná polní bunda",
+    "nl": "Gewaxte fieldjacket",
+    "pt": "Casaco de campo encerado",
+    "ru": "Вощёная полевая куртка"
+   },
+   "short": {
+    "en": "A four-pocket field jacket in waxed cotton with a corduroy collar.",
+    "fr": "Une veste de terrain à quatre poches en coton ciré, col en velours côtelé.",
+    "es": "Una chaqueta de campo de cuatro bolsillos en algodón encerado con cuello de pana.",
+    "it": "Una field jacket a quattro tasche in cotone cerato con collo in velluto.",
+    "pl": "Kurtka polowa z czterema kieszeniami z woskowanej bawełny ze sztruksowym kołnierzem.",
+    "de": "Eine Fieldjacket mit vier Taschen aus gewachster Baumwolle und Cordkragen.",
+    "cs": "Polní bunda se čtyřmi kapsami z voskované bavlny s manšestrovým límcem.",
+    "nl": "Een fieldjacket met vier zakken van gewaxt katoen en corduroy kraag.",
+    "pt": "Um casaco de campo com quatro bolsos em algodão encerado e gola de bombazina.",
+    "ru": "Полевая куртка с четырьмя карманами из вощёного хлопка с вельветовым воротником."
+   },
+   "description": {
+    "en": "Waxed cotton sheds rain and wind and builds a unique patina over time. Four bellows pockets, a corduroy collar and a tartan lining make it the jacket you will keep for decades.",
+    "fr": "Le coton ciré protège de la pluie et du vent et se patine avec le temps. Quatre poches soufflets, un col en velours côtelé et une doublure tartan : la veste que vous garderez des décennies.",
+    "es": "El algodón encerado repele la lluvia y el viento y gana una pátina única con el tiempo. Cuatro bolsillos de fuelle, cuello de pana y forro de tartán: la chaqueta que conservarás durante décadas.",
+    "it": "Il cotone cerato respinge pioggia e vento e sviluppa con il tempo una patina unica. Quattro tasche a soffietto, collo in velluto a coste e fodera tartan: la giacca che terrai per decenni.",
+    "pl": "Woskowana bawełna chroni przed deszczem i wiatrem, a z czasem nabiera niepowtarzalnej patyny. Cztery kieszenie z zakładką, sztruksowy kołnierz i podszewka w kratę – kurtka na dziesięciolecia.",
+    "de": "Gewachste Baumwolle hält Regen und Wind ab und entwickelt mit der Zeit eine einzigartige Patina. Vier Blasebalgtaschen, ein Cordkragen und ein Tartanfutter – die Jacke, die Sie jahrzehntelang behalten.",
+    "cs": "Voskovaná bavlna odolá dešti i větru a časem získá jedinečnou patinu. Čtyři měchové kapsy, manšestrový límec a kostkovaná podšívka – bunda na desítky let.",
+    "nl": "Gewaxt katoen houdt regen en wind tegen en krijgt met de jaren een unieke patina. Vier balgzakken, een corduroy kraag en een tartan voering: de jas die je decennia houdt.",
+    "pt": "O algodão encerado repele a chuva e o vento e ganha uma pátina única com o tempo. Quatro bolsos de fole, gola de bombazina e forro em xadrez: o casaco que vai guardar durante décadas.",
+    "ru": "Вощёный хлопок защищает от дождя и ветра и со временем приобретает неповторимую патину. Четыре объёмных кармана, вельветовый воротник и подкладка в клетку — куртка на десятилетия."
+   },
+   "features": {
+    "material": "waxed",
+    "fit": "regular",
+    "care": "wax",
+    "origin": "portugal",
+    "temp": "m10_5",
+    "warmth": "below0"
+   },
+   "combinations": {
+    "size": [
+     "s",
+     "m",
+     "l",
+     "xl",
+     "xxl"
+    ],
+    "color": [
+     "olive",
+     "navy"
+    ]
+   },
+   "images": [
+    "products/waxed-field-jacket.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": true,
+   "related": [
+    "fisherman-sweater",
+    "chino-trousers",
+    "canvas-backpack"
+   ]
+  },
+  {
+   "key": "down-parka",
+   "reference": "NL-102",
+   "category": "jackets",
+   "brand": "coldwater",
+   "price": 289,
+   "name": {
+    "en": "Recycled Down Parka",
+    "fr": "Parka en duvet recyclé",
+    "es": "Parka de plumón reciclado",
+    "it": "Parka in piuma riciclata",
+    "pl": "Parka z puchem z recyklingu",
+    "de": "Parka mit recycelter Daune",
+    "cs": "Parka s recyklovaným peřím",
+    "nl": "Parka met gerecycled dons",
+    "pt": "Parka de penas recicladas",
+    "ru": "Парка с переработанным пухом"
+   },
+   "short": {
+    "en": "A hooded winter parka filled with recycled down.",
+    "fr": "Une parka d'hiver à capuche garnie de duvet recyclé.",
+    "es": "Una parka de invierno con capucha y relleno de plumón reciclado.",
+    "it": "Un parka invernale con cappuccio imbottito di piuma riciclata.",
+    "pl": "Zimowa parka z kapturem wypełniona puchem z recyklingu.",
+    "de": "Ein Winterparka mit Kapuze und Füllung aus recycelter Daune.",
+    "cs": "Zimní parka s kapucí a výplní z recyklovaného peří.",
+    "nl": "Een winterparka met capuchon en vulling van gerecycled dons.",
+    "pt": "Uma parka de inverno com capuz e enchimento de penas recicladas.",
+    "ru": "Зимняя парка с капюшоном и наполнителем из переработанного пуха."
+   },
+   "description": {
+    "en": "Recycled down keeps you warm well below zero, while the water-repellent shell and storm cuffs keep the weather out. The hood fits over a beanie and the two-way zip makes cycling easy.",
+    "fr": "Le duvet recyclé vous tient chaud bien en dessous de zéro, tandis que la coque déperlante et les poignets coupe-vent arrêtent les intempéries. La capuche passe sur un bonnet et le zip double sens facilite le vélo.",
+    "es": "El plumón reciclado abriga muy por debajo de cero, mientras el tejido repelente al agua y los puños cortavientos frenan el mal tiempo. La capucha cabe sobre un gorro y la cremallera de doble cursor facilita ir en bici.",
+    "it": "La piuma riciclata tiene caldo ben sotto lo zero, mentre il guscio idrorepellente e i polsini antivento fermano il maltempo. Il cappuccio si indossa sopra un berretto e la zip a doppio cursore è comoda in bici.",
+    "pl": "Puch z recyklingu grzeje głęboko poniżej zera, a wodoodporna powłoka i wiatroszczelne mankiety zatrzymują pogodę na zewnątrz. Kaptur mieści się na czapkę, a dwukierunkowy zamek ułatwia jazdę rowerem.",
+    "de": "Recycelte Daunen halten weit unter null warm, während die wasserabweisende Außenhülle und Sturmbündchen das Wetter draußen lassen. Die Kapuze passt über eine Mütze, der Zwei-Wege-Reißverschluss erleichtert das Radfahren.",
+    "cs": "Recyklované peří hřeje hluboko pod nulou a vodoodpudivý svrchní materiál s manžetami proti větru udrží počasí venku. Kapuce se vejde přes čepici a dvoucestný zip usnadní jízdu na kole.",
+    "nl": "Gerecycled dons houdt je warm ver onder nul, terwijl de waterafstotende buitenstof en stormboorden het weer buiten houden. De capuchon past over een muts en de tweewegrits maakt fietsen makkelijk.",
+    "pt": "As penas recicladas aquecem bem abaixo de zero, enquanto o exterior repelente à água e os punhos corta-vento travam o mau tempo. O capuz cabe por cima de um gorro e o fecho de duplo cursor facilita andar de bicicleta.",
+    "ru": "Переработанный пух греет далеко ниже нуля, а водоотталкивающий верх и ветрозащитные манжеты не пускают непогоду внутрь. Капюшон надевается поверх шапки, а двухсторонняя молния удобна на велосипеде."
+   },
+   "features": {
+    "material": "down",
+    "fit": "relaxed",
+    "care": "machine",
+    "origin": "lithuania",
+    "temp": "m25_m5",
+    "warmth": "below0"
+   },
+   "combinations": {
+    "size": [
+     "s",
+     "m",
+     "l",
+     "xl",
+     "xxl"
+    ],
+    "color": [
+     "navy",
+     "black"
+    ]
+   },
+   "images": [
+    "products/down-parka.jpg"
+   ],
+   "quantity": 30,
+   "discount": 20,
+   "new": false
+  },
+  {
+   "key": "wool-overshirt-jacket",
+   "reference": "NL-103",
+   "category": "jackets",
+   "brand": "fjellmark",
+   "price": 159,
+   "name": {
+    "en": "Wool Overshirt Jacket",
+    "fr": "Surchemise en laine",
+    "es": "Sobrecamisa de lana",
+    "it": "Sovracamicia in lana",
+    "pl": "Wełniana koszula wierzchnia",
+    "de": "Woll-Overshirt",
+    "cs": "Vlněná svrchní košile",
+    "nl": "Wollen overshirt",
+    "pt": "Sobrecamisa de lã",
+    "ru": "Шерстяная рубашка-куртка"
+   },
+   "short": {
+    "en": "A heavy wool overshirt that works as a light jacket.",
+    "fr": "Une surchemise épaisse en laine qui fait office de veste légère.",
+    "es": "Una sobrecamisa gruesa de lana que funciona como chaqueta ligera.",
+    "it": "Una sovracamicia pesante in lana che funziona da giacca leggera.",
+    "pl": "Gruba wełniana koszula, która sprawdza się jak lekka kurtka.",
+    "de": "Ein schweres Woll-Overshirt, das als leichte Jacke funktioniert.",
+    "cs": "Silná vlněná svrchní košile, která poslouží jako lehká bunda.",
+    "nl": "Een zwaar wollen overshirt dat als lichte jas werkt.",
+    "pt": "Uma sobrecamisa grossa de lã que funciona como casaco leve.",
+    "ru": "Плотная шерстяная рубашка, которая заменяет лёгкую куртку."
+   },
+   "description": {
+    "en": "Cut from a dense wool blend, this overshirt sits between a shirt and a jacket. Wear it over a tee in spring or under a parka in winter.",
+    "fr": "Coupée dans une laine mélangée dense, cette surchemise se situe entre la chemise et la veste. Portez-la sur un t-shirt au printemps ou sous une parka en hiver.",
+    "es": "Confeccionada en una mezcla de lana densa, está entre camisa y chaqueta. Llévala sobre una camiseta en primavera o bajo una parka en invierno.",
+    "it": "In un misto lana compatto, sta a metà tra camicia e giacca. Portala su una t-shirt in primavera o sotto un parka in inverno.",
+    "pl": "Uszyta z gęstej mieszanki wełny, sytuuje się między koszulą a kurtką. Wiosną na T-shirt, zimą pod parkę.",
+    "de": "Aus dichter Wollmischung liegt dieses Overshirt zwischen Hemd und Jacke. Im Frühling über dem T-Shirt, im Winter unter dem Parka.",
+    "cs": "Z husté směsi vlny, na pomezí košile a bundy. Na jaře přes tričko, v zimě pod parku.",
+    "nl": "Van een dichte wolmix, tussen overhemd en jas in. In de lente over een T-shirt, in de winter onder een parka.",
+    "pt": "Cortada numa mistura de lã densa, fica entre a camisa e o casaco. Use-a sobre uma t-shirt na primavera ou por baixo de uma parka no inverno.",
+    "ru": "Из плотной шерстяной смеси — нечто среднее между рубашкой и курткой. Весной поверх футболки, зимой под парку."
+   },
+   "features": {
+    "material": "wool-blend",
+    "fit": "relaxed",
+    "care": "dry",
+    "origin": "portugal",
+    "temp": "m5_10",
+    "warmth": "0to10"
+   },
+   "combinations": {
+    "size": [
+     "s",
+     "m",
+     "l",
+     "xl",
+     "xxl"
+    ],
+    "color": [
+     "brown"
+    ]
+   },
+   "images": [
+    "products/wool-overshirt-jacket.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "harrington-jacket",
+   "reference": "NL-104",
+   "category": "jackets",
+   "brand": "harbor-pine",
+   "price": 139,
+   "name": {
+    "en": "Harrington Jacket",
+    "fr": "Blouson Harrington",
+    "es": "Chaqueta Harrington",
+    "it": "Giubbotto Harrington",
+    "pl": "Kurtka Harrington",
+    "de": "Harrington-Jacke",
+    "cs": "Bunda Harrington",
+    "nl": "Harrington-jas",
+    "pt": "Blusão Harrington",
+    "ru": "Куртка Харрингтон"
+   },
+   "short": {
+    "en": "A classic zip jacket in cotton twill with a check lining.",
+    "fr": "Un blouson zippé classique en sergé de coton, doublure à carreaux.",
+    "es": "Una chaqueta clásica con cremallera en sarga de algodón y forro de cuadros.",
+    "it": "Un classico giubbotto con zip in twill di cotone e fodera a quadri.",
+    "pl": "Klasyczna kurtka na zamek z bawełnianego diagonalu z podszewką w kratę.",
+    "de": "Eine klassische Reißverschlussjacke aus Baumwoll-Twill mit Karofutter.",
+    "cs": "Klasická bunda na zip z bavlněného kepru s kostkovanou podšívkou.",
+    "nl": "Een klassiek jack met rits van katoenen twill en geruite voering.",
+    "pt": "Um blusão clássico com fecho em sarja de algodão e forro aos quadrados.",
+    "ru": "Классическая куртка на молнии из хлопкового твила с клетчатой подкладкой."
+   },
+   "description": {
+    "en": "The classic Harrington: a short zip jacket with a stand collar, ribbed cuffs and a check lining. Light enough for spring evenings, smart enough for the office.",
+    "fr": "Le Harrington classique : un blouson court zippé avec col montant, poignets côtelés et doublure à carreaux. Assez léger pour les soirs de printemps, assez chic pour le bureau.",
+    "es": "La Harrington clásica: chaqueta corta con cremallera, cuello alto, puños de canalé y forro de cuadros. Ligera para las tardes de primavera y elegante para la oficina.",
+    "it": "L'Harrington classico: giubbotto corto con zip, collo alto, polsini a coste e fodera a quadri. Leggero per le sere di primavera, elegante per l'ufficio.",
+    "pl": "Klasyczny Harrington: krótka kurtka ze stójką, ściągaczami i podszewką w kratę. Lekka na wiosenne wieczory, elegancka do biura.",
+    "de": "Die klassische Harrington: kurze Jacke mit Stehkragen, Rippbündchen und Karofutter. Leicht genug für Frühlingsabende, schick genug fürs Büro.",
+    "cs": "Klasický Harrington: krátká bunda se stojáčkem, žebrovanými manžetami a kostkovanou podšívkou. Dost lehká na jarní večery, dost elegantní do kanceláře.",
+    "nl": "De klassieke Harrington: kort jack met opstaande kraag, ribboorden en geruite voering. Licht genoeg voor lenteavonden, net genoeg voor kantoor.",
+    "pt": "O Harrington clássico: blusão curto com gola subida, punhos canelados e forro aos quadrados. Leve para as noites de primavera e elegante para o escritório.",
+    "ru": "Классический Харрингтон: короткая куртка с воротником-стойкой, трикотажными манжетами и клетчатой подкладкой. Достаточно лёгкая для весенних вечеров и аккуратная для офиса."
+   },
+   "features": {
+    "material": "cotton-twill",
+    "fit": "regular",
+    "care": "machine",
+    "origin": "portugal",
+    "temp": "5_15",
+    "warmth": "above10"
+   },
+   "combinations": {
+    "size": [
+     "s",
+     "m",
+     "l",
+     "xl",
+     "xxl"
+    ],
+    "color": [
+     "stone",
+     "navy"
+    ]
+   },
+   "images": [
+    "products/harrington-jacket.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": true
+  },
+  {
+   "key": "fisherman-sweater",
+   "reference": "NL-201",
+   "category": "knitwear",
+   "brand": "fjellmark",
+   "price": 119,
+   "name": {
+    "en": "Fisherman Sweater",
+    "fr": "Pull marin",
+    "es": "Jersey marinero",
+    "it": "Maglione da pescatore",
+    "pl": "Sweter rybacki",
+    "de": "Fischerpullover",
+    "cs": "Rybářský svetr",
+    "nl": "Vissertrui",
+    "pt": "Camisola de pescador",
+    "ru": "Рыбацкий свитер"
+   },
+   "short": {
+    "en": "A chunky cable sweater knitted in a wool blend.",
+    "fr": "Un pull épais à torsades en laine mélangée.",
+    "es": "Un jersey grueso de ochos en mezcla de lana.",
+    "it": "Un maglione pesante a trecce in misto lana.",
+    "pl": "Gruby sweter w warkocze z mieszanki wełny.",
+    "de": "Ein grober Zopfpullover aus Wollmischung.",
+    "cs": "Hrubý svetr s copánky ze směsi vlny.",
+    "nl": "Een grofgebreide kabeltrui van wolmix.",
+    "pt": "Uma camisola grossa com tranças em mistura de lã.",
+    "ru": "Объёмный свитер с косами из шерстяной смеси."
+   },
+   "description": {
+    "en": "Traditional cables, a ribbed crew neck and a dense knit that keeps its shape. The sweater sailors have worn for a century, now in a softer wool blend.",
+    "fr": "Des torsades traditionnelles, un col rond côtelé et une maille dense qui garde sa forme. Le pull des marins depuis un siècle, dans une laine plus douce.",
+    "es": "Ochos tradicionales, cuello redondo de canalé y un punto denso que mantiene la forma. El jersey de los marineros desde hace un siglo, ahora en una lana más suave.",
+    "it": "Trecce tradizionali, girocollo a coste e una maglia compatta che mantiene la forma. Il maglione dei marinai da un secolo, ora in una lana più morbida.",
+    "pl": "Tradycyjne warkocze, prążkowany okrągły dekolt i gęsty splot, który trzyma formę. Sweter marynarzy od stulecia – teraz z bardziej miękkiej wełny.",
+    "de": "Traditionelle Zöpfe, ein gerippter Rundhals und ein dichtes Strickbild, das in Form bleibt. Der Pullover der Seeleute seit einem Jahrhundert – jetzt in weicherer Wolle.",
+    "cs": "Tradiční copánky, žebrovaný kulatý výstřih a hustý úplet, který drží tvar. Svetr námořníků už sto let – nyní z jemnější vlny.",
+    "nl": "Traditionele kabels, een geribde ronde hals en een dicht breisel dat in vorm blijft. De trui van zeelui sinds een eeuw, nu in zachtere wol.",
+    "pt": "Tranças tradicionais, gola redonda canelada e uma malha densa que mantém a forma. A camisola dos marinheiros há um século, agora numa lã mais macia.",
+    "ru": "Традиционные косы, круглый вырез в рубчик и плотная вязка, которая держит форму. Свитер моряков уже сто лет — теперь из более мягкой шерсти."
+   },
+   "features": {
+    "material": "wool-blend",
+    "fit": "relaxed",
+    "care": "hand",
+    "origin": "scotland",
+    "temp": "m5_10",
+    "warmth": "0to10"
+   },
+   "combinations": {
+    "size": [
+     "s",
+     "m",
+     "l",
+     "xl",
+     "xxl"
+    ],
+    "color": [
+     "cream"
+    ]
+   },
+   "images": [
+    "products/fisherman-sweater.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false,
+   "related": [
+    "waxed-field-jacket",
+    "selvedge-jeans"
+   ]
+  },
+  {
+   "key": "merino-quarter-zip",
+   "reference": "NL-202",
+   "category": "knitwear",
+   "brand": "fjellmark",
+   "price": 99,
+   "name": {
+    "en": "Merino Quarter-Zip",
+    "fr": "Pull camionneur en mérinos",
+    "es": "Jersey de merino con cremallera",
+    "it": "Maglione in merino con zip",
+    "pl": "Sweter merino z zamkiem",
+    "de": "Merino-Troyer",
+    "cs": "Merino svetr se zipem",
+    "nl": "Merino schipperstrui",
+    "pt": "Camisola de merino com fecho",
+    "ru": "Мериносовый джемпер на молнии"
+   },
+   "short": {
+    "en": "A fine merino sweater with a quarter-length zip.",
+    "fr": "Un pull fin en mérinos avec col zippé.",
+    "es": "Un jersey fino de merino con media cremallera.",
+    "it": "Un maglione sottile in merino con mezza zip.",
+    "pl": "Cienki sweter z wełny merino z krótkim zamkiem.",
+    "de": "Ein feiner Merinopullover mit kurzem Reißverschluss.",
+    "cs": "Jemný merino svetr s krátkým zipem.",
+    "nl": "Een fijne merinotrui met korte rits.",
+    "pt": "Uma camisola fina de merino com meio fecho.",
+    "ru": "Тонкий джемпер из мериноса с короткой молнией."
+   },
+   "description": {
+    "en": "Fine merino regulates temperature on the move and resists odour. Zip it up on the trail or wear it open over a shirt in the office.",
+    "fr": "Le mérinos fin régule la température en mouvement et résiste aux odeurs. Fermez-le en randonnée ou portez-le ouvert sur une chemise au bureau.",
+    "es": "El merino fino regula la temperatura en movimiento y evita los olores. Ciérralo en la montaña o llévalo abierto sobre una camisa en la oficina.",
+    "it": "Il merino fine regola la temperatura in movimento e resiste agli odori. Chiudilo in montagna o portalo aperto su una camicia in ufficio.",
+    "pl": "Cienka merino reguluje temperaturę w ruchu i nie chłonie zapachów. Zapnij go na szlaku albo noś rozpięty na koszuli w biurze.",
+    "de": "Feines Merino reguliert die Temperatur in Bewegung und nimmt kaum Gerüche an. Auf dem Trail geschlossen, im Büro offen über dem Hemd.",
+    "cs": "Jemné merino reguluje teplotu v pohybu a odolává pachům. Na túře zapnutý, v kanceláři rozepnutý přes košili.",
+    "nl": "Fijne merino regelt je temperatuur onderweg en neemt nauwelijks geur aan. Dicht op het pad, open over een overhemd op kantoor.",
+    "pt": "O merino fino regula a temperatura em movimento e resiste a odores. Fechada no trilho ou aberta sobre uma camisa no escritório.",
+    "ru": "Тонкий меринос регулирует температуру в движении и не впитывает запахи. Застегните его в походе или носите расстёгнутым поверх рубашки в офисе."
+   },
+   "features": {
+    "material": "merino-wool",
+    "fit": "slim",
+    "care": "hand",
+    "origin": "italy",
+    "temp": "0_10",
+    "warmth": "0to10"
+   },
+   "combinations": {
+    "size": [
+     "s",
+     "m",
+     "l",
+     "xl",
+     "xxl"
+    ],
+    "color": [
+     "navy",
+     "grey"
+    ]
+   },
+   "images": [
+    "products/merino-quarter-zip.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": true
+  },
+  {
+   "key": "shawl-cardigan",
+   "reference": "NL-203",
+   "category": "knitwear",
+   "brand": "fjellmark",
+   "price": 139,
+   "name": {
+    "en": "Shawl Collar Cardigan",
+    "fr": "Gilet à col châle",
+    "es": "Cárdigan con cuello chal",
+    "it": "Cardigan con collo a scialle",
+    "pl": "Kardigan z szalowym kołnierzem",
+    "de": "Cardigan mit Schalkragen",
+    "cs": "Kardigan se šálovým límcem",
+    "nl": "Vest met sjaalkraag",
+    "pt": "Casaco de malha com gola xaile",
+    "ru": "Кардиган с шалевым воротником"
+   },
+   "short": {
+    "en": "A heavy shawl collar cardigan with leather-look buttons.",
+    "fr": "Un gilet épais à col châle avec boutons effet cuir.",
+    "es": "Un cárdigan grueso con cuello chal y botones efecto piel.",
+    "it": "Un cardigan pesante con collo a scialle e bottoni effetto cuoio.",
+    "pl": "Gruby kardigan z szalowym kołnierzem i guzikami imitującymi skórę.",
+    "de": "Ein schwerer Cardigan mit Schalkragen und Knöpfen in Lederoptik.",
+    "cs": "Silný kardigan se šálovým límcem a knoflíky imitujícími kůži.",
+    "nl": "Een zwaar vest met sjaalkraag en knopen in leerlook.",
+    "pt": "Um casaco de malha grosso com gola xaile e botões efeito pele.",
+    "ru": "Плотный кардиган с шалевым воротником и пуговицами под кожу."
+   },
+   "description": {
+    "en": "A deep shawl collar, patch pockets and a heavy knit make this cardigan the most comfortable layer you own, at home or out.",
+    "fr": "Un large col châle, des poches plaquées et une maille épaisse : la couche la plus confortable que vous ayez, chez vous ou dehors.",
+    "es": "Un amplio cuello chal, bolsillos de parche y un punto grueso: la capa más cómoda que tendrás, en casa o fuera.",
+    "it": "Ampio collo a scialle, tasche applicate e maglia pesante: lo strato più comodo che avrai, in casa o fuori.",
+    "pl": "Głęboki szalowy kołnierz, naszyte kieszenie i gruby splot – najwygodniejsza warstwa w domu i poza nim.",
+    "de": "Ein tiefer Schalkragen, aufgesetzte Taschen und schwerer Strick – die bequemste Schicht, die Sie besitzen, ob zu Hause oder unterwegs.",
+    "cs": "Hluboký šálový límec, našité kapsy a silný úplet – nejpohodlnější vrstva doma i venku.",
+    "nl": "Een diepe sjaalkraag, opgestikte zakken en zwaar breiwerk: de comfortabelste laag die je hebt, thuis of buiten.",
+    "pt": "Uma gola xaile larga, bolsos aplicados e malha grossa: a camada mais confortável que vai ter, em casa ou fora.",
+    "ru": "Глубокий шалевый воротник, накладные карманы и плотная вязка — самый уютный слой дома и на улице."
+   },
+   "features": {
+    "material": "wool-blend",
+    "fit": "relaxed",
+    "care": "hand",
+    "origin": "portugal",
+    "temp": "0_10",
+    "warmth": "0to10"
+   },
+   "combinations": {
+    "size": [
+     "s",
+     "m",
+     "l",
+     "xl",
+     "xxl"
+    ],
+    "color": [
+     "charcoal"
+    ]
+   },
+   "images": [
+    "products/shawl-cardigan.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "lambswool-crew",
+   "reference": "NL-204",
+   "category": "knitwear",
+   "brand": "northline",
+   "price": 89,
+   "name": {
+    "en": "Lambswool Crew Neck",
+    "fr": "Pull col rond en laine d'agneau",
+    "es": "Jersey de lana de cordero",
+    "it": "Girocollo in lana d'agnello",
+    "pl": "Sweter z wełny jagnięcej",
+    "de": "Lammwoll-Pullover",
+    "cs": "Svetr z jehněčí vlny",
+    "nl": "Lamswollen trui",
+    "pt": "Camisola de lã de cordeiro",
+    "ru": "Свитер из шерсти ягнёнка"
+   },
+   "short": {
+    "en": "A soft lambswool sweater with a classic crew neck.",
+    "fr": "Un pull doux en laine d'agneau au col rond classique.",
+    "es": "Un jersey suave de lana de cordero con cuello redondo clásico.",
+    "it": "Un maglione morbido in lana d'agnello con classico girocollo.",
+    "pl": "Miękki sweter z wełny jagnięcej z klasycznym okrągłym dekoltem.",
+    "de": "Ein weicher Pullover aus Lammwolle mit klassischem Rundhals.",
+    "cs": "Měkký svetr z jehněčí vlny s klasickým kulatým výstřihem.",
+    "nl": "Een zachte trui van lamswol met klassieke ronde hals.",
+    "pt": "Uma camisola macia de lã de cordeiro com gola redonda clássica.",
+    "ru": "Мягкий свитер из шерсти ягнёнка с классическим круглым вырезом."
+   },
+   "description": {
+    "en": "Lambswool is soft, warm and light. This crew neck is the everyday sweater that goes with jeans, chinos and every shirt in your wardrobe.",
+    "fr": "La laine d'agneau est douce, chaude et légère. Ce col rond est le pull de tous les jours qui va avec jeans, chinos et toutes vos chemises.",
+    "es": "La lana de cordero es suave, cálida y ligera. Este cuello redondo es el jersey de diario que va con vaqueros, chinos y todas tus camisas.",
+    "it": "La lana d'agnello è morbida, calda e leggera. Questo girocollo è il maglione di tutti i giorni che sta bene con jeans, chino e ogni camicia.",
+    "pl": "Wełna jagnięca jest miękka, ciepła i lekka. Codzienny sweter do dżinsów, chinosów i każdej koszuli.",
+    "de": "Lammwolle ist weich, warm und leicht. Dieser Rundhals ist der Alltagspullover zu Jeans, Chinos und jedem Hemd.",
+    "cs": "Jehněčí vlna je měkká, teplá a lehká. Svetr na každý den k džínům, chino kalhotám i každé košili.",
+    "nl": "Lamswol is zacht, warm en licht. De trui voor elke dag, bij jeans, chino's en elk overhemd.",
+    "pt": "A lã de cordeiro é macia, quente e leve. A camisola do dia a dia que combina com jeans, chinos e todas as camisas.",
+    "ru": "Шерсть ягнёнка мягкая, тёплая и лёгкая. Свитер на каждый день — к джинсам, чиносам и любой рубашке."
+   },
+   "features": {
+    "material": "lambswool",
+    "fit": "regular",
+    "care": "hand",
+    "origin": "scotland",
+    "temp": "0_10",
+    "warmth": "0to10"
+   },
+   "combinations": {
+    "size": [
+     "s",
+     "m",
+     "l",
+     "xl",
+     "xxl"
+    ],
+    "color": [
+     "forest",
+     "grey"
+    ]
+   },
+   "images": [
+    "products/lambswool-crew.jpg"
+   ],
+   "quantity": 30,
+   "discount": 15,
+   "new": false
+  },
+  {
+   "key": "flannel-shirt",
+   "reference": "NL-301",
+   "category": "shirts",
+   "brand": "northline",
+   "price": 69,
+   "name": {
+    "en": "Brushed Flannel Shirt",
+    "fr": "Chemise en flanelle brossée",
+    "es": "Camisa de franela cepillada",
+    "it": "Camicia in flanella spazzolata",
+    "pl": "Drapana koszula flanelowa",
+    "de": "Gebürstetes Flanellhemd",
+    "cs": "Česaná flanelová košile",
+    "nl": "Geruwd flanellen overhemd",
+    "pt": "Camisa de flanela escovada",
+    "ru": "Фланелевая рубашка с начёсом"
+   },
+   "short": {
+    "en": "A brushed cotton flannel shirt in a classic check.",
+    "fr": "Une chemise en flanelle de coton brossée à carreaux classiques.",
+    "es": "Una camisa de franela de algodón cepillada de cuadros clásicos.",
+    "it": "Una camicia in flanella di cotone spazzolata a quadri classici.",
+    "pl": "Drapana koszula z bawełnianej flaneli w klasyczną kratę.",
+    "de": "Ein gebürstetes Baumwollflanellhemd im klassischen Karo.",
+    "cs": "Česaná košile z bavlněného flanelu v klasické kostce.",
+    "nl": "Een geruwd overhemd van katoenflanel in klassieke ruit.",
+    "pt": "Uma camisa de flanela de algodão escovada em xadrez clássico.",
+    "ru": "Рубашка из хлопковой фланели с начёсом в классическую клетку."
+   },
+   "description": {
+    "en": "Brushed on both sides for warmth and softness, with two chest pockets and a curved hem. Wear it buttoned up or open over a tee.",
+    "fr": "Brossée des deux côtés pour plus de chaleur et de douceur, avec deux poches poitrine et un bas arrondi. À porter boutonnée ou ouverte sur un t-shirt.",
+    "es": "Cepillada por ambas caras para más calidez y suavidad, con dos bolsillos en el pecho y bajo redondeado. Abotonada o abierta sobre una camiseta.",
+    "it": "Spazzolata su entrambi i lati per calore e morbidezza, con due taschini e fondo arrotondato. Abbottonata o aperta su una t-shirt.",
+    "pl": "Drapana z obu stron dla ciepła i miękkości, z dwiema kieszeniami i zaokrąglonym dołem. Zapięta lub rozpięta na T-shirt.",
+    "de": "Beidseitig gebürstet für Wärme und Weichheit, mit zwei Brusttaschen und abgerundetem Saum. Geknöpft oder offen über dem T-Shirt.",
+    "cs": "Česaná z obou stran pro teplo a měkkost, se dvěma náprsními kapsami a zaobleným lemem. Zapnutá nebo rozepnutá přes tričko.",
+    "nl": "Aan beide kanten geruwd voor warmte en zachtheid, met twee borstzakken en een ronde zoom. Dicht of open over een T-shirt.",
+    "pt": "Escovada dos dois lados para mais calor e suavidade, com dois bolsos no peito e bainha arredondada. Abotoada ou aberta sobre uma t-shirt.",
+    "ru": "Начёс с обеих сторон для тепла и мягкости, два нагрудных кармана и закруглённый низ. Застёгнутой или нараспашку поверх футболки."
+   },
+   "features": {
+    "material": "flannel",
+    "fit": "regular",
+    "care": "cool",
+    "origin": "portugal",
+    "temp": "5_15",
+    "warmth": "above10"
+   },
+   "combinations": {
+    "size": [
+     "s",
+     "m",
+     "l",
+     "xl",
+     "xxl"
+    ],
+    "color": [
+     "red",
+     "green"
+    ]
+   },
+   "images": [
+    "products/flannel-shirt.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "oxford-shirt",
+   "reference": "NL-302",
+   "category": "shirts",
+   "brand": "harbor-pine",
+   "price": 65,
+   "name": {
+    "en": "Oxford Button-Down Shirt",
+    "fr": "Chemise Oxford col boutonné",
+    "es": "Camisa Oxford button-down",
+    "it": "Camicia Oxford button-down",
+    "pl": "Koszula oxford button-down",
+    "de": "Oxford-Button-down-Hemd",
+    "cs": "Košile oxford button-down",
+    "nl": "Oxford button-down overhemd",
+    "pt": "Camisa Oxford button-down",
+    "ru": "Оксфордская рубашка button-down"
+   },
+   "short": {
+    "en": "A button-down collar shirt in sturdy Oxford cotton.",
+    "fr": "Une chemise à col boutonné en coton Oxford robuste.",
+    "es": "Una camisa de cuello abotonado en resistente algodón Oxford.",
+    "it": "Una camicia con collo button-down in robusto cotone Oxford.",
+    "pl": "Koszula z kołnierzykiem button-down z mocnej bawełny oxford.",
+    "de": "Ein Button-down-Hemd aus robuster Oxford-Baumwolle.",
+    "cs": "Košile s límcem button-down z pevné bavlny oxford.",
+    "nl": "Een overhemd met button-down kraag van stevig oxfordkatoen.",
+    "pt": "Uma camisa de gola abotoada em resistente algodão Oxford.",
+    "ru": "Рубашка с воротником на пуговицах из плотного хлопка оксфорд."
+   },
+   "description": {
+    "en": "Oxford cotton gets softer with every wash. The button-down collar keeps its shape with or without a tie.",
+    "fr": "Le coton Oxford s'adoucit à chaque lavage. Le col boutonné garde sa forme avec ou sans cravate.",
+    "es": "El algodón Oxford se suaviza con cada lavado. El cuello abotonado mantiene su forma con o sin corbata.",
+    "it": "Il cotone Oxford diventa più morbido a ogni lavaggio. Il collo button-down mantiene la forma con o senza cravatta.",
+    "pl": "Bawełna oxford mięknie z każdym praniem. Kołnierzyk button-down trzyma formę z krawatem i bez.",
+    "de": "Oxford-Baumwolle wird mit jeder Wäsche weicher. Der Button-down-Kragen bleibt mit oder ohne Krawatte in Form.",
+    "cs": "Bavlna oxford s každým praním změkne. Límec button-down drží tvar s kravatou i bez ní.",
+    "nl": "Oxfordkatoen wordt bij elke was zachter. De button-down kraag blijft in vorm, met of zonder das.",
+    "pt": "O algodão Oxford fica mais macio a cada lavagem. A gola abotoada mantém a forma com ou sem gravata.",
+    "ru": "Хлопок оксфорд становится мягче с каждой стиркой. Воротник button-down держит форму с галстуком и без."
+   },
+   "features": {
+    "material": "oxford",
+    "fit": "slim",
+    "care": "cool",
+    "origin": "portugal",
+    "temp": "10_25",
+    "warmth": "above10"
+   },
+   "combinations": {
+    "size": [
+     "s",
+     "m",
+     "l",
+     "xl",
+     "xxl"
+    ],
+    "color": [
+     "white",
+     "light-blue"
+    ]
+   },
+   "images": [
+    "products/oxford-shirt.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": true
+  },
+  {
+   "key": "denim-shirt",
+   "reference": "NL-303",
+   "category": "shirts",
+   "brand": "northline",
+   "price": 79,
+   "name": {
+    "en": "Selvedge Denim Shirt",
+    "fr": "Chemise en denim selvedge",
+    "es": "Camisa de denim selvedge",
+    "it": "Camicia in denim selvedge",
+    "pl": "Koszula z denimu selvedge",
+    "de": "Selvedge-Denimhemd",
+    "cs": "Košile z denimu selvedge",
+    "nl": "Selvedge denim overhemd",
+    "pt": "Camisa de ganga selvedge",
+    "ru": "Рубашка из селвидж-денима"
+   },
+   "short": {
+    "en": "A western-style shirt in Japanese selvedge denim.",
+    "fr": "Une chemise d'inspiration western en denim selvedge japonais.",
+    "es": "Una camisa de estilo western en denim selvedge japonés.",
+    "it": "Una camicia in stile western in denim selvedge giapponese.",
+    "pl": "Koszula w stylu western z japońskiego denimu selvedge.",
+    "de": "Ein Westernhemd aus japanischem Selvedge-Denim.",
+    "cs": "Košile ve stylu western z japonského denimu selvedge.",
+    "nl": "Een westernoverhemd van Japans selvedge denim.",
+    "pt": "Uma camisa de estilo western em ganga selvedge japonesa.",
+    "ru": "Рубашка в стиле вестерн из японского селвидж-денима."
+   },
+   "description": {
+    "en": "Woven on vintage shuttle looms, this denim fades beautifully with wear. Snap buttons and pointed yokes give it a quiet western feel.",
+    "fr": "Tissé sur d'anciens métiers à navette, ce denim se patine joliment au fil du temps. Boutons pression et empiècements pointus pour une touche western discrète.",
+    "es": "Tejido en antiguos telares de lanzadera, este denim se desgasta con belleza. Botones de presión y canesús en pico para un toque western discreto.",
+    "it": "Tessuto su antichi telai a navetta, questo denim schiarisce splendidamente con l'uso. Bottoni automatici e carré a punta per un discreto tocco western.",
+    "pl": "Tkany na dawnych krosnach czółenkowych denim pięknie się przeciera. Zatrzaski i spiczaste karczki dają dyskretny western.",
+    "de": "Auf alten Schützenwebstühlen gewebt, verblasst dieser Denim wunderschön. Druckknöpfe und spitze Passen für einen dezenten Western-Look.",
+    "cs": "Denim tkaný na starých člunkových stavech krásně vybledne. Patentky a špičaté sedlo pro decentní western.",
+    "nl": "Geweven op oude schietspoelgetouwen vervaagt dit denim prachtig. Drukknopen en puntige pas voor een subtiele westernlook.",
+    "pt": "Tecida em antigos teares de lançadeira, esta ganga desbota lindamente com o uso. Botões de pressão e pala em bico para um toque western discreto.",
+    "ru": "Сотканный на старинных челночных станках деним красиво вытирается со временем. Кнопки и фигурные кокетки придают сдержанный вестерн-характер."
+   },
+   "features": {
+    "material": "denim-selvedge",
+    "fit": "regular",
+    "care": "machine",
+    "origin": "japan",
+    "temp": "5_20",
+    "warmth": "above10"
+   },
+   "combinations": {
+    "size": [
+     "s",
+     "m",
+     "l",
+     "xl",
+     "xxl"
+    ],
+    "color": [
+     "indigo"
+    ]
+   },
+   "images": [
+    "products/denim-shirt.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "corduroy-overshirt",
+   "reference": "NL-304",
+   "category": "shirts",
+   "brand": "harbor-pine",
+   "price": 89,
+   "name": {
+    "en": "Corduroy Overshirt",
+    "fr": "Surchemise en velours côtelé",
+    "es": "Sobrecamisa de pana",
+    "it": "Sovracamicia in velluto a coste",
+    "pl": "Sztruksowa koszula wierzchnia",
+    "de": "Cord-Overshirt",
+    "cs": "Manšestrová svrchní košile",
+    "nl": "Corduroy overshirt",
+    "pt": "Sobrecamisa de bombazina",
+    "ru": "Вельветовая рубашка-куртка"
+   },
+   "short": {
+    "en": "A relaxed overshirt in soft wide-wale corduroy.",
+    "fr": "Une surchemise ample en velours à grosses côtes.",
+    "es": "Una sobrecamisa holgada en pana ancha y suave.",
+    "it": "Una sovracamicia morbida in velluto a coste larghe.",
+    "pl": "Luźna koszula wierzchnia z miękkiego, szerokiego sztruksu.",
+    "de": "Ein lockeres Overshirt aus weichem Breitcord.",
+    "cs": "Volná svrchní košile z měkkého širokého manšestru.",
+    "nl": "Een ruim overshirt van zacht grof corduroy.",
+    "pt": "Uma sobrecamisa descontraída em bombazina larga e macia.",
+    "ru": "Свободная рубашка-куртка из мягкого широкого вельвета."
+   },
+   "description": {
+    "en": "Wide-wale corduroy brings texture and warmth. A relaxed cut lets you layer it over a tee or a fine knit.",
+    "fr": "Le velours à grosses côtes apporte relief et chaleur. Sa coupe ample se superpose facilement à un t-shirt ou à une maille fine.",
+    "es": "La pana ancha aporta textura y calidez. Su corte holgado se superpone fácilmente a una camiseta o a un punto fino.",
+    "it": "Il velluto a coste larghe porta texture e calore. Il taglio morbido si sovrappone facilmente a una t-shirt o a una maglia sottile.",
+    "pl": "Szeroki sztruks dodaje faktury i ciepła. Luźny krój łatwo założyć na T-shirt lub cienką dzianinę.",
+    "de": "Breitcord bringt Struktur und Wärme. Der lockere Schnitt lässt sich leicht über T-Shirt oder feinen Strick ziehen.",
+    "cs": "Široký manšestr přidává strukturu i teplo. Volný střih snadno vrstvíte přes tričko nebo jemný svetr.",
+    "nl": "Grof corduroy geeft textuur en warmte. De ruime pasvorm draag je makkelijk over een T-shirt of fijne trui.",
+    "pt": "A bombazina larga traz textura e calor. O corte descontraído sobrepõe-se facilmente a uma t-shirt ou malha fina.",
+    "ru": "Широкий вельвет добавляет фактуры и тепла. Свободный крой легко надеть поверх футболки или тонкого свитера."
+   },
+   "features": {
+    "material": "corduroy",
+    "fit": "relaxed",
+    "care": "machine",
+    "origin": "portugal",
+    "temp": "5_15",
+    "warmth": "above10"
+   },
+   "combinations": {
+    "size": [
+     "s",
+     "m",
+     "l",
+     "xl",
+     "xxl"
+    ],
+    "color": [
+     "rust",
+     "olive"
+    ]
+   },
+   "images": [
+    "products/corduroy-overshirt.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": true
+  },
+  {
+   "key": "chino-trousers",
+   "reference": "NL-401",
+   "category": "trousers",
+   "brand": "harbor-pine",
+   "price": 79,
+   "name": {
+    "en": "Slim Chino Trousers",
+    "fr": "Chino coupe ajustée",
+    "es": "Chino slim",
+    "it": "Chino slim",
+    "pl": "Chinosy slim",
+    "de": "Slim-Chino",
+    "cs": "Úzké chino kalhoty",
+    "nl": "Slim-fit chino",
+    "pt": "Calças chino slim",
+    "ru": "Чиносы слим"
+   },
+   "short": {
+    "en": "Slim chinos in cotton twill with a touch of stretch.",
+    "fr": "Un chino ajusté en sergé de coton légèrement stretch.",
+    "es": "Chinos slim en sarga de algodón con un toque elástico.",
+    "it": "Chino slim in twill di cotone con un tocco di elasticità.",
+    "pl": "Wąskie chinosy z bawełnianego diagonalu z domieszką elastanu.",
+    "de": "Schmale Chinos aus Baumwoll-Twill mit etwas Stretch.",
+    "cs": "Úzké chino kalhoty z bavlněného kepru s příměsí elastanu.",
+    "nl": "Slanke chino's van katoenen twill met wat stretch.",
+    "pt": "Chinos slim em sarja de algodão com um toque elástico.",
+    "ru": "Узкие чиносы из хлопкового твила с небольшой эластичностью."
+   },
+   "description": {
+    "en": "A slim leg, a mid rise and a little stretch for comfort. The chinos that work with everything from sneakers to boots.",
+    "fr": "Une jambe ajustée, une taille mi-haute et un peu de stretch pour le confort. Le chino qui va aussi bien avec des baskets qu'avec des bottes.",
+    "es": "Pierna estrecha, tiro medio y algo de elasticidad para mayor comodidad. Los chinos que combinan con zapatillas y con botas.",
+    "it": "Gamba affusolata, vita media e un po' di stretch per il comfort. I chino che vanno bene con sneakers e stivali.",
+    "pl": "Wąska nogawka, średni stan i odrobina elastyczności dla wygody. Chinosy do sneakersów i do butów za kostkę.",
+    "de": "Schmales Bein, mittlere Leibhöhe und etwas Stretch für Komfort. Die Chinos, die zu Sneakern und Boots passen.",
+    "cs": "Úzká nohavice, střední pas a trocha pružnosti pro pohodlí. Chino kalhoty k teniskám i botám.",
+    "nl": "Smalle pijp, middelhoge taille en wat stretch voor comfort. De chino die bij sneakers én boots past.",
+    "pt": "Perna estreita, cintura média e algum elástico para conforto. Os chinos que combinam com sapatilhas e com botas.",
+    "ru": "Узкая штанина, средняя посадка и немного эластана для комфорта. Чиносы, которые подходят и к кедам, и к ботинкам."
+   },
+   "features": {
+    "material": "cotton-twill",
+    "fit": "slim",
+    "care": "machine",
+    "origin": "turkey",
+    "temp": "5_25",
+    "warmth": "above10"
+   },
+   "combinations": {
+    "size": [
+     "30",
+     "32",
+     "34",
+     "36"
+    ],
+    "color": [
+     "khaki",
+     "navy"
+    ]
+   },
+   "images": [
+    "products/chino-trousers.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "selvedge-jeans",
+   "reference": "NL-402",
+   "category": "trousers",
+   "brand": "northline",
+   "price": 119,
+   "name": {
+    "en": "Selvedge Jeans",
+    "fr": "Jean selvedge",
+    "es": "Vaqueros selvedge",
+    "it": "Jeans selvedge",
+    "pl": "Dżinsy selvedge",
+    "de": "Selvedge-Jeans",
+    "cs": "Džíny selvedge",
+    "nl": "Selvedge jeans",
+    "pt": "Jeans selvedge",
+    "ru": "Джинсы из селвидж-денима"
+   },
+   "short": {
+    "en": "Regular-fit jeans in raw Japanese selvedge denim.",
+    "fr": "Un jean coupe droite en denim brut selvedge japonais.",
+    "es": "Vaqueros de corte regular en denim crudo selvedge japonés.",
+    "it": "Jeans regular in denim grezzo selvedge giapponese.",
+    "pl": "Dżinsy regular z surowego japońskiego denimu selvedge.",
+    "de": "Regular-Fit-Jeans aus rohem japanischem Selvedge-Denim.",
+    "cs": "Džíny regular z surového japonského denimu selvedge.",
+    "nl": "Regular-fit jeans van ruw Japans selvedge denim.",
+    "pt": "Jeans de corte regular em ganga crua selvedge japonesa.",
+    "ru": "Джинсы прямого кроя из сырого японского селвидж-денима."
+   },
+   "description": {
+    "en": "Raw selvedge denim that moulds to you and fades in your own way. A regular fit with a slightly tapered leg and copper rivets.",
+    "fr": "Un denim brut selvedge qui épouse votre silhouette et se délave à votre façon. Coupe droite légèrement fuselée et rivets en cuivre.",
+    "es": "Denim crudo selvedge que se adapta a ti y se desgasta a tu manera. Corte regular con pierna ligeramente estrecha y remaches de cobre.",
+    "it": "Denim grezzo selvedge che si modella su di te e schiarisce a modo tuo. Vestibilità regular con gamba leggermente affusolata e rivetti in rame.",
+    "pl": "Surowy denim selvedge dopasowuje się do ciebie i przeciera po twojemu. Krój regular z lekko zwężaną nogawką i miedzianymi nitami.",
+    "de": "Roher Selvedge-Denim, der sich Ihnen anpasst und auf Ihre Art verblasst. Regular Fit mit leicht verjüngtem Bein und Kupfernieten.",
+    "cs": "Surový denim selvedge, který se vám přizpůsobí a vybledne po vašem. Střih regular s mírně zúženou nohavicí a měděnými nýty.",
+    "nl": "Ruw selvedge denim dat zich naar je vormt en op jouw manier vervaagt. Regular fit met licht taps toelopende pijp en koperen klinknagels.",
+    "pt": "Ganga crua selvedge que se molda a si e desbota à sua maneira. Corte regular com perna ligeiramente afunilada e rebites de cobre.",
+    "ru": "Сырой селвидж-деним, который подстраивается под вас и вытирается по-своему. Классическая посадка, слегка зауженная штанина и медные заклёпки."
+   },
+   "features": {
+    "material": "denim-selvedge",
+    "fit": "regular",
+    "care": "machine",
+    "origin": "japan",
+    "temp": "0_20",
+    "warmth": "above10"
+   },
+   "combinations": {
+    "size": [
+     "30",
+     "32",
+     "34",
+     "36"
+    ],
+    "color": [
+     "indigo"
+    ]
+   },
+   "images": [
+    "products/selvedge-jeans.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": true
+  },
+  {
+   "key": "cargo-trousers",
+   "reference": "NL-403",
+   "category": "trousers",
+   "brand": "coldwater",
+   "price": 89,
+   "name": {
+    "en": "Ripstop Cargo Trousers",
+    "fr": "Pantalon cargo en ripstop",
+    "es": "Pantalón cargo de ripstop",
+    "it": "Pantaloni cargo in ripstop",
+    "pl": "Bojówki z ripstopu",
+    "de": "Ripstop-Cargohose",
+    "cs": "Cargo kalhoty z ripstopu",
+    "nl": "Ripstop cargobroek",
+    "pt": "Calças cargo de ripstop",
+    "ru": "Брюки карго из рипстопа"
+   },
+   "short": {
+    "en": "Relaxed cargo trousers in tough cotton ripstop.",
+    "fr": "Un pantalon cargo décontracté en ripstop de coton résistant.",
+    "es": "Pantalón cargo holgado en resistente ripstop de algodón.",
+    "it": "Cargo comodi in robusto ripstop di cotone.",
+    "pl": "Luźne bojówki z wytrzymałego bawełnianego ripstopu.",
+    "de": "Lockere Cargohose aus robustem Baumwoll-Ripstop.",
+    "cs": "Volné cargo kalhoty z odolného bavlněného ripstopu.",
+    "nl": "Ruime cargobroek van stevige katoenen ripstop.",
+    "pt": "Calças cargo descontraídas em resistente ripstop de algodão.",
+    "ru": "Свободные брюки карго из прочного хлопкового рипстопа."
+   },
+   "description": {
+    "en": "Ripstop cotton resists tears, and the six pockets carry everything you need on a long day outside. Drawcord cuffs let you adjust the hem.",
+    "fr": "Le ripstop de coton résiste aux déchirures et les six poches emportent tout ce dont vous avez besoin pour une longue journée dehors. Bas de jambe réglables par cordon.",
+    "es": "El ripstop de algodón resiste los desgarros y los seis bolsillos llevan todo lo necesario para un largo día fuera. Bajos ajustables con cordón.",
+    "it": "Il ripstop di cotone resiste agli strappi e le sei tasche portano tutto ciò che serve per una lunga giornata fuori. Fondo regolabile con coulisse.",
+    "pl": "Bawełniany ripstop jest odporny na rozdarcia, a sześć kieszeni mieści wszystko na długi dzień na zewnątrz. Nogawki regulowane sznurkiem.",
+    "de": "Baumwoll-Ripstop widersteht Rissen, und sechs Taschen tragen alles für einen langen Tag draußen. Saum mit Tunnelzug verstellbar.",
+    "cs": "Bavlněný ripstop odolává roztržení a šest kapes unese vše na dlouhý den venku. Nohavice se stahují šňůrkou.",
+    "nl": "Katoenen ripstop is scheurbestendig en de zes zakken dragen alles voor een lange dag buiten. Pijpen verstelbaar met trekkoord.",
+    "pt": "O ripstop de algodão resiste a rasgões e os seis bolsos levam tudo o que precisa para um longo dia fora. Bainhas ajustáveis com cordão.",
+    "ru": "Хлопковый рипстоп устойчив к разрывам, а шесть карманов вместят всё для долгого дня на улице. Низ регулируется шнурком."
+   },
+   "features": {
+    "material": "ripstop",
+    "fit": "relaxed",
+    "care": "machine",
+    "origin": "portugal",
+    "temp": "0_20",
+    "warmth": "above10"
+   },
+   "combinations": {
+    "size": [
+     "30",
+     "32",
+     "34",
+     "36"
+    ],
+    "color": [
+     "olive",
+     "black"
+    ]
+   },
+   "images": [
+    "products/cargo-trousers.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "wool-trousers",
+   "reference": "NL-404",
+   "category": "trousers",
+   "brand": "fjellmark",
+   "price": 109,
+   "name": {
+    "en": "Wool Pleated Trousers",
+    "fr": "Pantalon à pinces en laine",
+    "es": "Pantalón de pinzas de lana",
+    "it": "Pantaloni con pince in lana",
+    "pl": "Wełniane spodnie z zakładkami",
+    "de": "Bundfaltenhose aus Wolle",
+    "cs": "Vlněné kalhoty se záhyby",
+    "nl": "Wollen pantalon met plooien",
+    "pt": "Calças de pinças em lã",
+    "ru": "Шерстяные брюки со складками"
+   },
+   "short": {
+    "en": "Pleated trousers in a soft wool blend.",
+    "fr": "Un pantalon à pinces en laine mélangée douce.",
+    "es": "Pantalón de pinzas en suave mezcla de lana.",
+    "it": "Pantaloni con pince in morbido misto lana.",
+    "pl": "Spodnie z zakładkami z miękkiej mieszanki wełny.",
+    "de": "Bundfaltenhose aus weicher Wollmischung.",
+    "cs": "Kalhoty se záhyby z měkké směsi vlny.",
+    "nl": "Pantalon met bandplooien van zachte wolmix.",
+    "pt": "Calças com pinças em mistura de lã macia.",
+    "ru": "Брюки со складками из мягкой шерстяной смеси."
+   },
+   "description": {
+    "en": "Single front pleats and a straight leg give these wool trousers an easy elegance. Dress them up with a blazer or down with a sweater.",
+    "fr": "Une pince simple et une jambe droite donnent à ce pantalon en laine une élégance naturelle. Avec un blazer pour sortir ou un pull pour le week-end.",
+    "es": "Una pinza simple y pierna recta dan a este pantalón de lana una elegancia natural. Con blazer para salir o con jersey para el fin de semana.",
+    "it": "Una pince singola e gamba dritta danno a questi pantaloni un'eleganza naturale. Con blazer per uscire o con un maglione nel weekend.",
+    "pl": "Pojedyncze zakładki i prosta nogawka dają tym spodniom swobodną elegancję. Z marynarką na wyjście albo ze swetrem na weekend.",
+    "de": "Eine Bundfalte und ein gerades Bein geben dieser Wollhose eine lässige Eleganz. Mit Sakko für den Abend oder mit Pullover am Wochenende.",
+    "cs": "Jednoduchý záhyb a rovná nohavice dávají vlněným kalhotám přirozenou eleganci. Se sakem do společnosti, se svetrem na víkend.",
+    "nl": "Eén bandplooi en een rechte pijp geven deze wollen broek ongedwongen elegantie. Met colbert voor uit of met trui in het weekend.",
+    "pt": "Uma pinça simples e perna reta dão a estas calças de lã uma elegância natural. Com blazer para sair ou com camisola ao fim de semana.",
+    "ru": "Одинарные складки и прямая штанина придают шерстяным брюкам непринуждённую элегантность. С пиджаком на выход или со свитером на выходные."
+   },
+   "features": {
+    "material": "wool-blend",
+    "fit": "regular",
+    "care": "dry",
+    "origin": "italy",
+    "temp": "m5_10",
+    "warmth": "0to10"
+   },
+   "combinations": {
+    "size": [
+     "30",
+     "32",
+     "34",
+     "36"
+    ],
+    "color": [
+     "grey"
+    ]
+   },
+   "images": [
+    "products/wool-trousers.jpg"
+   ],
+   "quantity": 30,
+   "discount": 20,
+   "new": false
+  },
+  {
+   "key": "heavyweight-tee",
+   "reference": "NL-501",
+   "category": "tees",
+   "brand": "northline",
+   "price": 35,
+   "name": {
+    "en": "Heavyweight T-shirt",
+    "fr": "T-shirt épais",
+    "es": "Camiseta gruesa",
+    "it": "T-shirt pesante",
+    "pl": "Gruby T-shirt",
+    "de": "Schweres T-Shirt",
+    "cs": "Silné tričko",
+    "nl": "Zwaar T-shirt",
+    "pt": "T-shirt grossa",
+    "ru": "Плотная футболка"
+   },
+   "short": {
+    "en": "A thick organic cotton tee that keeps its shape.",
+    "fr": "Un t-shirt épais en coton biologique qui garde sa forme.",
+    "es": "Una camiseta gruesa de algodón orgánico que mantiene la forma.",
+    "it": "Una t-shirt spessa in cotone biologico che mantiene la forma.",
+    "pl": "Gruby T-shirt z bawełny organicznej, który trzyma formę.",
+    "de": "Ein dickes T-Shirt aus Bio-Baumwolle, das in Form bleibt.",
+    "cs": "Silné tričko z biobavlny, které drží tvar.",
+    "nl": "Een dik T-shirt van biologisch katoen dat in vorm blijft.",
+    "pt": "Uma t-shirt grossa em algodão biológico que mantém a forma.",
+    "ru": "Плотная футболка из органического хлопка, которая держит форму."
+   },
+   "description": {
+    "en": "A 240 g organic cotton jersey that feels solid and stays in shape wash after wash. A relaxed crew neck and a straight hem.",
+    "fr": "Un jersey de coton biologique de 240 g qui a de la tenue et garde sa forme lavage après lavage. Col rond décontracté et bas droit.",
+    "es": "Un punto de algodón orgánico de 240 g con cuerpo que mantiene la forma lavado tras lavado. Cuello redondo relajado y bajo recto.",
+    "it": "Un jersey di cotone biologico da 240 g che ha corpo e resta in forma lavaggio dopo lavaggio. Girocollo morbido e fondo dritto.",
+    "pl": "Dzianina z bawełny organicznej 240 g, która ma solidny chwyt i nie traci formy po praniu. Luźny okrągły dekolt i prosty dół.",
+    "de": "Ein 240-g-Jersey aus Bio-Baumwolle, der Substanz hat und Wäsche für Wäsche in Form bleibt. Lockerer Rundhals und gerader Saum.",
+    "cs": "Úplet z biobavlny 240 g, který má pevný omak a drží tvar praní co praní. Uvolněný kulatý výstřih a rovný lem.",
+    "nl": "Een jersey van 240 g biologisch katoen met stevige grip, die was na was in vorm blijft. Losse ronde hals en rechte zoom.",
+    "pt": "Uma malha de algodão biológico de 240 g com corpo, que mantém a forma lavagem após lavagem. Gola redonda descontraída e bainha reta.",
+    "ru": "Трикотаж из органического хлопка плотностью 240 г, который ощущается основательно и не теряет форму после стирок. Свободный круглый вырез и прямой низ."
+   },
+   "features": {
+    "material": "organic-cotton",
+    "fit": "regular",
+    "care": "machine",
+    "origin": "portugal",
+    "temp": "15_25",
+    "warmth": "above10"
+   },
+   "combinations": {
+    "size": [
+     "s",
+     "m",
+     "l",
+     "xl",
+     "xxl"
+    ],
+    "color": [
+     "white",
+     "black",
+     "olive"
+    ]
+   },
+   "images": [
+    "products/heavyweight-tee.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "pique-polo",
+   "reference": "NL-502",
+   "category": "tees",
+   "brand": "harbor-pine",
+   "price": 49,
+   "name": {
+    "en": "Piqué Polo Shirt",
+    "fr": "Polo en piqué",
+    "es": "Polo de piqué",
+    "it": "Polo in piquet",
+    "pl": "Koszulka polo z piki",
+    "de": "Piqué-Poloshirt",
+    "cs": "Pólo z piké",
+    "nl": "Piqué polo",
+    "pt": "Polo em piqué",
+    "ru": "Поло из пике"
+   },
+   "short": {
+    "en": "A classic polo shirt in breathable cotton piqué.",
+    "fr": "Un polo classique en piqué de coton respirant.",
+    "es": "Un polo clásico en transpirable piqué de algodón.",
+    "it": "Una polo classica in traspirante piquet di cotone.",
+    "pl": "Klasyczna koszulka polo z przewiewnej bawełnianej piki.",
+    "de": "Ein klassisches Poloshirt aus atmungsaktivem Baumwoll-Piqué.",
+    "cs": "Klasická pólokošile z prodyšného bavlněného piké.",
+    "nl": "Een klassieke polo van ademend katoenen piqué.",
+    "pt": "Um polo clássico em piqué de algodão respirável.",
+    "ru": "Классическое поло из дышащего хлопкового пике."
+   },
+   "description": {
+    "en": "Breathable cotton piqué, a ribbed collar and a two-button placket. The polo for warm days and casual Fridays.",
+    "fr": "Du piqué de coton respirant, un col côtelé et une patte à deux boutons. Le polo des beaux jours et des vendredis décontractés.",
+    "es": "Piqué de algodón transpirable, cuello de canalé y tapeta de dos botones. El polo para días cálidos y viernes informales.",
+    "it": "Piquet di cotone traspirante, collo a coste e abbottonatura a due bottoni. La polo per le giornate calde e i venerdì informali.",
+    "pl": "Przewiewna bawełniana pika, prążkowany kołnierzyk i plisa na dwa guziki. Polo na ciepłe dni i luźne piątki.",
+    "de": "Atmungsaktives Baumwoll-Piqué, gerippter Kragen und Zwei-Knopf-Leiste. Das Polo für warme Tage und lockere Freitage.",
+    "cs": "Prodyšné bavlněné piké, žebrovaný límec a légě na dva knoflíky. Pólo na teplé dny a volné pátky.",
+    "nl": "Ademend katoenen piqué, geribde kraag en een knoopsluiting met twee knopen. De polo voor warme dagen en casual vrijdagen.",
+    "pt": "Piqué de algodão respirável, gola canelada e carcela de dois botões. O polo para dias quentes e sextas-feiras descontraídas.",
+    "ru": "Дышащее хлопковое пике, воротник в рубчик и планка на две пуговицы. Поло для тёплых дней и неформальных пятниц."
+   },
+   "features": {
+    "material": "pique",
+    "fit": "regular",
+    "care": "machine",
+    "origin": "portugal",
+    "temp": "15_30",
+    "warmth": "above10"
+   },
+   "combinations": {
+    "size": [
+     "s",
+     "m",
+     "l",
+     "xl",
+     "xxl"
+    ],
+    "color": [
+     "navy",
+     "white"
+    ]
+   },
+   "images": [
+    "products/pique-polo.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "henley-long-sleeve",
+   "reference": "NL-503",
+   "category": "tees",
+   "brand": "northline",
+   "price": 45,
+   "name": {
+    "en": "Long-Sleeve Henley",
+    "fr": "Henley manches longues",
+    "es": "Henley de manga larga",
+    "it": "Henley a maniche lunghe",
+    "pl": "Henley z długim rękawem",
+    "de": "Langarm-Henley",
+    "cs": "Henley s dlouhým rukávem",
+    "nl": "Henley met lange mouw",
+    "pt": "Henley de manga comprida",
+    "ru": "Хенли с длинным рукавом"
+   },
+   "short": {
+    "en": "A long-sleeve henley in soft organic cotton.",
+    "fr": "Un henley manches longues en coton biologique doux.",
+    "es": "Un henley de manga larga en suave algodón orgánico.",
+    "it": "Un henley a maniche lunghe in morbido cotone biologico.",
+    "pl": "Henley z długim rękawem z miękkiej bawełny organicznej.",
+    "de": "Ein Langarm-Henley aus weicher Bio-Baumwolle.",
+    "cs": "Henley s dlouhým rukávem z měkké biobavlny.",
+    "nl": "Een henley met lange mouw van zacht biologisch katoen.",
+    "pt": "Um henley de manga comprida em algodão biológico macio.",
+    "ru": "Хенли с длинным рукавом из мягкого органического хлопка."
+   },
+   "description": {
+    "en": "A three-button placket and a slim fit make this henley a smarter alternative to a tee. Layer it under shirts and jackets.",
+    "fr": "Une patte à trois boutons et une coupe ajustée font de ce henley une alternative plus habillée au t-shirt. À porter sous chemises et vestes.",
+    "es": "Tapeta de tres botones y corte ajustado: una alternativa más arreglada a la camiseta. Para llevar bajo camisas y chaquetas.",
+    "it": "Abbottonatura a tre bottoni e taglio slim: un'alternativa più curata alla t-shirt. Da portare sotto camicie e giacche.",
+    "pl": "Plisa na trzy guziki i dopasowany krój – elegantsza alternatywa dla T-shirtu. Do noszenia pod koszule i kurtki.",
+    "de": "Drei-Knopf-Leiste und schmaler Schnitt machen dieses Henley zur schickeren Alternative zum T-Shirt. Unter Hemden und Jacken tragen.",
+    "cs": "Légě na tři knoflíky a užší střih – elegantnější alternativa trička. Pod košile i bundy.",
+    "nl": "Een knoopsluiting met drie knopen en een slanke pasvorm: een nettere variant van het T-shirt. Onder overhemden en jassen.",
+    "pt": "Carcela de três botões e corte justo: uma alternativa mais cuidada à t-shirt. Para usar por baixo de camisas e casacos.",
+    "ru": "Планка на три пуговицы и приталенный крой — более аккуратная альтернатива футболке. Под рубашки и куртки."
+   },
+   "features": {
+    "material": "organic-cotton",
+    "fit": "slim",
+    "care": "machine",
+    "origin": "portugal",
+    "temp": "10_20",
+    "warmth": "above10"
+   },
+   "combinations": {
+    "size": [
+     "s",
+     "m",
+     "l",
+     "xl",
+     "xxl"
+    ],
+    "color": [
+     "oat",
+     "charcoal"
+    ]
+   },
+   "images": [
+    "products/henley-long-sleeve.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": true
+  },
+  {
+   "key": "pocket-tee",
+   "reference": "NL-504",
+   "category": "tees",
+   "brand": "coldwater",
+   "price": 32,
+   "name": {
+    "en": "Pocket T-shirt",
+    "fr": "T-shirt à poche",
+    "es": "Camiseta con bolsillo",
+    "it": "T-shirt con taschino",
+    "pl": "T-shirt z kieszonką",
+    "de": "T-Shirt mit Brusttasche",
+    "cs": "Tričko s kapsičkou",
+    "nl": "T-shirt met borstzak",
+    "pt": "T-shirt com bolso",
+    "ru": "Футболка с карманом"
+   },
+   "short": {
+    "en": "A relaxed organic cotton tee with a chest pocket.",
+    "fr": "Un t-shirt ample en coton biologique avec poche poitrine.",
+    "es": "Una camiseta holgada de algodón orgánico con bolsillo en el pecho.",
+    "it": "Una t-shirt morbida in cotone biologico con taschino.",
+    "pl": "Luźny T-shirt z bawełny organicznej z kieszonką.",
+    "de": "Ein lockeres T-Shirt aus Bio-Baumwolle mit Brusttasche.",
+    "cs": "Volné tričko z biobavlny s náprsní kapsičkou.",
+    "nl": "Een ruim T-shirt van biologisch katoen met borstzak.",
+    "pt": "Uma t-shirt descontraída em algodão biológico com bolso no peito.",
+    "ru": "Свободная футболка из органического хлопка с нагрудным карманом."
+   },
+   "description": {
+    "en": "A relaxed fit, a chest pocket and a soft organic cotton jersey. Simple and easy for every day.",
+    "fr": "Une coupe ample, une poche poitrine et un jersey de coton biologique doux. Simple et facile au quotidien.",
+    "es": "Corte holgado, bolsillo en el pecho y un suave punto de algodón orgánico. Sencilla y cómoda para el día a día.",
+    "it": "Vestibilità comoda, taschino sul petto e morbido jersey di cotone biologico. Semplice e facile per tutti i giorni.",
+    "pl": "Luźny krój, kieszonka na piersi i miękka dzianina z bawełny organicznej. Prosto i wygodnie na co dzień.",
+    "de": "Lockere Passform, Brusttasche und weicher Bio-Baumwolljersey. Einfach und unkompliziert für jeden Tag.",
+    "cs": "Volný střih, náprsní kapsička a měkký úplet z biobavlny. Jednoduché a pohodlné na každý den.",
+    "nl": "Ruime pasvorm, borstzak en zachte jersey van biologisch katoen. Simpel en makkelijk voor elke dag.",
+    "pt": "Corte descontraído, bolso no peito e uma malha macia de algodão biológico. Simples e fácil para todos os dias.",
+    "ru": "Свободный крой, нагрудный карман и мягкий трикотаж из органического хлопка. Просто и удобно на каждый день."
+   },
+   "features": {
+    "material": "organic-cotton",
+    "fit": "relaxed",
+    "care": "machine",
+    "origin": "portugal",
+    "temp": "15_25",
+    "warmth": "above10"
+   },
+   "combinations": {
+    "size": [
+     "s",
+     "m",
+     "l",
+     "xl",
+     "xxl"
+    ],
+    "color": [
+     "grey",
+     "navy"
+    ]
+   },
+   "images": [
+    "products/pocket-tee.jpg"
+   ],
+   "quantity": 30,
+   "discount": 25,
+   "new": false
+  },
+  {
+   "key": "rib-beanie",
+   "reference": "NL-601",
+   "category": "accessories",
+   "brand": "fjellmark",
+   "price": 29,
+   "name": {
+    "en": "Merino Rib Beanie",
+    "fr": "Bonnet côtelé en mérinos",
+    "es": "Gorro de canalé de merino",
+    "it": "Berretto a coste in merino",
+    "pl": "Prążkowana czapka merino",
+    "de": "Merino-Rippmütze",
+    "cs": "Žebrovaná merino čepice",
+    "nl": "Geribde merino muts",
+    "pt": "Gorro canelado de merino",
+    "ru": "Шапка из мериноса в рубчик"
+   },
+   "short": {
+    "en": "A warm rib-knit beanie in merino wool.",
+    "fr": "Un bonnet chaud en maille côtelée de laine mérinos.",
+    "es": "Un gorro cálido de punto canalé en lana merino.",
+    "it": "Un berretto caldo a coste in lana merino.",
+    "pl": "Ciepła czapka z prążkowanej wełny merino.",
+    "de": "Eine warme Rippstrickmütze aus Merinowolle.",
+    "cs": "Teplá žebrovaná čepice z merino vlny.",
+    "nl": "Een warme geribde muts van merinowol.",
+    "pt": "Um gorro quente de malha canelada em lã merino.",
+    "ru": "Тёплая шапка в рубчик из шерсти мериноса."
+   },
+   "description": {
+    "en": "Merino wool keeps your head warm without itching. The deep turn-up lets you adjust the fit.",
+    "fr": "La laine mérinos garde la tête au chaud sans gratter. Le large revers permet d'ajuster la taille.",
+    "es": "La lana merino mantiene la cabeza caliente sin picar. La vuelta ancha permite ajustar la talla.",
+    "it": "La lana merino tiene caldo senza pizzicare. L'ampio risvolto permette di regolare la misura.",
+    "pl": "Wełna merino grzeje głowę i nie gryzie. Szeroki wywinięty brzeg pozwala dopasować rozmiar.",
+    "de": "Merinowolle hält den Kopf warm, ohne zu kratzen. Der breite Umschlag passt die Weite an.",
+    "cs": "Merino vlna hřeje a nekouše. Široká manžeta umožňuje upravit velikost.",
+    "nl": "Merinowol houdt je hoofd warm zonder te kriebelen. De brede omslag maakt de maat verstelbaar.",
+    "pt": "A lã merino mantém a cabeça quente sem picar. A dobra larga permite ajustar o tamanho.",
+    "ru": "Шерсть мериноса греет и не колется. Широкий отворот позволяет подогнать размер."
+   },
+   "features": {
+    "material": "merino-wool",
+    "care": "hand",
+    "origin": "scotland",
+    "temp": "m10_5",
+    "warmth": "below0"
+   },
+   "combinations": {
+    "color": [
+     "olive",
+     "black",
+     "rust"
+    ]
+   },
+   "images": [
+    "products/rib-beanie.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "leather-belt-men",
+   "reference": "NL-602",
+   "category": "accessories",
+   "brand": "northline",
+   "price": 49,
+   "name": {
+    "en": "Leather Belt",
+    "fr": "Ceinture en cuir",
+    "es": "Cinturón de piel",
+    "it": "Cintura in pelle",
+    "pl": "Skórzany pasek",
+    "de": "Ledergürtel",
+    "cs": "Kožený pásek",
+    "nl": "Leren riem",
+    "pt": "Cinto de pele",
+    "ru": "Кожаный ремень"
+   },
+   "short": {
+    "en": "A 35 mm full-grain leather belt with a steel buckle.",
+    "fr": "Une ceinture de 35 mm en cuir pleine fleur, boucle en acier.",
+    "es": "Un cinturón de 35 mm en piel plena flor con hebilla de acero.",
+    "it": "Una cintura da 35 mm in pelle pieno fiore con fibbia in acciaio.",
+    "pl": "Pasek 35 mm ze skóry licowej ze stalową klamrą.",
+    "de": "Ein 35-mm-Gürtel aus Vollnarbenleder mit Stahlschließe.",
+    "cs": "Pásek 35 mm z lícové kůže s ocelovou přezkou.",
+    "nl": "Een riem van 35 mm volnerf leer met stalen gesp.",
+    "pt": "Um cinto de 35 mm em pele flor integral com fivela de aço.",
+    "ru": "Ремень 35 мм из натуральной кожи со стальной пряжкой."
+   },
+   "description": {
+    "en": "Cut from a single strip of full-grain leather with a solid steel buckle. It darkens and softens beautifully with age.",
+    "fr": "Taillée d'une seule bande de cuir pleine fleur avec une boucle en acier massif. Elle fonce et s'assouplit joliment avec le temps.",
+    "es": "Cortado de una sola tira de piel plena flor con hebilla de acero macizo. Se oscurece y se suaviza con el tiempo.",
+    "it": "Ricavata da un'unica striscia di pelle pieno fiore con fibbia in acciaio massiccio. Con il tempo si scurisce e si ammorbidisce.",
+    "pl": "Wycięty z jednego pasa skóry licowej z masywną stalową klamrą. Z czasem pięknie ciemnieje i mięknie.",
+    "de": "Aus einem einzigen Streifen Vollnarbenleder mit massiver Stahlschließe. Er dunkelt nach und wird mit der Zeit geschmeidig.",
+    "cs": "Vyříznutý z jediného pruhu lícové kůže s masivní ocelovou přezkou. Časem krásně ztmavne a změkne.",
+    "nl": "Gesneden uit één strook volnerf leer met een massief stalen gesp. Wordt met de jaren donkerder en soepeler.",
+    "pt": "Cortado de uma única tira de pele flor integral com fivela de aço maciço. Escurece e amacia com o tempo.",
+    "ru": "Вырезан из цельной полосы натуральной кожи с массивной стальной пряжкой. Со временем красиво темнеет и становится мягче."
+   },
+   "features": {
+    "material": "leather-full",
+    "care": "wipe",
+    "origin": "spain"
+   },
+   "combinations": {
+    "size": [
+     "s",
+     "m",
+     "l"
+    ],
+    "color": [
+     "brown",
+     "black"
+    ]
+   },
+   "images": [
+    "products/leather-belt-men.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  },
+  {
+   "key": "canvas-backpack",
+   "reference": "NL-603",
+   "category": "accessories",
+   "brand": "coldwater",
+   "price": 129,
+   "name": {
+    "en": "Waxed Canvas Backpack",
+    "fr": "Sac à dos en toile cirée",
+    "es": "Mochila de lona encerada",
+    "it": "Zaino in tela cerata",
+    "pl": "Plecak z woskowanego płótna",
+    "de": "Rucksack aus gewachstem Canvas",
+    "cs": "Batoh z voskovaného plátna",
+    "nl": "Rugzak van gewaxt canvas",
+    "pt": "Mochila de lona encerada",
+    "ru": "Рюкзак из вощёного канваса"
+   },
+   "short": {
+    "en": "A roll-top backpack in waxed canvas with leather straps.",
+    "fr": "Un sac à dos à rabat enroulable en toile cirée, sangles en cuir.",
+    "es": "Una mochila enrollable de lona encerada con correas de piel.",
+    "it": "Uno zaino roll-top in tela cerata con cinghie in pelle.",
+    "pl": "Plecak rolltop z woskowanego płótna ze skórzanymi paskami.",
+    "de": "Ein Rolltop-Rucksack aus gewachstem Canvas mit Lederriemen.",
+    "cs": "Batoh rolltop z voskovaného plátna s koženými popruhy.",
+    "nl": "Een rolltop-rugzak van gewaxt canvas met leren riemen.",
+    "pt": "Uma mochila rolltop em lona encerada com alças de pele.",
+    "ru": "Рюкзак роллтоп из вощёного канваса с кожаными ремешками."
+   },
+   "description": {
+    "en": "Waxed canvas keeps the rain out, and the roll-top expands for longer trips. A padded laptop sleeve fits up to 15 inches.",
+    "fr": "La toile cirée protège de la pluie et le rabat enroulable s'agrandit pour les longs trajets. Une pochette rembourrée accueille un ordinateur jusqu'à 15 pouces.",
+    "es": "La lona encerada frena la lluvia y el cierre enrollable crece para los viajes largos. Funda acolchada para portátiles de hasta 15 pulgadas.",
+    "it": "La tela cerata tiene fuori la pioggia e la chiusura roll-top si allarga per i viaggi lunghi. Tasca imbottita per laptop fino a 15 pollici.",
+    "pl": "Woskowane płótno chroni przed deszczem, a zamknięcie rolltop powiększa się na dłuższe wyjazdy. Wyściełana kieszeń na laptop do 15 cali.",
+    "de": "Gewachstes Canvas hält Regen ab, und das Rolltop wächst für längere Touren mit. Ein gepolstertes Fach passt für Laptops bis 15 Zoll.",
+    "cs": "Voskované plátno nepropustí déšť a rolltop se na delší cesty zvětší. Polstrovaná kapsa pro notebook do 15 palců.",
+    "nl": "Gewaxt canvas houdt regen buiten en de rolltop groeit mee voor langere trips. Gevoerd vak voor laptops tot 15 inch.",
+    "pt": "A lona encerada trava a chuva e o fecho rolltop cresce para viagens mais longas. Bolsa almofadada para portátil até 15 polegadas.",
+    "ru": "Вощёный канвас не пропускает дождь, а роллтоп увеличивает объём для долгих поездок. Мягкое отделение для ноутбука до 15 дюймов."
+   },
+   "features": {
+    "material": "waxed",
+    "care": "wax",
+    "origin": "portugal"
+   },
+   "combinations": {
+    "color": [
+     "khaki",
+     "black"
+    ]
+   },
+   "images": [
+    "products/canvas-backpack.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": true
+  },
+  {
+   "key": "wool-scarf",
+   "reference": "NL-604",
+   "category": "accessories",
+   "brand": "fjellmark",
+   "price": 45,
+   "name": {
+    "en": "Lambswool Scarf",
+    "fr": "Écharpe en laine d'agneau",
+    "es": "Bufanda de lana de cordero",
+    "it": "Sciarpa in lana d'agnello",
+    "pl": "Szal z wełny jagnięcej",
+    "de": "Lammwollschal",
+    "cs": "Šála z jehněčí vlny",
+    "nl": "Lamswollen sjaal",
+    "pt": "Cachecol de lã de cordeiro",
+    "ru": "Шарф из шерсти ягнёнка"
+   },
+   "short": {
+    "en": "A soft woven scarf in lambswool.",
+    "fr": "Une écharpe tissée douce en laine d'agneau.",
+    "es": "Una bufanda tejida y suave de lana de cordero.",
+    "it": "Una sciarpa tessuta morbida in lana d'agnello.",
+    "pl": "Miękki tkany szal z wełny jagnięcej.",
+    "de": "Ein weicher gewebter Schal aus Lammwolle.",
+    "cs": "Měkká tkaná šála z jehněčí vlny.",
+    "nl": "Een zachte geweven sjaal van lamswol.",
+    "pt": "Um cachecol tecido e macio em lã de cordeiro.",
+    "ru": "Мягкий тканый шарф из шерсти ягнёнка."
+   },
+   "description": {
+    "en": "Woven from soft lambswool with fringed ends. Long enough to wrap twice on the coldest days.",
+    "fr": "Tissée en laine d'agneau douce avec des extrémités frangées. Assez longue pour faire deux tours les jours les plus froids.",
+    "es": "Tejida en suave lana de cordero con flecos en los extremos. Lo bastante larga para dar dos vueltas en los días más fríos.",
+    "it": "Tessuta in morbida lana d'agnello con frange alle estremità. Abbastanza lunga da fare due giri nei giorni più freddi.",
+    "pl": "Utkany z miękkiej wełny jagnięcej z frędzlami na końcach. Wystarczająco długi, by owinąć go dwa razy w największe mrozy.",
+    "de": "Aus weicher Lammwolle gewebt, mit Fransen an den Enden. Lang genug, um ihn an den kältesten Tagen zweimal zu wickeln.",
+    "cs": "Utkaná z měkké jehněčí vlny s třásněmi na koncích. Dost dlouhá, abyste ji v největších mrazech omotali dvakrát.",
+    "nl": "Geweven van zachte lamswol met franjes aan de uiteinden. Lang genoeg om op de koudste dagen twee keer om te slaan.",
+    "pt": "Tecido em lã de cordeiro macia com franjas nas pontas. Comprido o suficiente para dar duas voltas nos dias mais frios.",
+    "ru": "Соткан из мягкой шерсти ягнёнка, с бахромой на концах. Достаточно длинный, чтобы обернуть дважды в самые холодные дни."
+   },
+   "features": {
+    "material": "lambswool",
+    "care": "hand",
+    "origin": "scotland",
+    "temp": "m10_5",
+    "warmth": "below0"
+   },
+   "combinations": {
+    "color": [
+     "grey",
+     "navy"
+    ]
+   },
+   "images": [
+    "products/wool-scarf.jpg"
+   ],
+   "quantity": 30,
+   "discount": 0,
+   "new": false
+  }
+ ],
+ "cms": [
+  {
+   "key": "about",
+   "title": {
+    "en": "About us",
+    "fr": "À propos",
+    "es": "Quiénes somos",
+    "it": "Chi siamo",
+    "pl": "O nas",
+    "de": "Über uns",
+    "cs": "O nás",
+    "nl": "Over ons",
+    "pt": "Sobre nós",
+    "ru": "О нас"
+   },
+   "meta_description": {
+    "en": "Northline Outfitters makes durable menswear for city and outdoor life, built to be worn and repaired for years.",
+    "fr": "Northline Outfitters crée des vêtements masculins durables pour la ville et le plein air, faits pour être portés et réparés pendant des années.",
+    "es": "Northline Outfitters crea ropa masculina duradera para la ciudad y el exterior, hecha para llevarse y repararse durante años.",
+    "it": "Northline Outfitters crea abbigliamento uomo resistente per città e outdoor, fatto per essere indossato e riparato per anni.",
+    "pl": "Northline Outfitters tworzy trwałą odzież męską do miasta i na zewnątrz, do noszenia i naprawiania przez lata.",
+    "de": "Northline Outfitters fertigt langlebige Herrenmode für Stadt und Natur – gemacht, um jahrelang getragen und repariert zu werden.",
+    "cs": "Northline Outfitters vyrábí odolné pánské oblečení do města i přírody, které se nosí a opravuje roky.",
+    "nl": "Northline Outfitters maakt duurzame herenkleding voor stad en natuur, gemaakt om jarenlang te dragen en te repareren.",
+    "pt": "A Northline Outfitters cria roupa masculina duradoura para a cidade e o exterior, feita para usar e reparar durante anos.",
+    "ru": "Northline Outfitters делает прочную мужскую одежду для города и природы — чтобы носить и ремонтировать годами."
+   },
+   "content": {
+    "en": "<h2>Built for the north</h2><p>Northline Outfitters started in a small Stockholm workshop with one idea: clothes for real weather, made to last and easy to repair. We test every piece outdoors before it reaches the shop.</p><h3>Repairs for life</h3><p>Broken zip, torn pocket, worn cuff? Send your Northline jacket back and we repair it free of charge, for as long as you own it.</p><h3>Better materials</h3><p>Waxed cotton, recycled down, wool and organic cotton, chosen for how long they last rather than how cheap they are.</p><p><em>This is demo content for the Northline Outfitters theme.</em></p>",
+    "fr": "<h2>Faits pour le grand nord</h2><p>Northline Outfitters est né dans un petit atelier de Stockholm avec une idée : des vêtements pour la vraie météo, faits pour durer et faciles à réparer. Chaque pièce est testée en extérieur avant d'arriver en boutique.</p><h3>Réparations à vie</h3><p>Zip cassé, poche déchirée, poignet usé ? Renvoyez votre veste Northline et nous la réparons gratuitement, aussi longtemps que vous la possédez.</p><h3>De meilleures matières</h3><p>Coton ciré, duvet recyclé, laine et coton biologique, choisis pour leur durée de vie plutôt que pour leur prix.</p><p><em>Ceci est un contenu de démonstration du thème Northline Outfitters.</em></p>",
+    "es": "<h2>Hecho para el norte</h2><p>Northline Outfitters nació en un pequeño taller de Estocolmo con una idea: ropa para el tiempo real, hecha para durar y fácil de reparar. Probamos cada prenda al aire libre antes de que llegue a la tienda.</p><h3>Reparaciones de por vida</h3><p>¿Cremallera rota, bolsillo roto, puño gastado? Envíanos tu chaqueta Northline y la reparamos gratis mientras la tengas.</p><h3>Mejores materiales</h3><p>Algodón encerado, plumón reciclado, lana y algodón orgánico, elegidos por lo que duran y no por lo baratos que son.</p><p><em>Este es contenido de demostración del tema Northline Outfitters.</em></p>",
+    "it": "<h2>Fatti per il nord</h2><p>Northline Outfitters è nato in un piccolo laboratorio di Stoccolma con un'idea: vestiti per il tempo vero, fatti per durare e facili da riparare. Testiamo ogni capo all'aperto prima che arrivi in negozio.</p><h3>Riparazioni a vita</h3><p>Zip rotta, tasca strappata, polsino consumato? Rimandaci la tua giacca Northline e la ripariamo gratis, per tutto il tempo che la possiedi.</p><h3>Materiali migliori</h3><p>Cotone cerato, piuma riciclata, lana e cotone biologico, scelti per quanto durano e non per quanto costano poco.</p><p><em>Questo è un contenuto dimostrativo del tema Northline Outfitters.</em></p>",
+    "pl": "<h2>Stworzone na północ</h2><p>Northline Outfitters powstało w małej pracowni w Sztokholmie z jedną myślą: ubrania na prawdziwą pogodę, trwałe i łatwe do naprawy. Każdą rzecz testujemy w terenie, zanim trafi do sklepu.</p><h3>Dożywotnie naprawy</h3><p>Zepsuty zamek, rozdarta kieszeń, przetarty mankiet? Odeślij swoją kurtkę Northline, a naprawimy ją bezpłatnie – tak długo, jak ją masz.</p><h3>Lepsze materiały</h3><p>Woskowana bawełna, puch z recyklingu, wełna i bawełna organiczna – wybrane ze względu na trwałość, nie cenę.</p><p><em>To jest treść demonstracyjna motywu Northline Outfitters.</em></p>",
+    "de": "<h2>Gemacht für den Norden</h2><p>Northline Outfitters begann in einer kleinen Stockholmer Werkstatt mit einer Idee: Kleidung für echtes Wetter, langlebig und leicht zu reparieren. Jedes Teil testen wir draußen, bevor es in den Shop kommt.</p><h3>Lebenslange Reparatur</h3><p>Reißverschluss kaputt, Tasche eingerissen, Bündchen abgetragen? Schicken Sie Ihre Northline-Jacke zurück, und wir reparieren sie kostenlos – so lange Sie sie besitzen.</p><h3>Bessere Materialien</h3><p>Gewachste Baumwolle, recycelte Daunen, Wolle und Bio-Baumwolle, ausgewählt nach Haltbarkeit statt nach Preis.</p><p><em>Dies ist Demo-Inhalt des Themes Northline Outfitters.</em></p>",
+    "cs": "<h2>Stvořeno pro sever</h2><p>Northline Outfitters vznikl v malé dílně ve Stockholmu s jedinou myšlenkou: oblečení na skutečné počasí, odolné a snadno opravitelné. Každý kus testujeme venku, než se dostane do obchodu.</p><h3>Doživotní opravy</h3><p>Rozbitý zip, roztržená kapsa, prodřená manžeta? Pošlete nám bundu Northline a opravíme ji zdarma – po celou dobu, co ji máte.</p><h3>Lepší materiály</h3><p>Voskovaná bavlna, recyklované peří, vlna a biobavlna – vybrané podle trvanlivosti, ne podle ceny.</p><p><em>Toto je ukázkový obsah šablony Northline Outfitters.</em></p>",
+    "nl": "<h2>Gemaakt voor het noorden</h2><p>Northline Outfitters begon in een kleine werkplaats in Stockholm met één idee: kleding voor echt weer, gemaakt om lang mee te gaan en makkelijk te repareren. Elk stuk testen we buiten voordat het in de winkel komt.</p><h3>Levenslang reparatie</h3><p>Kapotte rits, gescheurde zak, versleten boord? Stuur je Northline-jas terug en we repareren hem gratis, zolang hij van jou is.</p><h3>Betere materialen</h3><p>Gewaxt katoen, gerecycled dons, wol en biologisch katoen, gekozen op levensduur in plaats van prijs.</p><p><em>Dit is democontent van het thema Northline Outfitters.</em></p>",
+    "pt": "<h2>Feito para o norte</h2><p>A Northline Outfitters nasceu numa pequena oficina em Estocolmo com uma ideia: roupa para o tempo real, feita para durar e fácil de reparar. Testamos cada peça ao ar livre antes de chegar à loja.</p><h3>Reparações vitalícias</h3><p>Fecho partido, bolso rasgado, punho gasto? Envie o seu casaco Northline e reparamo-lo gratuitamente enquanto for seu.</p><h3>Melhores materiais</h3><p>Algodão encerado, penas recicladas, lã e algodão biológico, escolhidos pela durabilidade e não pelo preço.</p><p><em>Este é conteúdo de demonstração do tema Northline Outfitters.</em></p>",
+    "ru": "<h2>Создано для севера</h2><p>Northline Outfitters появился в маленькой мастерской в Стокгольме с одной идеей: одежда для настоящей погоды, долговечная и простая в ремонте. Каждую вещь мы тестируем на улице, прежде чем она попадёт в магазин.</p><h3>Пожизненный ремонт</h3><p>Сломалась молния, порвался карман, протёрлась манжета? Пришлите нам куртку Northline, и мы бесплатно её отремонтируем — столько, сколько она у вас есть.</p><h3>Лучшие материалы</h3><p>Вощёный хлопок, переработанный пух, шерсть и органический хлопок — выбраны за долговечность, а не за дешевизну.</p><p><em>Это демонстрационный контент темы Northline Outfitters.</em></p>"
+   }
+  },
+  {
+   "key": "size-guide",
+   "title": {
+    "en": "Size guide",
+    "fr": "Guide des tailles",
+    "es": "Guía de tallas",
+    "it": "Guida alle taglie",
+    "pl": "Tabela rozmiarów",
+    "de": "Größentabelle",
+    "cs": "Tabulka velikostí",
+    "nl": "Maattabel",
+    "pt": "Guia de tamanhos",
+    "ru": "Таблица размеров"
+   },
+   "meta_description": {
+    "en": "Find your size: chest, waist and inside leg for Northline clothing.",
+    "fr": "Trouvez votre taille : tour de poitrine, de taille et entrejambe pour les vêtements Northline.",
+    "es": "Encuentra tu talla: pecho, cintura y entrepierna de la ropa Northline.",
+    "it": "Trova la tua taglia: petto, vita e cavallo interno per i capi Northline.",
+    "pl": "Znajdź swój rozmiar: obwód klatki, pasa i długość nogawki dla odzieży Northline.",
+    "de": "Finden Sie Ihre Größe: Brust, Taille und Schrittlänge für Northline.",
+    "cs": "Najděte svou velikost: obvod hrudníku, pasu a délka nohavice pro Northline.",
+    "nl": "Vind je maat: borst, taille en binnenbeenlengte voor Northline-kleding.",
+    "pt": "Encontre o seu tamanho: peito, cintura e entreperna da roupa Northline.",
+    "ru": "Подберите размер: обхват груди, талии и длина по внутреннему шву для одежды Northline."
+   },
+   "content": {
+    "en": "<h2>Size guide</h2><p>Body measurements in centimetres. Between two sizes? Take the larger one for layering.</p><table class=\"table\"><thead><tr><th>Size</th><th>Chest</th><th>Waist</th></tr></thead><tbody><tr><td>S</td><td>88–94</td><td>76–81</td></tr><tr><td>M</td><td>95–101</td><td>82–87</td></tr><tr><td>L</td><td>102–108</td><td>88–94</td></tr><tr><td>XL</td><td>109–116</td><td>95–102</td></tr><tr><td>XXL</td><td>117–124</td><td>103–110</td></tr></tbody></table><p>Trousers are sized by waist in inches (30–36), all with a 32-inch inside leg.</p>",
+    "fr": "<h2>Guide des tailles</h2><p>Mesures du corps en centimètres. Entre deux tailles ? Prenez la plus grande pour superposer.</p><table class=\"table\"><thead><tr><th>Taille</th><th>Poitrine</th><th>Tour de taille</th></tr></thead><tbody><tr><td>S</td><td>88–94</td><td>76–81</td></tr><tr><td>M</td><td>95–101</td><td>82–87</td></tr><tr><td>L</td><td>102–108</td><td>88–94</td></tr><tr><td>XL</td><td>109–116</td><td>95–102</td></tr><tr><td>XXL</td><td>117–124</td><td>103–110</td></tr></tbody></table><p>Les pantalons sont taillés selon le tour de taille en pouces (30–36), tous avec un entrejambe de 32 pouces.</p>",
+    "es": "<h2>Guía de tallas</h2><p>Medidas corporales en centímetros. ¿Entre dos tallas? Elige la mayor para llevar capas.</p><table class=\"table\"><thead><tr><th>Talla</th><th>Pecho</th><th>Cintura</th></tr></thead><tbody><tr><td>S</td><td>88–94</td><td>76–81</td></tr><tr><td>M</td><td>95–101</td><td>82–87</td></tr><tr><td>L</td><td>102–108</td><td>88–94</td></tr><tr><td>XL</td><td>109–116</td><td>95–102</td></tr><tr><td>XXL</td><td>117–124</td><td>103–110</td></tr></tbody></table><p>Los pantalones se miden por la cintura en pulgadas (30–36), todos con 32 pulgadas de entrepierna.</p>",
+    "it": "<h2>Guida alle taglie</h2><p>Misure del corpo in centimetri. Tra due taglie? Scegli la più grande per gli strati.</p><table class=\"table\"><thead><tr><th>Taglia</th><th>Petto</th><th>Vita</th></tr></thead><tbody><tr><td>S</td><td>88–94</td><td>76–81</td></tr><tr><td>M</td><td>95–101</td><td>82–87</td></tr><tr><td>L</td><td>102–108</td><td>88–94</td></tr><tr><td>XL</td><td>109–116</td><td>95–102</td></tr><tr><td>XXL</td><td>117–124</td><td>103–110</td></tr></tbody></table><p>I pantaloni sono taglia in pollici di vita (30–36), tutti con cavallo interno di 32 pollici.</p>",
+    "pl": "<h2>Tabela rozmiarów</h2><p>Wymiary ciała w centymetrach. Jesteś pomiędzy rozmiarami? Wybierz większy, jeśli nosisz warstwy.</p><table class=\"table\"><thead><tr><th>Rozmiar</th><th>Klatka</th><th>Pas</th></tr></thead><tbody><tr><td>S</td><td>88–94</td><td>76–81</td></tr><tr><td>M</td><td>95–101</td><td>82–87</td></tr><tr><td>L</td><td>102–108</td><td>88–94</td></tr><tr><td>XL</td><td>109–116</td><td>95–102</td></tr><tr><td>XXL</td><td>117–124</td><td>103–110</td></tr></tbody></table><p>Spodnie mają rozmiar według obwodu pasa w calach (30–36), wszystkie z długością nogawki 32 cale.</p>",
+    "de": "<h2>Größentabelle</h2><p>Körpermaße in Zentimetern. Zwischen zwei Größen? Wählen Sie für den Lagenlook die größere.</p><table class=\"table\"><thead><tr><th>Größe</th><th>Brust</th><th>Taille</th></tr></thead><tbody><tr><td>S</td><td>88–94</td><td>76–81</td></tr><tr><td>M</td><td>95–101</td><td>82–87</td></tr><tr><td>L</td><td>102–108</td><td>88–94</td></tr><tr><td>XL</td><td>109–116</td><td>95–102</td></tr><tr><td>XXL</td><td>117–124</td><td>103–110</td></tr></tbody></table><p>Hosen sind nach Bundweite in Zoll (30–36) sortiert, alle mit 32 Zoll Schrittlänge.</p>",
+    "cs": "<h2>Tabulka velikostí</h2><p>Tělesné míry v centimetrech. Jste mezi dvěma velikostmi? Pro vrstvení zvolte větší.</p><table class=\"table\"><thead><tr><th>Velikost</th><th>Hrudník</th><th>Pas</th></tr></thead><tbody><tr><td>S</td><td>88–94</td><td>76–81</td></tr><tr><td>M</td><td>95–101</td><td>82–87</td></tr><tr><td>L</td><td>102–108</td><td>88–94</td></tr><tr><td>XL</td><td>109–116</td><td>95–102</td></tr><tr><td>XXL</td><td>117–124</td><td>103–110</td></tr></tbody></table><p>Kalhoty mají velikost podle obvodu pasu v palcích (30–36), všechny s délkou nohavice 32 palců.</p>",
+    "nl": "<h2>Maattabel</h2><p>Lichaamsmaten in centimeters. Tussen twee maten? Kies de grotere als je lagen draagt.</p><table class=\"table\"><thead><tr><th>Maat</th><th>Borst</th><th>Taille</th></tr></thead><tbody><tr><td>S</td><td>88–94</td><td>76–81</td></tr><tr><td>M</td><td>95–101</td><td>82–87</td></tr><tr><td>L</td><td>102–108</td><td>88–94</td></tr><tr><td>XL</td><td>109–116</td><td>95–102</td></tr><tr><td>XXL</td><td>117–124</td><td>103–110</td></tr></tbody></table><p>Broeken hebben een tailleomvang in inches (30–36), allemaal met een binnenbeenlengte van 32 inch.</p>",
+    "pt": "<h2>Guia de tamanhos</h2><p>Medidas corporais em centímetros. Entre dois tamanhos? Escolha o maior se usar camadas.</p><table class=\"table\"><thead><tr><th>Tamanho</th><th>Peito</th><th>Cintura</th></tr></thead><tbody><tr><td>S</td><td>88–94</td><td>76–81</td></tr><tr><td>M</td><td>95–101</td><td>82–87</td></tr><tr><td>L</td><td>102–108</td><td>88–94</td></tr><tr><td>XL</td><td>109–116</td><td>95–102</td></tr><tr><td>XXL</td><td>117–124</td><td>103–110</td></tr></tbody></table><p>As calças têm tamanho pela cintura em polegadas (30–36), todas com entreperna de 32 polegadas.</p>",
+    "ru": "<h2>Таблица размеров</h2><p>Мерки тела в сантиметрах. Если вы между размерами, для многослойности выбирайте больший.</p><table class=\"table\"><thead><tr><th>Размер</th><th>Грудь</th><th>Талия</th></tr></thead><tbody><tr><td>S</td><td>88–94</td><td>76–81</td></tr><tr><td>M</td><td>95–101</td><td>82–87</td></tr><tr><td>L</td><td>102–108</td><td>88–94</td></tr><tr><td>XL</td><td>109–116</td><td>95–102</td></tr><tr><td>XXL</td><td>117–124</td><td>103–110</td></tr></tbody></table><p>Размер брюк указан по обхвату талии в дюймах (30–36), длина по внутреннему шву у всех 32 дюйма.</p>"
+   }
+  },
+  {
+   "key": "care",
+   "title": {
+    "en": "Care & repairs",
+    "fr": "Entretien & réparations",
+    "es": "Cuidados y reparaciones",
+    "it": "Cura e riparazioni",
+    "pl": "Pielęgnacja i naprawy",
+    "de": "Pflege & Reparatur",
+    "cs": "Péče a opravy",
+    "nl": "Onderhoud & reparatie",
+    "pt": "Cuidados e reparações",
+    "ru": "Уход и ремонт"
+   },
+   "meta_description": {
+    "en": "How to care for waxed cotton, wool and down, and how our free repairs work.",
+    "fr": "Comment entretenir le coton ciré, la laine et le duvet, et comment fonctionnent nos réparations gratuites.",
+    "es": "Cómo cuidar el algodón encerado, la lana y el plumón, y cómo funcionan nuestras reparaciones gratuitas.",
+    "it": "Come curare cotone cerato, lana e piuma, e come funzionano le nostre riparazioni gratuite.",
+    "pl": "Jak dbać o woskowaną bawełnę, wełnę i puch oraz jak działają nasze bezpłatne naprawy.",
+    "de": "So pflegen Sie gewachste Baumwolle, Wolle und Daune – und so funktioniert unsere kostenlose Reparatur.",
+    "cs": "Jak pečovat o voskovanou bavlnu, vlnu a peří a jak fungují naše bezplatné opravy.",
+    "nl": "Zo onderhoud je gewaxt katoen, wol en dons, en zo werkt onze gratis reparatie.",
+    "pt": "Como cuidar do algodão encerado, da lã e das penas, e como funcionam as nossas reparações gratuitas.",
+    "ru": "Как ухаживать за вощёным хлопком, шерстью и пухом и как работает наш бесплатный ремонт."
+   },
+   "content": {
+    "en": "<h2>Care &amp; repairs</h2><h3>Waxed cotton</h3><p>Never wash it. Brush off dirt with cold water and re-wax once a year to keep it waterproof.</p><h3>Down</h3><p>Machine wash cold with a down detergent and tumble dry low with two tennis balls to restore the loft.</p><h3>Wool</h3><p>Air it between wears, hand wash cold and dry flat.</p><h3>Free repairs</h3><p>Contact us with a photo of the damage. We send a prepaid label and return your jacket repaired within two weeks.</p>",
+    "fr": "<h2>Entretien &amp; réparations</h2><h3>Coton ciré</h3><p>Ne le lavez jamais. Brossez la saleté à l'eau froide et recirez une fois par an pour qu'il reste imperméable.</p><h3>Duvet</h3><p>Lavez en machine à froid avec une lessive spéciale duvet et séchez à basse température avec deux balles de tennis pour retrouver le gonflant.</p><h3>Laine</h3><p>Aérez-la entre deux ports, lavez à la main à froid et séchez à plat.</p><h3>Réparations gratuites</h3><p>Envoyez-nous une photo du dommage. Nous vous adressons une étiquette prépayée et vous renvoyons la veste réparée sous deux semaines.</p>",
+    "es": "<h2>Cuidados y reparaciones</h2><h3>Algodón encerado</h3><p>No lo laves nunca. Cepilla la suciedad con agua fría y vuelve a encerarlo una vez al año para que siga siendo impermeable.</p><h3>Plumón</h3><p>Lava a máquina en frío con un detergente para plumón y seca a baja temperatura con dos pelotas de tenis para recuperar el volumen.</p><h3>Lana</h3><p>Airéala entre usos, lava a mano en frío y seca en plano.</p><h3>Reparaciones gratuitas</h3><p>Envíanos una foto del daño. Te mandamos una etiqueta prepagada y te devolvemos la chaqueta reparada en dos semanas.</p>",
+    "it": "<h2>Cura e riparazioni</h2><h3>Cotone cerato</h3><p>Non lavarlo mai. Spazzola lo sporco con acqua fredda e ricera una volta l'anno per mantenerlo impermeabile.</p><h3>Piuma</h3><p>Lava in lavatrice a freddo con un detersivo per piumini e asciuga a bassa temperatura con due palline da tennis per ridare volume.</p><h3>Lana</h3><p>Arieggiala tra un utilizzo e l'altro, lava a mano a freddo e asciuga in piano.</p><h3>Riparazioni gratuite</h3><p>Inviaci una foto del danno. Ti mandiamo un'etichetta prepagata e ti restituiamo la giacca riparata entro due settimane.</p>",
+    "pl": "<h2>Pielęgnacja i naprawy</h2><h3>Woskowana bawełna</h3><p>Nigdy jej nie pierz. Szczotkuj brud zimną wodą i raz w roku woskuj ponownie, by pozostała nieprzemakalna.</p><h3>Puch</h3><p>Pierz w pralce na zimno ze środkiem do puchu i susz w niskiej temperaturze z dwiema piłkami tenisowymi, by przywrócić puszystość.</p><h3>Wełna</h3><p>Wietrz między noszeniami, pierz ręcznie na zimno i susz na płasko.</p><h3>Bezpłatne naprawy</h3><p>Wyślij nam zdjęcie uszkodzenia. Przyślemy opłaconą etykietę i odeślemy naprawioną kurtkę w ciągu dwóch tygodni.</p>",
+    "de": "<h2>Pflege &amp; Reparatur</h2><h3>Gewachste Baumwolle</h3><p>Niemals waschen. Schmutz mit kaltem Wasser abbürsten und einmal im Jahr nachwachsen, damit sie wasserdicht bleibt.</p><h3>Daune</h3><p>Kalt mit Daunenwaschmittel waschen und mit zwei Tennisbällen schonend trocknen, damit die Bauschkraft zurückkehrt.</p><h3>Wolle</h3><p>Zwischen dem Tragen lüften, kalt von Hand waschen und liegend trocknen.</p><h3>Kostenlose Reparatur</h3><p>Schicken Sie uns ein Foto des Schadens. Wir senden ein frankiertes Etikett und schicken die Jacke innerhalb von zwei Wochen repariert zurück.</p>",
+    "cs": "<h2>Péče a opravy</h2><h3>Voskovaná bavlna</h3><p>Nikdy ji neperte. Nečistoty okartáčujte studenou vodou a jednou ročně ji znovu navoskujte, aby zůstala nepromokavá.</p><h3>Peří</h3><p>Perte v pračce na studeno s pracím prostředkem na peří a sušte při nízké teplotě se dvěma tenisovými míčky, aby se obnovila plnost.</p><h3>Vlna</h3><p>Mezi nošeními ji vyvětrejte, perte ručně ve studené vodě a sušte naplocho.</p><h3>Bezplatné opravy</h3><p>Pošlete nám fotku poškození. Zašleme předplacený štítek a opravenou bundu vrátíme do dvou týdnů.</p>",
+    "nl": "<h2>Onderhoud &amp; reparatie</h2><h3>Gewaxt katoen</h3><p>Nooit wassen. Borstel vuil weg met koud water en wax één keer per jaar opnieuw om hem waterdicht te houden.</p><h3>Dons</h3><p>Koud wassen met donswasmiddel en op lage stand drogen met twee tennisballen om de vulling terug te krijgen.</p><h3>Wol</h3><p>Lucht hem tussen het dragen door, was koud met de hand en laat plat drogen.</p><h3>Gratis reparatie</h3><p>Stuur ons een foto van de schade. We sturen een gefrankeerd label en sturen de jas binnen twee weken gerepareerd terug.</p>",
+    "pt": "<h2>Cuidados e reparações</h2><h3>Algodão encerado</h3><p>Nunca o lave. Escove a sujidade com água fria e volte a encerar uma vez por ano para manter a impermeabilidade.</p><h3>Penas</h3><p>Lave na máquina a frio com detergente para penas e seque a baixa temperatura com duas bolas de ténis para recuperar o volume.</p><h3>Lã</h3><p>Areje entre utilizações, lave à mão a frio e seque na horizontal.</p><h3>Reparações gratuitas</h3><p>Envie-nos uma foto do dano. Enviamos uma etiqueta pré-paga e devolvemos o casaco reparado em duas semanas.</p>",
+    "ru": "<h2>Уход и ремонт</h2><h3>Вощёный хлопок</h3><p>Никогда не стирайте его. Счищайте грязь щёткой с холодной водой и раз в год обновляйте пропитку воском, чтобы он оставался непромокаемым.</p><h3>Пух</h3><p>Стирайте в холодной воде со средством для пуха и сушите на низкой температуре с двумя теннисными мячами, чтобы вернуть объём.</p><h3>Шерсть</h3><p>Проветривайте между носками, стирайте вручную в холодной воде и сушите в расправленном виде.</p><h3>Бесплатный ремонт</h3><p>Пришлите нам фото повреждения. Мы отправим оплаченную этикетку и вернём отремонтированную куртку в течение двух недель.</p>"
+   }
+  },
+  {
+   "key": "delivery",
+   "title": {
+    "en": "Delivery",
+    "fr": "Livraison",
+    "es": "Envíos",
+    "it": "Spedizioni",
+    "pl": "Dostawa",
+    "de": "Versand",
+    "cs": "Doprava",
+    "nl": "Verzending",
+    "pt": "Entregas",
+    "ru": "Доставка"
+   },
+   "meta_description": {
+    "en": "Delivery times and costs for Northline Outfitters orders.",
+    "fr": "Délais et frais de livraison des commandes Northline Outfitters.",
+    "es": "Plazos y costes de envío de los pedidos de Northline Outfitters.",
+    "it": "Tempi e costi di spedizione degli ordini Northline Outfitters.",
+    "pl": "Czas i koszt dostawy zamówień Northline Outfitters.",
+    "de": "Lieferzeiten und Versandkosten für Bestellungen bei Northline Outfitters.",
+    "cs": "Dodací lhůty a ceny dopravy objednávek Northline Outfitters.",
+    "nl": "Levertijden en verzendkosten van bestellingen bij Northline Outfitters.",
+    "pt": "Prazos e custos de entrega das encomendas Northline Outfitters.",
+    "ru": "Сроки и стоимость доставки заказов Northline Outfitters."
+   },
+   "content": {
+    "en": "<h2>Delivery</h2><p>Orders placed before 2 pm on a working day are shipped the same day.</p><ul><li><strong>Standard:</strong> 2 to 4 working days, free over €100.</li><li><strong>Express:</strong> next working day in most of Europe.</li><li><strong>Click &amp; collect:</strong> free, ready within 24 hours.</li></ul><p>Every parcel is tracked, and you receive the tracking link by email as soon as it leaves our warehouse.</p><p><em>This is demo content. Replace it with your own delivery terms.</em></p>",
+    "fr": "<h2>Livraison</h2><p>Les commandes passées avant 14 h un jour ouvré sont expédiées le jour même.</p><ul><li><strong>Standard :</strong> 2 à 4 jours ouvrés, offerte dès 100 €.</li><li><strong>Express :</strong> jour ouvré suivant dans la plupart des pays d'Europe.</li><li><strong>Retrait en magasin :</strong> gratuit, prêt sous 24 heures.</li></ul><p>Chaque colis est suivi : vous recevez le lien de suivi par e-mail dès qu'il quitte notre entrepôt.</p><p><em>Contenu de démonstration. Remplacez-le par vos propres conditions de livraison.</em></p>",
+    "es": "<h2>Envíos</h2><p>Los pedidos realizados antes de las 14:00 en día laborable se envían el mismo día.</p><ul><li><strong>Estándar:</strong> de 2 a 4 días laborables, gratis a partir de 100 €.</li><li><strong>Exprés:</strong> siguiente día laborable en la mayor parte de Europa.</li><li><strong>Recogida en tienda:</strong> gratis, listo en 24 horas.</li></ul><p>Todos los paquetes llevan seguimiento y recibirás el enlace por correo en cuanto salga de nuestro almacén.</p><p><em>Contenido de demostración. Sustitúyelo por tus propias condiciones de envío.</em></p>",
+    "it": "<h2>Spedizioni</h2><p>Gli ordini effettuati entro le 14:00 di un giorno lavorativo vengono spediti in giornata.</p><ul><li><strong>Standard:</strong> 2–4 giorni lavorativi, gratuita oltre 100 €.</li><li><strong>Express:</strong> giorno lavorativo successivo in gran parte d'Europa.</li><li><strong>Ritiro in negozio:</strong> gratuito, pronto entro 24 ore.</li></ul><p>Ogni pacco è tracciato: ricevi il link via email appena lascia il nostro magazzino.</p><p><em>Contenuto dimostrativo. Sostituiscilo con le tue condizioni di spedizione.</em></p>",
+    "pl": "<h2>Dostawa</h2><p>Zamówienia złożone w dzień roboczy przed 14:00 wysyłamy tego samego dnia.</p><ul><li><strong>Standard:</strong> 2–4 dni robocze, gratis od 100 €.</li><li><strong>Ekspres:</strong> następny dzień roboczy w większości krajów Europy.</li><li><strong>Odbiór osobisty:</strong> bezpłatnie, gotowe w 24 godziny.</li></ul><p>Każda paczka ma numer śledzenia – link otrzymasz e-mailem, gdy tylko opuści nasz magazyn.</p><p><em>Treść demonstracyjna. Zastąp ją własnymi warunkami dostawy.</em></p>",
+    "de": "<h2>Versand</h2><p>Bestellungen, die an Werktagen vor 14 Uhr eingehen, werden am selben Tag verschickt.</p><ul><li><strong>Standard:</strong> 2–4 Werktage, kostenlos ab 100 €.</li><li><strong>Express:</strong> nächster Werktag in den meisten Ländern Europas.</li><li><strong>Click &amp; Collect:</strong> kostenlos, innerhalb von 24 Stunden abholbereit.</li></ul><p>Jedes Paket ist verfolgbar; den Link erhalten Sie per E-Mail, sobald es unser Lager verlässt.</p><p><em>Demo-Inhalt. Ersetzen Sie ihn durch Ihre eigenen Versandbedingungen.</em></p>",
+    "cs": "<h2>Doprava</h2><p>Objednávky přijaté v pracovní den do 14:00 odesíláme ještě týž den.</p><ul><li><strong>Standard:</strong> 2–4 pracovní dny, zdarma od 100 €.</li><li><strong>Expres:</strong> následující pracovní den ve většině Evropy.</li><li><strong>Osobní odběr:</strong> zdarma, připraveno do 24 hodin.</li></ul><p>Každý balík je sledovaný; odkaz vám pošleme e-mailem, jakmile opustí náš sklad.</p><p><em>Ukázkový obsah. Nahraďte jej vlastními dodacími podmínkami.</em></p>",
+    "nl": "<h2>Verzending</h2><p>Bestellingen die op een werkdag vóór 14.00 uur worden geplaatst, versturen we dezelfde dag.</p><ul><li><strong>Standaard:</strong> 2–4 werkdagen, gratis vanaf € 100.</li><li><strong>Express:</strong> volgende werkdag in het grootste deel van Europa.</li><li><strong>Afhalen:</strong> gratis, binnen 24 uur klaar.</li></ul><p>Elk pakket is te volgen; je ontvangt de link per e-mail zodra het ons magazijn verlaat.</p><p><em>Democontent. Vervang dit door je eigen verzendvoorwaarden.</em></p>",
+    "pt": "<h2>Entregas</h2><p>As encomendas feitas antes das 14h num dia útil são enviadas no mesmo dia.</p><ul><li><strong>Normal:</strong> 2 a 4 dias úteis, grátis a partir de 100 €.</li><li><strong>Expresso:</strong> dia útil seguinte na maior parte da Europa.</li><li><strong>Levantamento em loja:</strong> grátis, pronto em 24 horas.</li></ul><p>Todas as encomendas têm seguimento e recebe a ligação por e-mail assim que saem do nosso armazém.</p><p><em>Conteúdo de demonstração. Substitua-o pelas suas condições de entrega.</em></p>",
+    "ru": "<h2>Доставка</h2><p>Заказы, оформленные в рабочий день до 14:00, отправляются в тот же день.</p><ul><li><strong>Стандартная:</strong> 2–4 рабочих дня, бесплатно от 100 €.</li><li><strong>Экспресс:</strong> следующий рабочий день в большинстве стран Европы.</li><li><strong>Самовывоз:</strong> бесплатно, готово в течение 24 часов.</li></ul><p>Каждая посылка отслеживается — ссылку вы получите по e-mail, как только она покинет наш склад.</p><p><em>Демонстрационный контент. Замените его своими условиями доставки.</em></p>"
+   }
+  },
+  {
+   "key": "returns",
+   "title": {
+    "en": "Returns & exchanges",
+    "fr": "Retours & échanges",
+    "es": "Devoluciones y cambios",
+    "it": "Resi e cambi",
+    "pl": "Zwroty i wymiany",
+    "de": "Rücksendung & Umtausch",
+    "cs": "Vrácení a výměna",
+    "nl": "Retourneren & ruilen",
+    "pt": "Devoluções e trocas",
+    "ru": "Возврат и обмен"
+   },
+   "meta_description": {
+    "en": "Free returns within 30 days on Northline Outfitters orders.",
+    "fr": "Retours gratuits sous 30 jours sur les commandes Northline Outfitters.",
+    "es": "Devoluciones gratuitas en 30 días en los pedidos de Northline Outfitters.",
+    "it": "Reso gratuito entro 30 giorni sugli ordini Northline Outfitters.",
+    "pl": "Bezpłatne zwroty w ciągu 30 dni dla zamówień Northline Outfitters.",
+    "de": "Kostenlose Rücksendung innerhalb von 30 Tagen bei Northline Outfitters.",
+    "cs": "Vrácení zdarma do 30 dní u objednávek Northline Outfitters.",
+    "nl": "Gratis retourneren binnen 30 dagen bij Northline Outfitters.",
+    "pt": "Devoluções gratuitas em 30 dias nas encomendas Northline Outfitters.",
+    "ru": "Бесплатный возврат в течение 30 дней для заказов Northline Outfitters."
+   },
+   "content": {
+    "en": "<h2>Returns &amp; exchanges</h2><p>You have 30 days from delivery to return any unworn item with its labels attached. Returns are free within the European Union.</p><ol><li>Sign in to your account and open the order.</li><li>Choose the items to return and print the prepaid label.</li><li>Drop the parcel at any post office or collection point.</li></ol><p>Refunds are made to the original payment method within 5 working days of receiving your parcel. For an exchange, simply return the item and place a new order.</p><p><em>This is demo content. Replace it with your own return policy.</em></p>",
+    "fr": "<h2>Retours &amp; échanges</h2><p>Vous disposez de 30 jours après la livraison pour retourner tout article non porté avec ses étiquettes. Les retours sont gratuits dans l'Union européenne.</p><ol><li>Connectez-vous à votre compte et ouvrez la commande.</li><li>Choisissez les articles à retourner et imprimez l'étiquette prépayée.</li><li>Déposez le colis dans un bureau de poste ou un point relais.</li></ol><p>Le remboursement est effectué sur le moyen de paiement d'origine sous 5 jours ouvrés après réception du colis. Pour un échange, retournez simplement l'article et passez une nouvelle commande.</p><p><em>Contenu de démonstration. Remplacez-le par votre propre politique de retour.</em></p>",
+    "es": "<h2>Devoluciones y cambios</h2><p>Dispones de 30 días desde la entrega para devolver cualquier artículo sin usar y con sus etiquetas. Las devoluciones son gratuitas dentro de la Unión Europea.</p><ol><li>Inicia sesión en tu cuenta y abre el pedido.</li><li>Elige los artículos que quieres devolver e imprime la etiqueta prepagada.</li><li>Entrega el paquete en cualquier oficina de correos o punto de recogida.</li></ol><p>El reembolso se realiza al método de pago original en un plazo de 5 días laborables tras recibir el paquete. Para un cambio, devuelve el artículo y realiza un nuevo pedido.</p><p><em>Contenido de demostración. Sustitúyelo por tu propia política de devoluciones.</em></p>",
+    "it": "<h2>Resi e cambi</h2><p>Hai 30 giorni dalla consegna per restituire qualsiasi articolo non indossato e con le etichette. Il reso è gratuito nell'Unione europea.</p><ol><li>Accedi al tuo account e apri l'ordine.</li><li>Scegli gli articoli da restituire e stampa l'etichetta prepagata.</li><li>Consegna il pacco in un ufficio postale o punto di ritiro.</li></ol><p>Il rimborso avviene sul metodo di pagamento originale entro 5 giorni lavorativi dalla ricezione del pacco. Per un cambio, restituisci l'articolo ed effettua un nuovo ordine.</p><p><em>Contenuto dimostrativo. Sostituiscilo con la tua politica di reso.</em></p>",
+    "pl": "<h2>Zwroty i wymiany</h2><p>Masz 30 dni od dostawy na zwrot nienoszonego produktu z metkami. Zwroty w Unii Europejskiej są bezpłatne.</p><ol><li>Zaloguj się na swoje konto i otwórz zamówienie.</li><li>Wybierz produkty do zwrotu i wydrukuj opłaconą etykietę.</li><li>Nadaj paczkę na poczcie lub w punkcie odbioru.</li></ol><p>Zwrot pieniędzy następuje na pierwotną metodę płatności w ciągu 5 dni roboczych od otrzymania paczki. Aby wymienić produkt, zwróć go i złóż nowe zamówienie.</p><p><em>Treść demonstracyjna. Zastąp ją własną polityką zwrotów.</em></p>",
+    "de": "<h2>Rücksendung &amp; Umtausch</h2><p>Sie haben ab Lieferung 30 Tage Zeit, ungetragene Artikel mit Etikett zurückzusenden. Rücksendungen innerhalb der EU sind kostenlos.</p><ol><li>Melden Sie sich in Ihrem Konto an und öffnen Sie die Bestellung.</li><li>Wählen Sie die Artikel aus und drucken Sie das vorfrankierte Etikett.</li><li>Geben Sie das Paket bei einer Post- oder Paketstelle ab.</li></ol><p>Die Erstattung erfolgt innerhalb von 5 Werktagen nach Eingang auf das ursprüngliche Zahlungsmittel. Für einen Umtausch senden Sie den Artikel zurück und bestellen neu.</p><p><em>Demo-Inhalt. Ersetzen Sie ihn durch Ihre eigenen Rückgabebedingungen.</em></p>",
+    "cs": "<h2>Vrácení a výměna</h2><p>Na vrácení nenošeného zboží s visačkami máte 30 dní od doručení. Vrácení v rámci Evropské unie je zdarma.</p><ol><li>Přihlaste se ke svému účtu a otevřete objednávku.</li><li>Vyberte zboží k vrácení a vytiskněte předplacený štítek.</li><li>Balík odevzdejte na poště nebo ve výdejním místě.</li></ol><p>Peníze vracíme původní platební metodou do 5 pracovních dnů od přijetí balíku. Pro výměnu zboží vraťte a vytvořte novou objednávku.</p><p><em>Ukázkový obsah. Nahraďte jej vlastními podmínkami vrácení.</em></p>",
+    "nl": "<h2>Retourneren &amp; ruilen</h2><p>Je hebt 30 dagen na levering om ongedragen artikelen met label terug te sturen. Retourneren binnen de Europese Unie is gratis.</p><ol><li>Log in op je account en open de bestelling.</li><li>Kies de artikelen en print het gefrankeerde label.</li><li>Lever het pakket af bij een postkantoor of afhaalpunt.</li></ol><p>We betalen terug via de oorspronkelijke betaalmethode binnen 5 werkdagen na ontvangst. Om te ruilen stuur je het artikel terug en plaats je een nieuwe bestelling.</p><p><em>Democontent. Vervang dit door je eigen retourbeleid.</em></p>",
+    "pt": "<h2>Devoluções e trocas</h2><p>Tem 30 dias após a entrega para devolver qualquer artigo não usado e com etiquetas. As devoluções são gratuitas na União Europeia.</p><ol><li>Inicie sessão na sua conta e abra a encomenda.</li><li>Escolha os artigos a devolver e imprima a etiqueta pré-paga.</li><li>Entregue a encomenda numa estação de correios ou ponto de recolha.</li></ol><p>O reembolso é feito no método de pagamento original no prazo de 5 dias úteis após receção. Para uma troca, devolva o artigo e faça uma nova encomenda.</p><p><em>Conteúdo de demonstração. Substitua-o pela sua política de devoluções.</em></p>",
+    "ru": "<h2>Возврат и обмен</h2><p>У вас есть 30 дней с момента доставки, чтобы вернуть неношеный товар с ярлыками. Возврат в пределах Европейского союза бесплатный.</p><ol><li>Войдите в свой аккаунт и откройте заказ.</li><li>Выберите товары для возврата и распечатайте оплаченную этикетку.</li><li>Сдайте посылку в почтовое отделение или пункт приёма.</li></ol><p>Деньги возвращаются на исходный способ оплаты в течение 5 рабочих дней после получения посылки. Для обмена верните товар и оформите новый заказ.</p><p><em>Демонстрационный контент. Замените его своей политикой возврата.</em></p>"
+   }
+  },
+  {
+   "key": "terms",
+   "title": {
+    "en": "Terms and conditions",
+    "fr": "Conditions générales de vente",
+    "es": "Condiciones generales",
+    "it": "Condizioni di vendita",
+    "pl": "Regulamin",
+    "de": "AGB",
+    "cs": "Obchodní podmínky",
+    "nl": "Algemene voorwaarden",
+    "pt": "Termos e condições",
+    "ru": "Условия продажи"
+   },
+   "meta_description": {
+    "en": "Terms and conditions of sale.",
+    "fr": "Conditions générales de vente.",
+    "es": "Condiciones generales de venta.",
+    "it": "Condizioni generali di vendita.",
+    "pl": "Regulamin sprzedaży.",
+    "de": "Allgemeine Geschäftsbedingungen.",
+    "cs": "Všeobecné obchodní podmínky.",
+    "nl": "Algemene verkoopvoorwaarden.",
+    "pt": "Condições gerais de venda.",
+    "ru": "Общие условия продажи."
+   },
+   "content": {
+    "en": "<h2>Terms and conditions of sale</h2><p>These terms apply to all orders placed on this website. By placing an order you accept them in full.</p><h3>Prices</h3><p>Prices are shown in euros, including VAT. Delivery costs are shown before you confirm your order.</p><h3>Payment</h3><p>Payment is taken when your order is confirmed.</p><h3>Right of withdrawal</h3><p>You may withdraw from your purchase within 30 days of delivery, as described on our returns page.</p><p><em>This is demo content. Replace it with terms reviewed by a legal professional for your country.</em></p>",
+    "fr": "<h2>Conditions générales de vente</h2><p>Ces conditions s'appliquent à toutes les commandes passées sur ce site. En passant commande, vous les acceptez dans leur intégralité.</p><h3>Prix</h3><p>Les prix sont indiqués en euros, TVA comprise. Les frais de livraison sont affichés avant la validation de la commande.</p><h3>Paiement</h3><p>Le paiement est prélevé à la confirmation de la commande.</p><h3>Droit de rétractation</h3><p>Vous pouvez vous rétracter dans les 30 jours suivant la livraison, comme indiqué sur notre page des retours.</p><p><em>Contenu de démonstration. Remplacez-le par des conditions validées par un juriste pour votre pays.</em></p>",
+    "es": "<h2>Condiciones generales de venta</h2><p>Estas condiciones se aplican a todos los pedidos realizados en este sitio web. Al realizar un pedido, las aceptas íntegramente.</p><h3>Precios</h3><p>Los precios se muestran en euros, IVA incluido. Los gastos de envío se indican antes de confirmar el pedido.</p><h3>Pago</h3><p>El pago se cobra al confirmar el pedido.</p><h3>Derecho de desistimiento</h3><p>Puedes desistir de tu compra en los 30 días siguientes a la entrega, tal como se describe en nuestra página de devoluciones.</p><p><em>Contenido de demostración. Sustitúyelo por condiciones revisadas por un profesional jurídico de tu país.</em></p>",
+    "it": "<h2>Condizioni generali di vendita</h2><p>Queste condizioni si applicano a tutti gli ordini effettuati su questo sito. Effettuando un ordine le accetti integralmente.</p><h3>Prezzi</h3><p>I prezzi sono indicati in euro, IVA inclusa. Le spese di spedizione sono indicate prima della conferma dell'ordine.</p><h3>Pagamento</h3><p>Il pagamento viene addebitato alla conferma dell'ordine.</p><h3>Diritto di recesso</h3><p>Puoi recedere dall'acquisto entro 30 giorni dalla consegna, come descritto nella pagina dei resi.</p><p><em>Contenuto dimostrativo. Sostituiscilo con condizioni verificate da un legale del tuo Paese.</em></p>",
+    "pl": "<h2>Regulamin sprzedaży</h2><p>Niniejszy regulamin dotyczy wszystkich zamówień składanych w tym sklepie. Składając zamówienie, akceptujesz go w całości.</p><h3>Ceny</h3><p>Ceny podane są w euro i zawierają VAT. Koszty dostawy wyświetlamy przed potwierdzeniem zamówienia.</p><h3>Płatność</h3><p>Płatność pobierana jest w momencie potwierdzenia zamówienia.</p><h3>Prawo odstąpienia</h3><p>Możesz odstąpić od umowy w ciągu 30 dni od dostawy, jak opisano na stronie zwrotów.</p><p><em>Treść demonstracyjna. Zastąp ją regulaminem sprawdzonym przez prawnika w Twoim kraju.</em></p>",
+    "de": "<h2>Allgemeine Geschäftsbedingungen</h2><p>Diese Bedingungen gelten für alle Bestellungen auf dieser Website. Mit Ihrer Bestellung erkennen Sie sie vollständig an.</p><h3>Preise</h3><p>Alle Preise in Euro inklusive Mehrwertsteuer. Versandkosten werden vor der Bestellbestätigung angezeigt.</p><h3>Zahlung</h3><p>Die Zahlung wird mit der Bestellbestätigung fällig.</p><h3>Widerrufsrecht</h3><p>Sie können innerhalb von 30 Tagen nach Lieferung widerrufen, wie auf unserer Rückgabeseite beschrieben.</p><p><em>Demo-Inhalt. Ersetzen Sie ihn durch rechtlich geprüfte Bedingungen für Ihr Land.</em></p>",
+    "cs": "<h2>Všeobecné obchodní podmínky</h2><p>Tyto podmínky platí pro všechny objednávky na tomto webu. Odesláním objednávky je přijímáte v plném rozsahu.</p><h3>Ceny</h3><p>Ceny jsou uvedeny v eurech včetně DPH. Cena dopravy se zobrazí před potvrzením objednávky.</p><h3>Platba</h3><p>Platba je stržena při potvrzení objednávky.</p><h3>Odstoupení od smlouvy</h3><p>Od nákupu můžete odstoupit do 30 dnů od doručení, jak je popsáno na stránce vrácení.</p><p><em>Ukázkový obsah. Nahraďte jej podmínkami schválenými právníkem pro vaši zemi.</em></p>",
+    "nl": "<h2>Algemene verkoopvoorwaarden</h2><p>Deze voorwaarden gelden voor alle bestellingen op deze website. Door te bestellen ga je er volledig mee akkoord.</p><h3>Prijzen</h3><p>Prijzen zijn in euro's, inclusief btw. Verzendkosten zie je voordat je je bestelling bevestigt.</p><h3>Betaling</h3><p>De betaling wordt afgeschreven bij bevestiging van de bestelling.</p><h3>Herroepingsrecht</h3><p>Je kunt je aankoop binnen 30 dagen na levering herroepen, zoals beschreven op onze retourpagina.</p><p><em>Democontent. Vervang dit door voorwaarden die door een jurist voor jouw land zijn gecontroleerd.</em></p>",
+    "pt": "<h2>Condições gerais de venda</h2><p>Estas condições aplicam-se a todas as encomendas feitas neste site. Ao encomendar, aceita-as na íntegra.</p><h3>Preços</h3><p>Os preços são apresentados em euros, com IVA incluído. Os portes são indicados antes de confirmar a encomenda.</p><h3>Pagamento</h3><p>O pagamento é cobrado na confirmação da encomenda.</p><h3>Direito de livre resolução</h3><p>Pode desistir da compra no prazo de 30 dias após a entrega, conforme descrito na página de devoluções.</p><p><em>Conteúdo de demonstração. Substitua-o por condições revistas por um jurista do seu país.</em></p>",
+    "ru": "<h2>Общие условия продажи</h2><p>Эти условия распространяются на все заказы на этом сайте. Оформляя заказ, вы принимаете их полностью.</p><h3>Цены</h3><p>Цены указаны в евро с учётом НДС. Стоимость доставки отображается до подтверждения заказа.</p><h3>Оплата</h3><p>Оплата списывается при подтверждении заказа.</p><h3>Право на отказ</h3><p>Вы можете отказаться от покупки в течение 30 дней после доставки, как описано на странице возврата.</p><p><em>Демонстрационный контент. Замените его условиями, проверенными юристом вашей страны.</em></p>"
+   },
+   "role": "conditions"
+  },
+  {
+   "key": "privacy",
+   "title": {
+    "en": "Privacy policy",
+    "fr": "Politique de confidentialité",
+    "es": "Política de privacidad",
+    "it": "Informativa sulla privacy",
+    "pl": "Polityka prywatności",
+    "de": "Datenschutzerklärung",
+    "cs": "Ochrana osobních údajů",
+    "nl": "Privacybeleid",
+    "pt": "Política de privacidade",
+    "ru": "Политика конфиденциальности"
+   },
+   "meta_description": {
+    "en": "How we collect and use your personal data.",
+    "fr": "Comment nous collectons et utilisons vos données personnelles.",
+    "es": "Cómo recogemos y utilizamos tus datos personales.",
+    "it": "Come raccogliamo e utilizziamo i tuoi dati personali.",
+    "pl": "Jak zbieramy i wykorzystujemy Twoje dane osobowe.",
+    "de": "Wie wir Ihre personenbezogenen Daten erheben und nutzen.",
+    "cs": "Jak shromažďujeme a používáme vaše osobní údaje.",
+    "nl": "Hoe we je persoonsgegevens verzamelen en gebruiken.",
+    "pt": "Como recolhemos e utilizamos os seus dados pessoais.",
+    "ru": "Как мы собираем и используем ваши персональные данные."
+   },
+   "content": {
+    "en": "<h2>Privacy policy</h2><p>We only collect the personal data we need to process your orders, answer your questions and, if you agree, send you our newsletter.</p><h3>Your rights</h3><p>You can access, correct or delete your data at any time from your account or by contacting us.</p><h3>Cookies</h3><p>We use the cookies needed for the shop to work, and others only with your consent.</p><p><em>This is demo content. Replace it with a privacy policy reviewed by a legal professional.</em></p>",
+    "fr": "<h2>Politique de confidentialité</h2><p>Nous ne collectons que les données personnelles nécessaires pour traiter vos commandes, répondre à vos questions et, si vous l'acceptez, vous envoyer notre newsletter.</p><h3>Vos droits</h3><p>Vous pouvez à tout moment accéder à vos données, les corriger ou les supprimer depuis votre compte ou en nous contactant.</p><h3>Cookies</h3><p>Nous utilisons les cookies nécessaires au fonctionnement de la boutique, et les autres uniquement avec votre consentement.</p><p><em>Contenu de démonstration. Remplacez-le par une politique validée par un juriste.</em></p>",
+    "es": "<h2>Política de privacidad</h2><p>Solo recogemos los datos personales necesarios para tramitar tus pedidos, responder a tus preguntas y, si lo aceptas, enviarte nuestro boletín.</p><h3>Tus derechos</h3><p>Puedes acceder, corregir o eliminar tus datos en cualquier momento desde tu cuenta o contactándonos.</p><h3>Cookies</h3><p>Usamos las cookies necesarias para el funcionamiento de la tienda y las demás solo con tu consentimiento.</p><p><em>Contenido de demostración. Sustitúyelo por una política revisada por un profesional jurídico.</em></p>",
+    "it": "<h2>Informativa sulla privacy</h2><p>Raccogliamo solo i dati personali necessari per gestire i tuoi ordini, rispondere alle tue domande e, se acconsenti, inviarti la nostra newsletter.</p><h3>I tuoi diritti</h3><p>Puoi accedere, correggere o cancellare i tuoi dati in qualsiasi momento dal tuo account o contattandoci.</p><h3>Cookie</h3><p>Usiamo i cookie necessari al funzionamento del negozio e gli altri solo con il tuo consenso.</p><p><em>Contenuto dimostrativo. Sostituiscilo con un'informativa verificata da un legale.</em></p>",
+    "pl": "<h2>Polityka prywatności</h2><p>Zbieramy wyłącznie dane osobowe potrzebne do realizacji zamówień, odpowiedzi na pytania i – za Twoją zgodą – wysyłki newslettera.</p><h3>Twoje prawa</h3><p>W każdej chwili możesz uzyskać dostęp do swoich danych, poprawić je lub usunąć w swoim koncie albo kontaktując się z nami.</p><h3>Pliki cookie</h3><p>Używamy plików cookie niezbędnych do działania sklepu, a pozostałych wyłącznie za Twoją zgodą.</p><p><em>Treść demonstracyjna. Zastąp ją polityką sprawdzoną przez prawnika.</em></p>",
+    "de": "<h2>Datenschutzerklärung</h2><p>Wir erheben nur die personenbezogenen Daten, die wir zur Abwicklung Ihrer Bestellungen, zur Beantwortung Ihrer Fragen und – mit Ihrer Zustimmung – für unseren Newsletter benötigen.</p><h3>Ihre Rechte</h3><p>Sie können Ihre Daten jederzeit in Ihrem Konto oder über unseren Kontakt einsehen, berichtigen oder löschen.</p><h3>Cookies</h3><p>Wir verwenden die für den Shop notwendigen Cookies, andere nur mit Ihrer Einwilligung.</p><p><em>Demo-Inhalt. Ersetzen Sie ihn durch eine rechtlich geprüfte Datenschutzerklärung.</em></p>",
+    "cs": "<h2>Ochrana osobních údajů</h2><p>Shromažďujeme pouze osobní údaje nutné k vyřízení objednávek, zodpovězení dotazů a – s vaším souhlasem – k zasílání newsletteru.</p><h3>Vaše práva</h3><p>Své údaje můžete kdykoli zobrazit, opravit nebo smazat ve svém účtu nebo nás kontaktovat.</p><h3>Cookies</h3><p>Používáme cookies nezbytné pro chod obchodu, ostatní pouze s vaším souhlasem.</p><p><em>Ukázkový obsah. Nahraďte jej zásadami schválenými právníkem.</em></p>",
+    "nl": "<h2>Privacybeleid</h2><p>We verzamelen alleen de persoonsgegevens die nodig zijn om je bestellingen te verwerken, je vragen te beantwoorden en, als je dat wilt, onze nieuwsbrief te sturen.</p><h3>Je rechten</h3><p>Je kunt je gegevens op elk moment inzien, corrigeren of verwijderen via je account of door contact met ons op te nemen.</p><h3>Cookies</h3><p>We gebruiken de cookies die nodig zijn voor de werking van de winkel, en andere alleen met jouw toestemming.</p><p><em>Democontent. Vervang dit door een privacybeleid dat door een jurist is gecontroleerd.</em></p>",
+    "pt": "<h2>Política de privacidade</h2><p>Recolhemos apenas os dados pessoais necessários para processar as suas encomendas, responder às suas perguntas e, se concordar, enviar a nossa newsletter.</p><h3>Os seus direitos</h3><p>Pode aceder, corrigir ou apagar os seus dados a qualquer momento na sua conta ou contactando-nos.</p><h3>Cookies</h3><p>Usamos os cookies necessários ao funcionamento da loja e os restantes apenas com o seu consentimento.</p><p><em>Conteúdo de demonstração. Substitua-o por uma política revista por um jurista.</em></p>",
+    "ru": "<h2>Политика конфиденциальности</h2><p>Мы собираем только те персональные данные, которые нужны для обработки заказов, ответов на ваши вопросы и — с вашего согласия — отправки рассылки.</p><h3>Ваши права</h3><p>Вы можете в любой момент просмотреть, исправить или удалить свои данные в аккаунте или связавшись с нами.</p><h3>Файлы cookie</h3><p>Мы используем cookie, необходимые для работы магазина, а остальные — только с вашего согласия.</p><p><em>Демонстрационный контент. Замените его политикой, проверенной юристом.</em></p>"
+   }
+  },
+  {
+   "key": "legal",
+   "title": {
+    "en": "Legal notice",
+    "fr": "Mentions légales",
+    "es": "Aviso legal",
+    "it": "Note legali",
+    "pl": "Nota prawna",
+    "de": "Impressum",
+    "cs": "Právní informace",
+    "nl": "Juridische informatie",
+    "pt": "Aviso legal",
+    "ru": "Правовая информация"
+   },
+   "meta_description": {
+    "en": "Legal notice and company information.",
+    "fr": "Mentions légales et informations sur la société.",
+    "es": "Aviso legal e información de la empresa.",
+    "it": "Note legali e informazioni sulla società.",
+    "pl": "Nota prawna i dane firmy.",
+    "de": "Impressum und Unternehmensangaben.",
+    "cs": "Právní informace a údaje o společnosti.",
+    "nl": "Juridische informatie en bedrijfsgegevens.",
+    "pt": "Aviso legal e informações da empresa.",
+    "ru": "Правовая информация и сведения о компании."
+   },
+   "content": {
+    "en": "<h2>Legal notice</h2><p>Northline Outfitters is a fictional brand created for this demo store.</p><p>Publisher: your company name, address, registration number and VAT number.</p><p>Hosting: your hosting provider's name and address.</p><p><em>This is demo content. Replace it with your own company details.</em></p>",
+    "fr": "<h2>Mentions légales</h2><p>Northline Outfitters est une marque fictive créée pour cette boutique de démonstration.</p><p>Éditeur : nom de votre société, adresse, numéro d'immatriculation et numéro de TVA.</p><p>Hébergement : nom et adresse de votre hébergeur.</p><p><em>Contenu de démonstration. Remplacez-le par les informations de votre société.</em></p>",
+    "es": "<h2>Aviso legal</h2><p>Northline Outfitters es una marca ficticia creada para esta tienda de demostración.</p><p>Titular: nombre de tu empresa, dirección, número de registro y NIF/IVA.</p><p>Alojamiento: nombre y dirección de tu proveedor de hosting.</p><p><em>Contenido de demostración. Sustitúyelo por los datos de tu empresa.</em></p>",
+    "it": "<h2>Note legali</h2><p>Northline Outfitters è un marchio di fantasia creato per questo negozio dimostrativo.</p><p>Editore: nome della tua società, indirizzo, numero di registrazione e partita IVA.</p><p>Hosting: nome e indirizzo del tuo fornitore di hosting.</p><p><em>Contenuto dimostrativo. Sostituiscilo con i dati della tua società.</em></p>",
+    "pl": "<h2>Nota prawna</h2><p>Northline Outfitters to fikcyjna marka stworzona na potrzeby tego sklepu demonstracyjnego.</p><p>Wydawca: nazwa Twojej firmy, adres, numer rejestrowy i NIP.</p><p>Hosting: nazwa i adres dostawcy hostingu.</p><p><em>Treść demonstracyjna. Zastąp ją danymi swojej firmy.</em></p>",
+    "de": "<h2>Impressum</h2><p>Northline Outfitters ist eine fiktive Marke, die für diesen Demo-Shop erstellt wurde.</p><p>Anbieter: Name Ihres Unternehmens, Anschrift, Registernummer und USt-IdNr.</p><p>Hosting: Name und Anschrift Ihres Hosting-Anbieters.</p><p><em>Demo-Inhalt. Ersetzen Sie ihn durch Ihre eigenen Unternehmensangaben.</em></p>",
+    "cs": "<h2>Právní informace</h2><p>Northline Outfitters je smyšlená značka vytvořená pro tento ukázkový obchod.</p><p>Provozovatel: název vaší společnosti, adresa, IČO a DIČ.</p><p>Hosting: název a adresa vašeho poskytovatele hostingu.</p><p><em>Ukázkový obsah. Nahraďte jej údaji vaší společnosti.</em></p>",
+    "nl": "<h2>Juridische informatie</h2><p>Northline Outfitters is een fictief merk, gemaakt voor deze demowinkel.</p><p>Uitgever: je bedrijfsnaam, adres, KvK-nummer en btw-nummer.</p><p>Hosting: naam en adres van je hostingprovider.</p><p><em>Democontent. Vervang dit door je eigen bedrijfsgegevens.</em></p>",
+    "pt": "<h2>Aviso legal</h2><p>A Northline Outfitters é uma marca fictícia criada para esta loja de demonstração.</p><p>Editor: nome da sua empresa, morada, número de registo e NIF.</p><p>Alojamento: nome e morada do seu fornecedor de alojamento.</p><p><em>Conteúdo de demonstração. Substitua-o pelos dados da sua empresa.</em></p>",
+    "ru": "<h2>Правовая информация</h2><p>Northline Outfitters — вымышленный бренд, созданный для этого демонстрационного магазина.</p><p>Владелец: название вашей компании, адрес, регистрационный номер и номер НДС.</p><p>Хостинг: название и адрес вашего хостинг-провайдера.</p><p><em>Демонстрационный контент. Замените его данными вашей компании.</em></p>"
+   }
+  }
+ ],
+ "menu": [
+  "category:jackets",
+  "category:knitwear",
+  "category:shirts",
+  "category:trousers",
+  "category:tees",
+  "category:accessories"
+ ],
+ "link_blocks": [
+  {
+   "name": {
+    "en": "Shop",
+    "fr": "Boutique",
+    "es": "Tienda",
+    "it": "Negozio",
+    "pl": "Sklep",
+    "de": "Shop",
+    "cs": "Obchod",
+    "nl": "Winkel",
+    "pt": "Loja",
+    "ru": "Магазин"
+   },
+   "hook": "displayFooter",
+   "links": [
+    "page:new-products",
+    "page:prices-drop",
+    "page:best-sales"
+   ]
+  },
+  {
+   "name": {
+    "en": "Customer care",
+    "fr": "Service client",
+    "es": "Atención al cliente",
+    "it": "Assistenza clienti",
+    "pl": "Obsługa klienta",
+    "de": "Kundenservice",
+    "cs": "Zákaznický servis",
+    "nl": "Klantenservice",
+    "pt": "Apoio ao cliente",
+    "ru": "Покупателям"
+   },
+   "hook": "displayFooter",
+   "links": [
+    "cms:delivery",
+    "cms:returns",
+    "cms:size-guide",
+    "cms:care",
+    "page:contact"
+   ]
+  },
+  {
+   "name": {
+    "en": "Northline Outfitters",
+    "fr": "Northline Outfitters",
+    "es": "Northline Outfitters",
+    "it": "Northline Outfitters",
+    "pl": "Northline Outfitters",
+    "de": "Northline Outfitters",
+    "cs": "Northline Outfitters",
+    "nl": "Northline Outfitters",
+    "pt": "Northline Outfitters",
+    "ru": "Northline Outfitters"
+   },
+   "hook": "displayFooter",
+   "links": [
+    "cms:about",
+    "cms:terms",
+    "cms:privacy",
+    "cms:legal",
+    "page:sitemap"
+   ]
+  }
+ ],
+ "reassurance": [
+  {
+   "icon": "pack2/carrier.svg",
+   "title": {
+    "en": "Free delivery over €100",
+    "fr": "Livraison offerte dès 100 €",
+    "es": "Envío gratis a partir de 100 €",
+    "it": "Spedizione gratuita oltre 100 €",
+    "pl": "Darmowa dostawa od 100 €",
+    "de": "Kostenloser Versand ab 100 €",
+    "cs": "Doprava zdarma od 100 €",
+    "nl": "Gratis verzending vanaf € 100",
+    "pt": "Entrega grátis a partir de 100 €",
+    "ru": "Бесплатная доставка от 100 €"
+   },
+   "text": {
+    "en": "Tracked shipping across Europe",
+    "fr": "Envoi suivi dans toute l'Europe",
+    "es": "Envío con seguimiento en toda Europa",
+    "it": "Spedizione tracciata in tutta Europa",
+    "pl": "Przesyłki ze śledzeniem w całej Europie",
+    "de": "Sendungsverfolgung in ganz Europa",
+    "cs": "Sledované zásilky po celé Evropě",
+    "nl": "Track & trace in heel Europa",
+    "pt": "Envio com seguimento em toda a Europa",
+    "ru": "Отслеживаемая доставка по всей Европе"
+   },
+   "cms": "delivery"
+  },
+  {
+   "icon": "pack2/return.svg",
+   "title": {
+    "en": "Free 30-day returns",
+    "fr": "Retours gratuits sous 30 jours",
+    "es": "Devoluciones gratis en 30 días",
+    "it": "Reso gratuito entro 30 giorni",
+    "pl": "Bezpłatny zwrot w 30 dni",
+    "de": "30 Tage kostenlose Rücksendung",
+    "cs": "Vrácení zdarma do 30 dní",
+    "nl": "30 dagen gratis retour",
+    "pt": "Devoluções grátis em 30 dias",
+    "ru": "Бесплатный возврат за 30 дней"
+   },
+   "text": {
+    "en": "Easy returns, no questions asked",
+    "fr": "Retours simples, sans justification",
+    "es": "Devoluciones fáciles, sin preguntas",
+    "it": "Resi semplici, senza domande",
+    "pl": "Proste zwroty bez pytań",
+    "de": "Einfache Rückgabe ohne Fragen",
+    "cs": "Snadné vrácení bez otázek",
+    "nl": "Makkelijk retourneren, zonder vragen",
+    "pt": "Devoluções fáceis, sem perguntas",
+    "ru": "Простой возврат без лишних вопросов"
+   },
+   "cms": "returns"
+  },
+  {
+   "icon": "pack2/security.svg",
+   "title": {
+    "en": "Secure payment",
+    "fr": "Paiement sécurisé",
+    "es": "Pago seguro",
+    "it": "Pagamento sicuro",
+    "pl": "Bezpieczna płatność",
+    "de": "Sichere Zahlung",
+    "cs": "Bezpečná platba",
+    "nl": "Veilig betalen",
+    "pt": "Pagamento seguro",
+    "ru": "Безопасная оплата"
+   },
+   "text": {
+    "en": "Card, PayPal and bank transfer",
+    "fr": "Carte, PayPal et virement",
+    "es": "Tarjeta, PayPal y transferencia",
+    "it": "Carta, PayPal e bonifico",
+    "pl": "Karta, PayPal i przelew",
+    "de": "Karte, PayPal und Überweisung",
+    "cs": "Karta, PayPal a převod",
+    "nl": "Kaart, PayPal en overschrijving",
+    "pt": "Cartão, PayPal e transferência",
+    "ru": "Карта, PayPal и банковский перевод"
+   }
+  }
+ ],
+ "config": {
+  "HOME_FEATURED_CAT": "category:home",
+  "PS_NB_DAYS_NEW_PRODUCT": 30,
+  "PS_PRODUCTS_PER_PAGE": 12,
+  "PS_SHOP_DETAILS": "",
+  "BLOCKSOCIAL_TWITTER": "",
+  "PS_JPEG_QUALITY": 82,
+  "PS_SHIPPING_FREE_PRICE": 100,
+  "PS_DISPLAY_BEST_SELLERS": 1,
+  "PS_GIFT_WRAPPING": 0,
+  "HBKIT_CARD_FEATURE": "feature:temp",
+  "HBKIT_PRODUCT_FEATURES": "feature:material,feature:fit,feature:care,feature:origin",
+  "HBKIT_FEATURES_NAMED": "feature:material,feature:fit,feature:care,feature:origin",
+  "HBKIT_QUICK_FACET": "group:size",
+  "HBKIT_QUICK_FEATURE": "feature:warmth",
+  "HBKIT_SIZE_GUIDE": "cms:size-guide",
+  "HBKIT_SCALE_FEATURE": "feature:temp",
+  "HBKIT_SCALE_RANGE": "-30|30|10",
+  "HBKIT_NEXT_CATEGORY": 1,
+  "HBKIT_TXT_NEWS_TITLE": {
+   "en": "Field notes",
+   "fr": "Carnet de terrain",
+   "es": "Notas de campo",
+   "it": "Appunti dal campo",
+   "pl": "Notatki z terenu",
+   "de": "Feldnotizen",
+   "cs": "Zápisky z terénu",
+   "nl": "Veldnotities",
+   "pt": "Notas de campo",
+   "ru": "Полевые заметки"
+  },
+  "HBKIT_TXT_NEWS_TEXT": {
+   "en": "New gear, care tips and trail stories once a month. 10% off your first order.",
+   "fr": "Nouveautés, conseils d’entretien et récits de randonnée une fois par mois. 10 % sur votre première commande.",
+   "es": "Novedades, consejos de cuidado e historias de ruta una vez al mes. 10 % en tu primer pedido.",
+   "it": "Novità, consigli di cura e storie di sentiero una volta al mese. 10% sul primo ordine.",
+   "pl": "Nowości, porady pielęgnacyjne i historie ze szlaku raz w miesiącu. 10% zniżki na pierwsze zamówienie.",
+   "de": "Neuheiten, Pflegetipps und Geschichten vom Weg einmal im Monat. 10 % auf Ihre erste Bestellung.",
+   "cs": "Novinky, rady k péči a příběhy ze stezek jednou měsíčně. 10 % na první objednávku.",
+   "nl": "Nieuwe items, onderhoudstips en verhalen van onderweg, één keer per maand. 10% korting op je eerste bestelling.",
+   "pt": "Novidades, dicas de cuidado e histórias de trilho uma vez por mês. 10% na primeira encomenda.",
+   "ru": "Новинки, советы по уходу и истории с маршрутов раз в месяц. 10% на первый заказ."
+  },
+  "HBKIT_TXT_PRODUCT_NOTE": {
+   "en": "Free repairs for life on every Northline jacket. Zips, seams and re-waxing, posted back in two weeks.",
+   "fr": "Réparations gratuites à vie sur chaque veste Northline. Fermetures, coutures et recirage, renvoyée en deux semaines.",
+   "es": "Reparaciones gratis de por vida en cada chaqueta Northline. Cremalleras, costuras y encerado, de vuelta en dos semanas.",
+   "it": "Riparazioni gratuite a vita su ogni giacca Northline. Zip, cuciture e ceratura, di ritorno in due settimane.",
+   "pl": "Darmowe naprawy dożywotnio na każdą kurtkę Northline. Zamki, szwy i woskowanie, zwrot w dwa tygodnie.",
+   "de": "Kostenlose Reparaturen ein Leben lang für jede Northline-Jacke. Reißverschlüsse, Nähte und Nachwachsen, zurück in zwei Wochen.",
+   "cs": "Doživotní opravy zdarma na každou bundu Northline. Zipy, švy a voskování, zpět za dva týdny.",
+   "nl": "Gratis reparaties voor het leven op elke Northline-jas. Ritsen, naden en opnieuw waxen, binnen twee weken terug.",
+   "pt": "Reparações gratuitas para toda a vida em cada casaco Northline. Fechos, costuras e encerado, de volta em duas semanas.",
+   "ru": "Бесплатный пожизненный ремонт каждой куртки Northline. Молнии, швы и пропитка, возврат через две недели."
+  },
+  "HBKIT_TXT_DELIVERY": {
+   "en": "Free delivery over €100, in 2 to 4 working days. Free returns for 30 days.",
+   "fr": "Livraison offerte dès 100 €, en 2 à 4 jours ouvrés. Retours gratuits sous 30 jours.",
+   "es": "Envío gratis desde 100 €, en 2 a 4 días laborables. Devoluciones gratis en 30 días.",
+   "it": "Spedizione gratuita sopra 100 €, in 2–4 giorni lavorativi. Resi gratuiti entro 30 giorni.",
+   "pl": "Darmowa dostawa od 100 €, w 2–4 dni robocze. Darmowe zwroty w ciągu 30 dni.",
+   "de": "Kostenloser Versand ab 100 €, in 2 bis 4 Werktagen. Kostenlose Rücksendung innerhalb von 30 Tagen.",
+   "cs": "Doprava zdarma od 100 €, za 2 až 4 pracovní dny. Vrácení zdarma do 30 dnů.",
+   "nl": "Gratis verzending vanaf €100, in 2 tot 4 werkdagen. Gratis retourneren binnen 30 dagen.",
+   "pt": "Entrega gratuita acima de 100 €, em 2 a 4 dias úteis. Devoluções gratuitas em 30 dias.",
+   "ru": "Бесплатная доставка от 100 €, за 2–4 рабочих дня. Бесплатный возврат в течение 30 дней."
+  },
+  "HBKIT_TXT_SEARCH_PLACEHOLDER": {
+   "en": "Search jackets, wool, sizes…",
+   "fr": "Vestes, laine, tailles…",
+   "es": "Chaquetas, lana, tallas…",
+   "it": "Giacche, lana, taglie…",
+   "pl": "Kurtki, wełna, rozmiary…",
+   "de": "Jacken, Wolle, Größen…",
+   "cs": "Bundy, vlna, velikosti…",
+   "nl": "Jassen, wol, maten…",
+   "pt": "Casacos, lã, tamanhos…",
+   "ru": "Куртки, шерсть, размеры…"
+  },
+  "HBKIT_TXT_NEXT_CATEGORY": {
+   "en": "Next layer",
+   "fr": "Couche suivante",
+   "es": "Siguiente capa",
+   "it": "Strato successivo",
+   "pl": "Następna warstwa",
+   "de": "Nächste Schicht",
+   "cs": "Další vrstva",
+   "nl": "Volgende laag",
+   "pt": "Camada seguinte",
+   "ru": "Следующий слой"
+  }
+ },
+ "home": [
+  {
+   "type": "hero",
+   "subtitle": {
+    "en": "Tromsø this week",
+    "fr": "Tromsø cette semaine",
+    "es": "Tromsø esta semana",
+    "it": "Tromsø questa settimana",
+    "pl": "Tromsø w tym tygodniu",
+    "de": "Tromsø diese Woche",
+    "cs": "Tromsø tento týden",
+    "nl": "Tromsø deze week",
+    "pt": "Tromsø esta semana",
+    "ru": "Тромсё на этой неделе"
+   },
+   "title": {
+    "en": "−4 °C",
+    "fr": "−4 °C",
+    "es": "−4 °C",
+    "it": "−4 °C",
+    "pl": "−4 °C",
+    "de": "−4 °C",
+    "cs": "−4 °C",
+    "nl": "−4 °C",
+    "pt": "−4 °C",
+    "ru": "−4 °C"
+   },
+   "content": {
+    "en": "Wind 30 km/h, snow showers",
+    "fr": "Vent 30 km/h, averses de neige",
+    "es": "Viento 30 km/h, chubascos de nieve",
+    "it": "Vento 30 km/h, rovesci di neve",
+    "pl": "Wiatr 30 km/h, przelotny śnieg",
+    "de": "Wind 30 km/h, Schneeschauer",
+    "cs": "Vítr 30 km/h, sněhové přeháňky",
+    "nl": "Wind 30 km/u, sneeuwbuien",
+    "pt": "Vento 30 km/h, aguaceiros de neve",
+    "ru": "Ветер 30 км/ч, снегопады"
+   },
+   "settings": {
+    "variant": "fullscreen",
+    "height": "l",
+    "autoplay": 0,
+    "overlay": 30,
+    "width": "full",
+    "spacing": "none",
+    "id_product": "down-parka"
+   },
+   "items": [
+    {
+     "data": {
+      "image": "home/hero-1.jpg",
+      "link": "category:jackets",
+      "align": "left",
+      "tone": "light"
+     },
+     "title": {
+      "en": "Built for real weather.",
+      "fr": "Faits pour la vraie météo.",
+      "es": "Hecho para el tiempo real.",
+      "it": "Fatti per il tempo vero.",
+      "pl": "Na prawdziwą pogodę.",
+      "de": "Gemacht für echtes Wetter.",
+      "cs": "Pro skutečné počasí.",
+      "nl": "Gemaakt voor echt weer.",
+      "pt": "Feito para o tempo a sério.",
+      "ru": "Для настоящей погоды."
+     },
+     "text": {
+      "en": "Waxed jackets and recycled down, tested in the far north and repaired for life.",
+      "fr": "Vestes cirées et duvet recyclé, testés dans le Grand Nord et réparés à vie.",
+      "es": "Chaquetas enceradas y plumón reciclado, probadas en el extremo norte y reparadas de por vida.",
+      "it": "Giacche cerate e piumino riciclato, testati nel grande nord e riparati a vita.",
+      "pl": "Kurtki woskowane i puch z recyklingu, testowane na dalekiej północy i naprawiane dożywotnio.",
+      "de": "Gewachste Jacken und recycelte Daunen, im hohen Norden getestet und ein Leben lang repariert.",
+      "cs": "Voskované bundy a recyklované peří, testované na dalekém severu a doživotně opravované.",
+      "nl": "Gewaxte jassen en gerecycled dons, getest in het hoge noorden en voor het leven gerepareerd.",
+      "pt": "Casacos encerados e penas recicladas, testados no extremo norte e reparados para toda a vida.",
+      "ru": "Вощёные куртки и переработанный пух, проверенные на крайнем севере, с пожизненным ремонтом."
+     },
+     "button": {
+      "en": "Shop jackets",
+      "fr": "Voir les vestes",
+      "es": "Ver chaquetas",
+      "it": "Scopri le giacche",
+      "pl": "Zobacz kurtki",
+      "de": "Jacken ansehen",
+      "cs": "Prohlédnout bundy",
+      "nl": "Bekijk jassen",
+      "pt": "Ver casacos",
+      "ru": "Смотреть куртки"
+     }
+    }
+   ]
+  },
+  {
+   "type": "banners",
+   "title": {
+    "en": "Shop by temperature",
+    "fr": "Choisir par température",
+    "es": "Comprar por temperatura",
+    "it": "Scegli per temperatura",
+    "pl": "Wybierz według temperatury",
+    "de": "Nach Temperatur einkaufen",
+    "cs": "Nakupujte podle teploty",
+    "nl": "Kies op temperatuur",
+    "pt": "Comprar por temperatura",
+    "ru": "Выбор по температуре"
+   },
+   "subtitle": {
+    "en": "Shop everything",
+    "fr": "Tout voir",
+    "es": "Ver todo",
+    "it": "Vedi tutto",
+    "pl": "Zobacz wszystko",
+    "de": "Alles ansehen",
+    "cs": "Zobrazit vše",
+    "nl": "Alles bekijken",
+    "pt": "Ver tudo",
+    "ru": "Смотреть всё"
+   },
+   "settings": {
+    "layout": "3",
+    "style": "overlay",
+    "height": "l",
+    "spacing": "l",
+    "heading_align": "split",
+    "head_link": "category:home"
+   },
+   "items": [
+    {
+     "data": {
+      "image": "products/down-parka.jpg",
+      "link": "category:jackets",
+      "align": "left",
+      "tone": "light"
+     },
+     "subtitle": {
+      "en": "Below 0 °C",
+      "fr": "Sous 0 °C",
+      "es": "Bajo 0 °C",
+      "it": "Sotto 0 °C",
+      "pl": "Poniżej 0 °C",
+      "de": "Unter 0 °C",
+      "cs": "Pod 0 °C",
+      "nl": "Onder 0 °C",
+      "pt": "Abaixo de 0 °C",
+      "ru": "Ниже 0 °C"
+     },
+     "title": {
+      "en": "Parkas and field jackets",
+      "fr": "Parkas et vestes de terrain",
+      "es": "Parkas y chaquetas de campo",
+      "it": "Parka e giacche da campo",
+      "pl": "Parki i kurtki terenowe",
+      "de": "Parkas und Feldjacken",
+      "cs": "Parky a terénní bundy",
+      "nl": "Parka’s en veldjassen",
+      "pt": "Parkas e casacos de campo",
+      "ru": "Парки и полевые куртки"
+     },
+     "text": {
+      "en": "Down and waxed cotton for snow, sleet and wind.",
+      "fr": "Duvet et coton ciré pour la neige, le grésil et le vent.",
+      "es": "Plumón y algodón encerado para nieve, aguanieve y viento.",
+      "it": "Piumino e cotone cerato per neve, nevischio e vento.",
+      "pl": "Puch i woskowana bawełna na śnieg, deszcz ze śniegiem i wiatr.",
+      "de": "Daunen und Wachscotton für Schnee, Graupel und Wind.",
+      "cs": "Peří a voskovaná bavlna na sníh, plískanice a vítr.",
+      "nl": "Dons en gewaxt katoen voor sneeuw, natte sneeuw en wind.",
+      "pt": "Penas e algodão encerado para neve, granizo e vento.",
+      "ru": "Пух и вощёный хлопок для снега, мокрого снега и ветра."
+     }
+    },
+    {
+     "data": {
+      "image": "products/shawl-cardigan.jpg",
+      "link": "category:knitwear",
+      "align": "left",
+      "tone": "light"
+     },
+     "subtitle": {
+      "en": "0 to 10 °C",
+      "fr": "0 à 10 °C",
+      "es": "0 a 10 °C",
+      "it": "Da 0 a 10 °C",
+      "pl": "Od 0 do 10 °C",
+      "de": "0 bis 10 °C",
+      "cs": "0 až 10 °C",
+      "nl": "0 tot 10 °C",
+      "pt": "0 a 10 °C",
+      "ru": "От 0 до 10 °C"
+     },
+     "title": {
+      "en": "Wool and overshirts",
+      "fr": "Laine et surchemises",
+      "es": "Lana y sobrecamisas",
+      "it": "Lana e sovracamicie",
+      "pl": "Wełna i koszule wierzchnie",
+      "de": "Wolle und Overshirts",
+      "cs": "Vlna a košilové bundy",
+      "nl": "Wol en overshirts",
+      "pt": "Lã e sobrecamisas",
+      "ru": "Шерсть и рубашки-куртки"
+     },
+     "text": {
+      "en": "Fisherman knits, merino zips and wool jackets.",
+      "fr": "Pulls marins, zips en mérinos et vestes en laine.",
+      "es": "Jerséis de pescador, cremalleras de merino y chaquetas de lana.",
+      "it": "Maglioni da pescatore, zip in merino e giacche di lana.",
+      "pl": "Swetry rybackie, merynosowe zamki i wełniane kurtki.",
+      "de": "Fischerpullover, Merino-Zips und Wolljacken.",
+      "cs": "Rybářské svetry, merino na zip a vlněné bundy.",
+      "nl": "Vissertruien, merino zips en wollen jassen.",
+      "pt": "Camisolas de pescador, fechos em merino e casacos de lã.",
+      "ru": "Рыбацкие свитеры, мериносовые зипы и шерстяные куртки."
+     }
+    },
+    {
+     "data": {
+      "image": "products/flannel-shirt.jpg",
+      "link": "category:shirts",
+      "align": "left",
+      "tone": "light"
+     },
+     "subtitle": {
+      "en": "Above 10 °C",
+      "fr": "Au-dessus de 10 °C",
+      "es": "Más de 10 °C",
+      "it": "Oltre 10 °C",
+      "pl": "Powyżej 10 °C",
+      "de": "Über 10 °C",
+      "cs": "Nad 10 °C",
+      "nl": "Boven 10 °C",
+      "pt": "Acima de 10 °C",
+      "ru": "Выше 10 °C"
+     },
+     "title": {
+      "en": "Shirts and tees",
+      "fr": "Chemises et t-shirts",
+      "es": "Camisas y camisetas",
+      "it": "Camicie e t-shirt",
+      "pl": "Koszule i t-shirty",
+      "de": "Hemden und T-Shirts",
+      "cs": "Košile a trička",
+      "nl": "Overhemden en T-shirts",
+      "pt": "Camisas e t-shirts",
+      "ru": "Рубашки и футболки"
+     },
+     "text": {
+      "en": "Flannel, oxford and heavyweight cotton.",
+      "fr": "Flanelle, oxford et coton épais.",
+      "es": "Franela, oxford y algodón grueso.",
+      "it": "Flanella, oxford e cotone pesante.",
+      "pl": "Flanela, oxford i gruba bawełna.",
+      "de": "Flanell, Oxford und schwere Baumwolle.",
+      "cs": "Flanel, oxford a silná bavlna.",
+      "nl": "Flanel, oxford en zwaar katoen.",
+      "pt": "Flanela, oxford e algodão grosso.",
+      "ru": "Фланель, оксфорд и плотный хлопок."
+     }
+    }
+   ]
+  },
+  {
+   "type": "products",
+   "title": {
+    "en": "New in",
+    "fr": "Nouveautés",
+    "es": "Novedades",
+    "it": "Novità",
+    "pl": "Nowości",
+    "de": "Neu eingetroffen",
+    "cs": "Novinky",
+    "nl": "Nieuw binnen",
+    "pt": "Novidades",
+    "ru": "Новинки"
+   },
+   "subtitle": {
+    "en": "View all new gear",
+    "fr": "Toutes les nouveautés",
+    "es": "Ver todas las novedades",
+    "it": "Tutte le novità",
+    "pl": "Wszystkie nowości",
+    "de": "Alle Neuheiten",
+    "cs": "Všechny novinky",
+    "nl": "Alle nieuwe items",
+    "pt": "Ver todas as novidades",
+    "ru": "Все новинки"
+   },
+   "settings": {
+    "limit": 4,
+    "layout": "grid",
+    "columns": "4",
+    "spacing": "l",
+    "heading_align": "split",
+    "head_link": "page:new-products"
+   },
+   "items": [
+    {
+     "data": {
+      "source": "featured"
+     },
+     "title": {
+      "en": "New in",
+      "fr": "Nouveautés",
+      "es": "Novedades",
+      "it": "Novità",
+      "pl": "Nowości",
+      "de": "Neu",
+      "cs": "Novinky",
+      "nl": "Nieuw",
+      "pt": "Novidades",
+      "ru": "Новинки"
+     }
+    }
+   ]
+  },
+  {
+   "type": "image_text",
+   "settings": {
+    "style": "image-left",
+    "ratio": "landscape",
+    "spacing": "l",
+    "background": "dark",
+    "width": "container"
+   },
+   "items": [
+    {
+     "data": {
+      "image": "home/story.jpg",
+      "link": "cms:care"
+     },
+     "title": {
+      "en": "Repairs for life",
+      "fr": "Réparations à vie",
+      "es": "Reparaciones de por vida",
+      "it": "Riparazioni a vita",
+      "pl": "Naprawy dożywotnio",
+      "de": "Reparaturen ein Leben lang",
+      "cs": "Doživotní opravy",
+      "nl": "Reparaties voor het leven",
+      "pt": "Reparações para toda a vida",
+      "ru": "Пожизненный ремонт"
+     },
+     "text": {
+      "en": "<p>Every Northline jacket comes with free repairs, for as long as you own it. We would rather fix a zip than sell you a new coat.</p><ol class=\"hbk-steps\"><li><b>Send us a photo</b><span>Show us the damage from your account or by email.</span></li><li><b>We send a free label</b><span>Pack the jacket and drop it at any parcel point.</span></li><li><b>Back in two weeks</b><span>Repaired in our Stockholm workshop and posted home.</span></li></ol>",
+      "fr": "<p>Chaque veste Northline est réparée gratuitement, aussi longtemps que vous la portez. Nous préférons changer une fermeture que vous vendre un nouveau manteau.</p><ol class=\"hbk-steps\"><li><b>Envoyez-nous une photo</b><span>Montrez-nous le dégât depuis votre compte ou par e-mail.</span></li><li><b>Nous envoyons une étiquette gratuite</b><span>Emballez la veste et déposez-la en point relais.</span></li><li><b>De retour en deux semaines</b><span>Réparée dans notre atelier de Stockholm et renvoyée chez vous.</span></li></ol>",
+      "es": "<p>Cada chaqueta Northline tiene reparaciones gratis mientras sea tuya. Preferimos arreglar una cremallera que venderte un abrigo nuevo.</p><ol class=\"hbk-steps\"><li><b>Envíanos una foto</b><span>Muéstranos el daño desde tu cuenta o por correo.</span></li><li><b>Te enviamos una etiqueta gratis</b><span>Empaqueta la chaqueta y déjala en cualquier punto de recogida.</span></li><li><b>De vuelta en dos semanas</b><span>Reparada en nuestro taller de Estocolmo y enviada a casa.</span></li></ol>",
+      "it": "<p>Ogni giacca Northline ha riparazioni gratuite finché è tua. Preferiamo sistemare una zip che venderti un cappotto nuovo.</p><ol class=\"hbk-steps\"><li><b>Mandaci una foto</b><span>Mostraci il danno dal tuo account o via email.</span></li><li><b>Ti inviamo un’etichetta gratuita</b><span>Imballa la giacca e lasciala in un punto di ritiro.</span></li><li><b>Di ritorno in due settimane</b><span>Riparata nel nostro laboratorio di Stoccolma e rispedita a casa.</span></li></ol>",
+      "pl": "<p>Każdą kurtkę Northline naprawiamy za darmo, dopóki jest Twoja. Wolimy wymienić zamek, niż sprzedać Ci nowy płaszcz.</p><ol class=\"hbk-steps\"><li><b>Wyślij nam zdjęcie</b><span>Pokaż uszkodzenie z konta lub e-mailem.</span></li><li><b>Wyślemy darmową etykietę</b><span>Spakuj kurtkę i nadaj ją w dowolnym punkcie.</span></li><li><b>Wraca po dwóch tygodniach</b><span>Naprawiona w naszej pracowni w Sztokholmie i odesłana do domu.</span></li></ol>",
+      "de": "<p>Jede Northline-Jacke reparieren wir kostenlos, solange sie Ihnen gehört. Wir tauschen lieber einen Reißverschluss, als Ihnen einen neuen Mantel zu verkaufen.</p><ol class=\"hbk-steps\"><li><b>Schicken Sie uns ein Foto</b><span>Zeigen Sie uns den Schaden über Ihr Konto oder per E-Mail.</span></li><li><b>Wir senden ein kostenloses Etikett</b><span>Jacke einpacken und an einer Paketstation abgeben.</span></li><li><b>Zurück in zwei Wochen</b><span>In unserer Werkstatt in Stockholm repariert und nach Hause geschickt.</span></li></ol>",
+      "cs": "<p>Každou bundu Northline opravíme zdarma, dokud ji máte. Raději vyměníme zip, než abychom vám prodali nový kabát.</p><ol class=\"hbk-steps\"><li><b>Pošlete nám fotku</b><span>Ukažte nám poškození z účtu nebo e-mailem.</span></li><li><b>Pošleme štítek zdarma</b><span>Zabalte bundu a odevzdejte ji na výdejním místě.</span></li><li><b>Zpět za dva týdny</b><span>Opravená v naší dílně ve Stockholmu a poslaná domů.</span></li></ol>",
+      "nl": "<p>Elke Northline-jas repareren we gratis, zolang hij van jou is. We vervangen liever een rits dan dat we je een nieuwe jas verkopen.</p><ol class=\"hbk-steps\"><li><b>Stuur ons een foto</b><span>Laat ons de schade zien via je account of per e-mail.</span></li><li><b>Wij sturen een gratis label</b><span>Verpak de jas en lever hem in bij een pakketpunt.</span></li><li><b>Terug binnen twee weken</b><span>Gerepareerd in onze werkplaats in Stockholm en naar huis gestuurd.</span></li></ol>",
+      "pt": "<p>Cada casaco Northline tem reparações gratuitas enquanto for seu. Preferimos arranjar um fecho a vender-lhe um casaco novo.</p><ol class=\"hbk-steps\"><li><b>Envie-nos uma foto</b><span>Mostre-nos o dano na sua conta ou por e-mail.</span></li><li><b>Enviamos uma etiqueta grátis</b><span>Embale o casaco e entregue-o num ponto de recolha.</span></li><li><b>De volta em duas semanas</b><span>Reparado na nossa oficina de Estocolmo e enviado para casa.</span></li></ol>",
+      "ru": "<p>Каждую куртку Northline мы ремонтируем бесплатно, пока она ваша. Нам проще заменить молнию, чем продать вам новое пальто.</p><ol class=\"hbk-steps\"><li><b>Пришлите нам фото</b><span>Покажите повреждение из личного кабинета или по почте.</span></li><li><b>Мы пришлём бесплатную этикетку</b><span>Упакуйте куртку и сдайте её в пункт выдачи.</span></li><li><b>Обратно через две недели</b><span>Отремонтируем в мастерской в Стокгольме и отправим домой.</span></li></ol>"
+     },
+     "button": {
+      "en": "How repairs work",
+      "fr": "Comment ça marche",
+      "es": "Cómo funcionan",
+      "it": "Come funziona",
+      "pl": "Jak to działa",
+      "de": "So funktioniert es",
+      "cs": "Jak opravy fungují",
+      "nl": "Zo werkt het",
+      "pt": "Como funciona",
+      "ru": "Как это работает"
+     }
+    }
+   ]
+  },
+  {
+   "type": "testimonials",
+   "settings": {
+    "style": "quote",
+    "spacing": "l"
+   },
+   "items": [
+    {
+     "data": {
+      "rating": 5
+     },
+     "title": {
+      "en": "Erik L., Gothenburg",
+      "fr": "Erik L., Göteborg",
+      "es": "Erik L., Gotemburgo",
+      "it": "Erik L., Göteborg",
+      "pl": "Erik L., Göteborg",
+      "de": "Erik L., Göteborg",
+      "cs": "Erik L., Göteborg",
+      "nl": "Erik L., Göteborg",
+      "pt": "Erik L., Gotemburgo",
+      "ru": "Эрик Л., Гётеборг"
+     },
+     "subtitle": {
+      "en": "Wearing the Waxed Field Jacket",
+      "fr": "Porte la Waxed Field Jacket",
+      "es": "Lleva la Waxed Field Jacket",
+      "it": "Indossa la Waxed Field Jacket",
+      "pl": "Nosi Waxed Field Jacket",
+      "de": "Trägt die Waxed Field Jacket",
+      "cs": "Nosí Waxed Field Jacket",
+      "nl": "Draagt de Waxed Field Jacket",
+      "pt": "Usa o Waxed Field Jacket",
+      "ru": "Носит Waxed Field Jacket"
+     },
+     "text": {
+      "en": "Three winters in, the waxed jacket looks better than the day I bought it. Re-waxing it takes ten minutes.",
+      "fr": "Trois hivers plus tard, la veste cirée est plus belle que le jour de l’achat. La recirer prend dix minutes.",
+      "es": "Tres inviernos después, la chaqueta encerada está mejor que el día que la compré. Volver a encerarla lleva diez minutos.",
+      "it": "Dopo tre inverni la giacca cerata è più bella del giorno in cui l’ho comprata. Ricerarla richiede dieci minuti.",
+      "pl": "Po trzech zimach kurtka woskowana wygląda lepiej niż w dniu zakupu. Ponowne woskowanie zajmuje dziesięć minut.",
+      "de": "Nach drei Wintern sieht die Wachsjacke besser aus als am ersten Tag. Neu wachsen dauert zehn Minuten.",
+      "cs": "Po třech zimách vypadá voskovaná bunda lépe než v den nákupu. Znovu ji navoskovat trvá deset minut.",
+      "nl": "Na drie winters ziet de gewaxte jas er beter uit dan op de dag dat ik hem kocht. Opnieuw waxen kost tien minuten.",
+      "pt": "Três invernos depois, o casaco encerado está melhor do que no dia em que o comprei. Voltar a encerá-lo leva dez minutos.",
+      "ru": "Спустя три зимы вощёная куртка выглядит лучше, чем в день покупки. Повторная пропитка занимает десять минут."
+     }
+    }
+   ]
+  },
+  {
+   "type": "faq",
+   "title": {
+    "en": "Questions & answers",
+    "fr": "Questions & réponses",
+    "es": "Preguntas frecuentes",
+    "it": "Domande e risposte",
+    "pl": "Pytania i odpowiedzi",
+    "de": "Fragen & Antworten",
+    "cs": "Otázky a odpovědi",
+    "nl": "Vragen & antwoorden",
+    "pt": "Perguntas e respostas",
+    "ru": "Вопросы и ответы"
+   },
+   "subtitle": {
+    "en": "Ask us a question",
+    "fr": "Nous poser une question",
+    "es": "Haznos una pregunta",
+    "it": "Facci una domanda",
+    "pl": "Zadaj nam pytanie",
+    "de": "Frage stellen",
+    "cs": "Zeptejte se nás",
+    "nl": "Stel ons een vraag",
+    "pt": "Faça-nos uma pergunta",
+    "ru": "Задать вопрос"
+   },
+   "settings": {
+    "spacing": "l",
+    "background": "surface",
+    "heading_align": "split",
+    "head_link": "page:contact"
+   },
+   "items": [
+    {
+     "title": {
+      "en": "How do the free repairs work?",
+      "fr": "Comment fonctionnent les réparations gratuites ?",
+      "es": "¿Cómo funcionan las reparaciones gratis?",
+      "it": "Come funzionano le riparazioni gratuite?",
+      "pl": "Jak działają darmowe naprawy?",
+      "de": "Wie funktionieren die kostenlosen Reparaturen?",
+      "cs": "Jak fungují opravy zdarma?",
+      "nl": "Hoe werken de gratis reparaties?",
+      "pt": "Como funcionam as reparações gratuitas?",
+      "ru": "Как работает бесплатный ремонт?"
+     },
+     "text": {
+      "en": "Send us a photo of the damage. We email a prepaid label, repair the jacket and send it back within two weeks.",
+      "fr": "Envoyez-nous une photo du dégât. Nous envoyons une étiquette prépayée, réparons la veste et la renvoyons sous deux semaines.",
+      "es": "Envíanos una foto del daño. Te mandamos una etiqueta prepagada, reparamos la chaqueta y te la devolvemos en dos semanas.",
+      "it": "Mandaci una foto del danno. Ti inviamo un’etichetta prepagata, ripariamo la giacca e te la rimandiamo entro due settimane.",
+      "pl": "Wyślij nam zdjęcie uszkodzenia. Wyślemy opłaconą etykietę, naprawimy kurtkę i odeślemy ją w ciągu dwóch tygodni.",
+      "de": "Schicken Sie uns ein Foto des Schadens. Wir senden ein frankiertes Etikett, reparieren die Jacke und schicken sie innerhalb von zwei Wochen zurück.",
+      "cs": "Pošlete nám fotku poškození. Zašleme předplacený štítek, bundu opravíme a do dvou týdnů vrátíme.",
+      "nl": "Stuur ons een foto van de schade. We mailen een gefrankeerd label, repareren de jas en sturen hem binnen twee weken terug.",
+      "pt": "Envie-nos uma foto do dano. Enviamos uma etiqueta pré-paga, reparamos o casaco e devolvemo-lo em duas semanas.",
+      "ru": "Пришлите фото повреждения. Мы отправим оплаченную этикетку, отремонтируем куртку и вернём её в течение двух недель."
+     }
+    },
+    {
+     "title": {
+      "en": "How do I choose my size?",
+      "fr": "Comment choisir ma taille ?",
+      "es": "¿Cómo elijo mi talla?",
+      "it": "Come scelgo la taglia?",
+      "pl": "Jak wybrać rozmiar?",
+      "de": "Wie wähle ich meine Größe?",
+      "cs": "Jak vybrat velikost?",
+      "nl": "Hoe kies ik mijn maat?",
+      "pt": "Como escolho o meu tamanho?",
+      "ru": "Как выбрать размер?"
+     },
+     "text": {
+      "en": "Our fits are true to size. Take one size up if you wear a thick sweater underneath.",
+      "fr": "Nos coupes taillent normalement. Prenez une taille au-dessus si vous portez un pull épais en dessous.",
+      "es": "Nuestros patrones son de talla normal. Elige una talla más si llevas un jersey grueso debajo.",
+      "it": "Le nostre vestibilità sono regolari. Prendi una taglia in più se indossi un maglione spesso sotto.",
+      "pl": "Nasze kroje są zgodne z rozmiarem. Weź rozmiar większy, jeśli nosisz pod spodem gruby sweter.",
+      "de": "Unsere Schnitte fallen normal aus. Nehmen Sie eine Größe größer, wenn Sie einen dicken Pullover darunter tragen.",
+      "cs": "Naše střihy odpovídají velikosti. Pokud nosíte pod bundou silný svetr, vezměte o číslo větší.",
+      "nl": "Onze pasvormen vallen normaal. Neem een maat groter als je er een dikke trui onder draagt.",
+      "pt": "Os nossos cortes correspondem ao tamanho. Escolha um tamanho acima se usar uma camisola grossa por baixo.",
+      "ru": "Наши модели соответствуют размеру. Возьмите на размер больше, если носите под курткой толстый свитер."
+     }
+    },
+    {
+     "title": {
+      "en": "Is waxed cotton waterproof?",
+      "fr": "Le coton ciré est-il imperméable ?",
+      "es": "¿El algodón encerado es impermeable?",
+      "it": "Il cotone cerato è impermeabile?",
+      "pl": "Czy woskowana bawełna jest wodoodporna?",
+      "de": "Ist Wachscotton wasserdicht?",
+      "cs": "Je voskovaná bavlna nepromokavá?",
+      "nl": "Is gewaxt katoen waterdicht?",
+      "pt": "O algodão encerado é impermeável?",
+      "ru": "Вощёный хлопок непромокаемый?"
+     },
+     "text": {
+      "en": "It sheds rain and wind. Re-wax it once a year to keep it that way.",
+      "fr": "Il repousse la pluie et le vent. Recirez-le une fois par an pour qu’il le reste.",
+      "es": "Repele la lluvia y el viento. Enciéralo una vez al año para que siga así.",
+      "it": "Respinge pioggia e vento. Riceralo una volta l’anno perché resti così.",
+      "pl": "Chroni przed deszczem i wiatrem. Woskuj ją raz w roku, by tak zostało.",
+      "de": "Er hält Regen und Wind ab. Wachsen Sie ihn einmal im Jahr, damit es so bleibt.",
+      "cs": "Odpuzuje déšť i vítr. Jednou za rok ji navoskujte, aby to tak zůstalo.",
+      "nl": "Het weert regen en wind. Wax het één keer per jaar om dat zo te houden.",
+      "pt": "Protege da chuva e do vento. Volte a encerá-lo uma vez por ano para que continue assim.",
+      "ru": "Он защищает от дождя и ветра. Пропитывайте его воском раз в год, чтобы так и оставалось."
+     }
+    }
+   ]
+  }
+ ]
+}
