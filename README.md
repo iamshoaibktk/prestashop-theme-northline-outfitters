@@ -81,6 +81,7 @@ Academic Free License 3.0 (AFL-3.0), see [LICENSE.md](LICENSE.md).
 ## More free PrestaShop 9 themes
 
 - [Maison Vellor](https://github.com/iamshoaibktk/prestashop-theme-maison-vellor): free PrestaShop 9 theme for fashion boutiques
+- [Little Sprout](https://github.com/iamshoaibktk/prestashop-theme-little-sprout): free PrestaShop 9 theme for baby and kids' clothing stores
 
 ## Author & support
 
